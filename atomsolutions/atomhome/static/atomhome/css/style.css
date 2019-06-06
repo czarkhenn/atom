@@ -6199,6 +6199,7 @@ left: initial;
 /* # SECTION01
 # ----------------------------------------------------------------- */
 #section01 {
+padding: 250px 0px 0px 0px;
 height: calc(100vh - 100px);
 overflow: hidden;
 position: relative;
@@ -6215,6 +6216,8 @@ height: auto;
 z-index: -2;
 }
 #section01 h2 {
+
+font-family: Title;
 font-weight: 700;
 font-size: 4.5vw;
 letter-spacing: -0.02em;

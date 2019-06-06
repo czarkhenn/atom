@@ -5,3 +5,11 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'atomhome/en/index.html')
+
+
+def ofcexchange(request):
+    return render(request, 'atomhome/en/official-exchange.html')
+
+
+def company(request):
+    return render(request, 'atomhome/en/company.html')
