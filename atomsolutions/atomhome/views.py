@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'atomhome/index.html')
+    return render(request, 'atomhome/en/index.html')

@@ -364,7 +364,7 @@ border-top: 1px solid #444;
 .page-bg {
 width: 100%;
 height: 100%;
-background: url(../images/page-bg.jpg) center top /cover no-repeat fixed;
+background: url(../img/en/page-bg.jpg) center top /cover no-repeat fixed;
 position: fixed;
 top: 0;
 }
@@ -6288,7 +6288,7 @@ display: block;
 padding: 100px 20px;
 }
 #section02-inner {
-background: url(/images/index/section02_bg2.png) center center /480px no-repeat;
+background: url("../img/en/index/section02_bg2.png") center center /480px no-repeat;
 margin: 0 auto;
 padding: 20px 0;
 max-width: 1000px;
@@ -6380,7 +6380,7 @@ line-height: 1.8em;
 # ----------------------------------------------------------------- */
 
 #section03 {
-background: url(/images/index/section03_bg.png) center center /cover no-repeat #1A120F;
+background: url(../img/en/index/section03_bg.png) center center /cover no-repeat #1A120F;
 padding: 120px 20px;
 }
 #section03 .inner {
@@ -6450,7 +6450,7 @@ border: 1px solid #fff;
 # ----------------------------------------------------------------- */
 #section04 {
 padding: 120px 20px;
-background: url(/images/index/section04_bg2.jpg) center center /cover no-repeat;
+background: url(../img/en/index/section04_bg2.jpg) center center /cover no-repeat;
 color: #fff;
 text-align: center;
 position: relative;
@@ -6503,7 +6503,7 @@ position: absolute;
 right: 16px;
 top: 50%;
 margin-top: -6px;
-background: url(/images/index/arrowWt001.png) center center /cover no-repeat;
+background: url(../img/en/index/arrowWt001.png) center center /cover no-repeat;
 }
 #section04 .txtMin {
 font-size: 1.4rem !important;
@@ -6515,7 +6515,7 @@ margin-bottom: 40px;
 /* # GROUP
 # ----------------------------------------------------------------- */
 #group {
-background: url(/images/index/group_bg01.png) no-repeat center top, url(/images/index/group_bg02.png) no-repeat center bottom;
+background: url(../img/en/index/group_bg01.png) no-repeat center top, url(../img/en/index/group_bg02.png) no-repeat center bottom;
 background-size: 100%;
 padding: 240px 20px;
 }
@@ -6676,7 +6676,7 @@ display: none;
 padding: 40px 20px;
 }
 #section02-inner {
-background: url(/images/index/section02_bg2.png) center center /contain no-repeat;
+background: url(../img/en/index/section02_bg2.png) center center /contain no-repeat;
 padding: 0;
 }
 #section02 h2 {
@@ -6801,7 +6801,7 @@ height: 260px;
 margin-top: 54px;
 }
 .pg_cover.whitelabel {
-background: url(../images/cover_whitelabel.jpg) center bottom /cover no-repeat;
+background: url(../imag/en/cover_whitelabel.jpg) center bottom /cover no-repeat;
 padding: 0 20px;
 border-bottom: 50px solid #080607;
 }

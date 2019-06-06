@@ -5725,7 +5725,7 @@ text-align: center;
 }
 @media screen and (min-width: 1040px) {
   #section02-inner {
-    background: url(/images/index/section02_bg2.png) no-repeat center center;
+    background: url(../img/en/index/section02_bg2.png) no-repeat center center;
   }
   #section02 .beta {
     background-color: transparent;
