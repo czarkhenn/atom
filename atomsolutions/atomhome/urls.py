@@ -6,5 +6,6 @@ urlpatterns = [
     path('index/', views.index, name='index'),
     path('official-exchange/', views.ofcexchange, name='ofcexchange'),
     path('company/', views.company, name='company'),
-
+    path('xec/', views.xec, name='xec'),
+    path('xet/', views.xet, name='xet'),
 ]

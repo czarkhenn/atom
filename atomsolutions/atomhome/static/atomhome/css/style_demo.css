@@ -722,7 +722,7 @@ left: initial;
 width: 100%;
 padding-top: 160px;
 box-sizing: border-box;
-background: url(../images/bg-top4.jpg) right center /cover no-repeat;
+background: url(../img/en/bg-top4.jpg) right center /cover no-repeat;
 position: relative;
 color: #fff;
 }
@@ -2663,7 +2663,7 @@ font-size: 1.2rem;
 /* XEC */
 
 .trades-wrap {
-background:url(../images/bg-top4.jpg) right center /cover no-repeat;
+background:url(../img/en/bg-top4.jpg) right center /cover no-repeat;
 position: relative;
 padding: 120px 0;
 color: #fff;

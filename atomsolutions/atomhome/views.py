@@ -13,3 +13,11 @@ def ofcexchange(request):
 
 def company(request):
     return render(request, 'atomhome/en/company.html')
+
+
+def xec(request):
+    return render(request, 'atomhome/en/xec.html')
+
+
+def xet(request):
+    return render(request, 'atomhome/en/xet.html')
