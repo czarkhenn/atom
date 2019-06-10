@@ -1380,7 +1380,7 @@ margin-left: 12px;
 font-size: 1.6rem;
 font-weight: 700;
 color: #cd002c;
-background: url(../images/ico-link-blank.png) right center no-repeat;
+background: url(../img/en/ico-link-blank.png) right center no-repeat;
 padding-right: 24px;
 flex: 1;
 -webkit-flex: 1;
@@ -3500,7 +3500,7 @@ color: #cd002c;
 font-size: 1.5rem;
 font-weight: 700;
 line-height: 1.8em;
-width: 68px;
+width: 100px;
 padding: 20px 0;
 }
 .cts_roadmap dl dd {
@@ -3510,7 +3510,7 @@ padding: 20px 0;
 }
 .cts_com_vision {
 color: #fff;
-background: url(../images/com_bg_vision.jpg) center center /cover no-repeat;
+background: url(../img/en/com_bg_vision.jpg) center center /cover no-repeat;
 padding: 160px 120px;
 }
 .cts_com_vision .ttlM:before {
@@ -3889,7 +3889,7 @@ align-items: center;
 }
 .pg_cover.whitelabel {
 color: #fff;
-background: url(../images/cover_whitelabel.jpg) center bottom /cover no-repeat;
+background: url(../img/en/cover_whitelabel.jpg) center bottom /cover no-repeat;
 padding: 0 13%;
 border-bottom: 108px solid #080607;
 }
@@ -3943,7 +3943,7 @@ content: '';
 width: 39px;
 height: 28px;
 display: block;
-background: url(../images/whitelabel_ico_now.png) center center /cover no-repeat;
+background: url(../img/en/whitelabel_ico_now.png) center center /cover no-repeat;
 position: absolute;
 bottom: 0;
 left: 50%;
@@ -3953,10 +3953,10 @@ transform: translateX(-50%);
 color: #6ccacc;
 }
 .cts_whitelabel .blk_tab li:nth-of-type(1) {
-background-image: url(../images/whitelabel_tab_service.jpg);
+background-image: url(../img/en/whitelabel_tab_service.jpg);
 }
 .cts_whitelabel .blk_tab li:nth-of-type(2) {
-background-image: url(../images/whitelabel_tab_development.jpg);
+background-image: url(../img/en/whitelabel_tab_development.jpg);
 }
 .cts_whitelabel .blk_tab li strong {
 display: block;
@@ -5922,7 +5922,7 @@ flex: 1;
 padding: 12px 0;
 }
 .cts_com_vision {
-background: url(../images/com_bg_vision.jpg) center center /cover no-repeat;
+background: url(../img/en/com_bg_vision.jpg) center center /cover no-repeat;
 padding: 80px 20px;
 }
 .cts_com_vision p {
@@ -6804,7 +6804,7 @@ height: 260px;
 margin-top: 54px;
 }
 .pg_cover.whitelabel {
-background: url(../imag/en/cover_whitelabel.jpg) center bottom /cover no-repeat;
+background: url(../img/en/cover_whitelabel.jpg) center bottom /cover no-repeat;
 padding: 0 20px;
 border-bottom: 50px solid #080607;
 }

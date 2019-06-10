@@ -4908,7 +4908,7 @@ color: #cd002c;
 font-size: 1.5rem;
 font-weight: 700;
 line-height: 1.8em;
-width: 68px;
+width: 100px;
 padding: 20px 0;
 }
 .cts_roadmap dl dd {
@@ -4918,7 +4918,7 @@ padding: 20px 0;
 }
 .cts_com_vision {
 color: #fff;
-background: url(../images/com_bg_vision.jpg) center center /cover no-repeat;
+background: url(../img/en/com_bg_vision.jpg) center center /cover no-repeat;
 padding: 160px 120px;
 }
 .cts_com_vision .ttlM:before {
@@ -5059,7 +5059,7 @@ flex: 1;
 padding: 12px 0;
 }
 .cts_com_vision {
-background: url(../images/com_bg_vision.jpg) center center /cover no-repeat;
+background: url(../img/en/com_bg_vision.jpg) center center /cover no-repeat;
 padding: 80px 20px;
 }
 .cts_com_vision p {

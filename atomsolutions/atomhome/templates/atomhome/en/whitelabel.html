@@ -1,0 +1,155 @@
+{% load staticfiles %}
+{% include 'atomhome/include/en/head.html' %}
+{% include 'atomhome/include/en/nav.html' %}
+
+
+
+<meta
+    content="AtomSolutions,White label,Cryptocurrency,Virtual currency,Customer management system,Virtual currency system development"
+    name="keywords">
+<meta content="" name="description">
+<title>Crypto System Development|AtomSolutions</title>
+
+
+
+
+
+
+
+
+
+<section class="pg_cover whitelabel">
+    <p>Atom Solutions is conducting <br class="forSp">various <br class="forPc">developments within <br
+            class="forSp">the cryptocurrency world,<br>at the industry’s lowest <br class="forSp">possible price.
+    </p>
+</section><!-- /.pg_cover -->
+
+
+
+
+<section class="cts_whitelabel">
+    <div class="inner01">
+        <ul class="blk_tab">
+            <li class="select">
+                <div><strong>SERVICE</strong></div>
+            </li>
+            <li>
+                <div><strong>DEVELOPMENT</strong></div>
+            </li>
+        </ul>
+        <div class="blk_cts">
+            <div class="list">
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_service01.png" %}">
+                        <p>Market Cap <br>Application Agency</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_service02.png" %}">
+                        <p>Smart Contract Audit</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_service03.png" %}">
+                        <p>Listing Application Agency</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_service04.png" %}">
+                        <!-- <p>Project Rating <br class="forSp">Application</p> -->
+                        <p>Project Rating <br>Application Agency</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blk_cts" style="display:none;">
+            <div class="list">
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_development01.png" %}">
+                        <p>ERC20-based <br>Cryptocurrency <br class="forSp">Development</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_development02.png" %}">
+                        <p>Private Blockchain <br>Development</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_development03.png" %}">
+                        <p>Original Wallet <br>Manufacturing</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_development04.png" %}">
+                        <p>Exchange White Label <br>Manufacturing</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_development05.png" %}">
+                        <p>Client Management <br>Back-office Systems</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="{% static "atomhome/img/en/whitelabel_ico_development06.png" %}">
+                        <p>Cryptocurrency <br class="forSp">Arbitrage <br class="forPc">Investment <br
+                                class="forSp">System</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inner02">
+        <p>We are also accepting App developments.<br>
+            Please feel free to contact us.</p>
+        <div class="button-4">
+            <div class="eff-4"></div>
+            <a href="/en/contact">Contact Form</a>
+        </div>
+    </div>
+</section><!-- /.cts_whitelabel -->
+
+
+
+
+
+
+
+
+{% include 'atomhome/include/en/footer.html' %}
+
+<script src="{% static "atomhome/js/common.js" %}"></script>
+<script>
+    $(function () {
+        $('.blk_tab li').click(function () {
+            var index = $('.blk_tab li').index(this);
+            $('.blk_cts').css('display', 'none');
+            $('.blk_cts').eq(index).css('display', 'block');
+            $('.blk_tab li').removeClass('select');
+            $(this).addClass('select')
+        });
+    });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108481174-1');
+</script>
+
+</body>
+
+</html>

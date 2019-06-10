@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from requests_html import HTMLSession
 
 # Create your views here.
 
@@ -20,4 +21,25 @@ def xec(request):
 
 
 def xet(request):
-    return render(request, 'atomhome/en/xet.html')
+    session = HTMLSession()
+    r = session.get('https://coinmarketcap.com/currencies/eternal-token/')
+    s = r.html.find('.h2', first=True)
+    valueint = s.text
+
+    return render(request, 'atomhome/en/xet.html', {'valueint': valueint})
+
+
+def media(request):
+    return render(request, 'atomhome/en/media.html')
+
+
+def mediajp(request):
+    return render(request, 'atomhome/jp/media.html')
+
+
+def video(request):
+    return render(request, 'atomhome/en/video.html')
+
+
+def wlabel(request):
+    return render(request, 'atomhome/en/whitelabel.html')

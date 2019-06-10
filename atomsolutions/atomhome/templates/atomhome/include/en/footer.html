@@ -12,13 +12,13 @@
                                         <li><img src="{% static "atomhome/img/en/ft-ico-news.png" %}"><a
                                                         href="/en/news/">NEWS</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-media.png" %}"><a
-                                                        href="/en/media/">Media Gallery</a>
+                                                        href="{% url 'media' %}">Media Gallery</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-movie.png" %}"><a
-                                                        href="/en/video">Video Gallery</a>
+                                                        href="{% url 'video' %}">Video Gallery</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-system.png" %}"><a
-                                                        href="/en/whitelabel">Crypto System
+                                                        href="{% url 'whitelabel' %}">Crypto System
                                                         Development</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-recruit.png" %}"><a
                                                         href="/en/recruit/">Join Us</a>

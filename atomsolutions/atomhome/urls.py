@@ -8,4 +8,9 @@ urlpatterns = [
     path('company/', views.company, name='company'),
     path('xec/', views.xec, name='xec'),
     path('xet/', views.xet, name='xet'),
+    path('media/', views.media, name='media'),
+    path('media/jp/', views.mediajp, name='mediajp'),
+    path('media/video/', views.video, name='video'),
+    path('whitelabel/', views.wlabel, name='whitelabel'),
+
 ]
