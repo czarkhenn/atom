@@ -1,0 +1,86 @@
+{% load staticfiles %}
+{% include 'atomhome/include/en/head.html' %}
+{% include 'atomhome/include/en/nav.html' %}
+<meta name='robots' content='noindex,follow' />
+
+<meta content="" name="keywords">
+<meta content="" name="description">
+<title>Recruit Page|AtomSolutions</title>
+
+
+<div class="page-ttl-rt">
+    <div class="wrap spaceL" style="width: 100%;">
+        <h1 class="ttlPage">Growth is never by mere chance,<br> it is the result of forces working together.</h1>
+    </div><!-- /.wrap -->
+</div><!-- /.page-ttl -->
+<div class="recruittop">
+    <div class="wrap spaceL">
+        <div class="rec-video">
+            <p class="js-video-button" data-video-id='P-Y33wPz-w0'>Watch the film</p>
+            <div class="rec-play js-video-button" data-video-id='P-Y33wPz-w0'></div>
+        </div>
+        <p class="rec-txt">Atom Solutions is now hiring for the positions as shown below.<br>* The details are posted in
+            Japanese only.</p>
+        <div class="rec-arrow"></div>
+
+        <div class="pic">
+            <div class="col">
+                <strong>System Engineer and Programer</strong>
+                <a href="{% url 'dt1' %}" target="_blank"><img src="{% static "atomhome/img/en/recruit01.jpg" %}"></a>
+            </div><!-- /.col -->
+            <div class="col">
+                <strong>Back Office</strong>
+                <a href="{% url 'dt2' %}"><img src="{% static "atomhome/img/en/tmb_recruit02.jpg" %}"></a>
+            </div><!-- /.col -->
+            <div class="col">
+                <strong>Work in Costa Rica</strong>
+                <a href="{% url 'dt3' %}" target="_blank"><img src="{% static "atomhome/img/en/recruit03.jpg" %}"></a>
+            </div><!-- /.col -->
+            <div class="col">
+                <strong>Work in Kenya</strong>
+                <a href="{% url 'dt4' %}" target="_blank"><img src="{% static "atomhome/img/en/recruit04.jpg" %}"></a>
+            </div><!-- /.col -->
+            <div class="col">
+                <strong>Web Designer</strong>
+                <a href="{% url 'dt5' %}" target="_blank"><img src="{% static "atomhome/img/en/recruit05.jpg" %}"></a>
+            </div><!-- /.col -->
+            <div class="col">
+                <strong>Overseas Cooperate Department</strong>
+                <a href="{% url 'dt6' %}" target="_blank"><img src="{% static "atomhome/img/en/recruit06.jpg" %}"></a>
+            </div><!-- /.col -->
+        </div><!-- /.pic -->
+    </div><!-- /.wrap -->
+</div><!-- /.recruittop -->
+{% include 'atomhome/include/en/footer.html' %}
+
+<script src="{% static "atomhome/js/common.js" %}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108481174-1');
+</script>
+
+<script src="{% static "atomhome/js/modal-video/jquery-modal-video.min.js" %}"></script>
+<script>
+    $(".js-video-button").modalVideo({
+        youtube: {
+            controls: 0,
+            nocookie: true
+        }
+    });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108481174-1');
+</script>

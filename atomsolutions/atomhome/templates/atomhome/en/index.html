@@ -100,7 +100,7 @@
             <div id="group">
                 <h2><img src="{% static "atomhome/img/en/index/group_tit.png" %}" alt="ETERNAL GROUP"></h2>
                 <p class="desc-typeD">We are empowered by Eternal Group <br class="forSp">around the world.</p>
-                <a class="contact-btn" href="/en/contact" target="_blank">CONTACT HERE</a>
+                <a class="contact-btn" href="{% url 'contact' %}" target="_blank">CONTACT HERE</a>
                 <p class="txt_form">Japanese・English・Korean・Chinese・<br class="forSp">Malay・Mongolian・Tagalog are
                     supported.<br>Please feel free to contact us</p>
                 <div class="colGroupImg">
@@ -162,7 +162,7 @@
             }
         })(this, document);
     </script>
-    <script src="{% static "atomhome/js/index.js" %}"></script>
+    <!-- <script src="{% static "atomhome/js/index.js" %}"></script> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
     <script>

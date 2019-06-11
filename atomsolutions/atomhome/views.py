@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from requests_html import HTMLSession
+from django.views.generic.list import ListView
+from .models import Post
+from django.views import generic
 
 # Create your views here.
 
@@ -43,3 +46,57 @@ def video(request):
 
 def wlabel(request):
     return render(request, 'atomhome/en/whitelabel.html')
+
+
+def recruit(request):
+    return render(request, 'atomhome/en/recruitment.html')
+
+
+def dt1(request):
+    return render(request, 'atomhome/en/recruit/detail1.html')
+
+
+def dt2(request):
+    return render(request, 'atomhome/en/recruit/detail2.html')
+
+
+def dt3(request):
+    return render(request, 'atomhome/en/recruit/detail3.html')
+
+
+def dt4(request):
+    return render(request, 'atomhome/en/recruit/detail4.html')
+
+
+def dt5(request):
+    return render(request, 'atomhome/en/recruit/detail5.html')
+
+
+def dt6(request):
+    return render(request, 'atomhome/en/recruit/detail6.html')
+
+
+def contact(request):
+    return render(request, 'atomhome/en/contact.html')
+
+
+def privacy(request):
+    return render(request, 'atomhome/en/privacy.html')
+
+
+def faq(request):
+    return render(request, 'atomhome/en/faq.html')
+
+
+def vr(request):
+    return render(request, 'atomhome/en/vr.html')
+
+
+class NewsView(ListView):
+    model = Post
+    template_name = 'atomhome/en/news.html'
+
+
+class NewsDetailView(generic.DetailView):
+    template_name = 'atomhome/details.html'
+    model = Post

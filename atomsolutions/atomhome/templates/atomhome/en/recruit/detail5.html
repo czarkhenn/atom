@@ -1,0 +1,48 @@
+{% load staticfiles %}
+{% include 'atomhome/include/en/head.html' %}
+{% include 'atomhome/include/en/nav.html' %}
+
+
+
+<meta content="アトムソリューションズ,AtomSolutions,エターナルコイン,Eternalcoin,仮想通貨,エターナルトークン,Eternaltoken" name="keywords">
+<meta
+    content="アトムソリューションズは仮想通貨エターナルコインの発行、運営、開発業務を行っております。仮想通貨を利用しアイデアと行動力で世界をもっと豊かに、そして便利にするフィンテック企業です。アトムソリューションズオフィシャルページはこちら"
+    name="description">
+<title>リクルート｜アトムソリューションズ</title>
+
+
+<div class="page-ttl-r5">
+    <div class="wrap spaceL">
+        <h1 class="ttlPage2">WEBデザイナー<span>直観的に操作が出来るウォレットデザインや、<br class="forSp">取引画面のUI設計等を行う業務です。</span></h1>
+    </div><!-- /.wrap -->
+</div><!-- /.page-ttl -->
+<div class="recruitarea">
+    <div class="wrap spaceL">
+        <div class="col">
+            <div class="recruitbox">
+                <p>アトムソリューションズでは、UI／UXのデザイナーを募集しています。<br>
+                    弊社が提供するエターナルコインのウォレットは、常に「ユーザー目線に立った利用しやすいUI」に日々改善をし続ける事が、求められています。<br>
+                    業務内容は、ウォレットデザインだけでなく、関連コンテンツやアプリのデザイン等、様々なデザイン業務を手掛けていただきます。<br>
+                    弊社では、「世界中で使われるウォレット」を目指しています。<br>
+                    今後の時代を担うFinTech業界で、一緒に最高のデザインを作成してみませんか？<br><br>
+                    給与や待遇は、経験やスキルによって決定しますので、詳細については以下よりお問合せ下さい。</p>
+                <div class="blk-mail">
+                    <a href="{% url 'contact' %}">お問い合わせ</a>
+                </div><!-- /.blk-mail -->
+            </div>
+        </div><!-- /.col -->
+    </div><!-- /.wrap -->
+</div><!-- /.ricruitarea -->
+{% include 'atomhome/include/en/footer.html' %}
+
+<script src="{% static "atomhome/js/common.js" %}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108481174-1');
+</script>

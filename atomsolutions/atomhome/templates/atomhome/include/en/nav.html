@@ -14,7 +14,7 @@
             <li><a href="{% url 'index' %}"><strong>TOP</strong></a></li>
             <li><a href="{% url 'xec' %}"><strong>XEC</strong></a></li>
             <li><a href="{% url 'xet' %}"><strong>XET</strong></a></li>
-            <li><a href="/en/news/"><strong>NEWS</strong></a><time datetime="2019-02-22"></time></li>
+            <li><a href="{% url 'news' %}"><strong>NEWS</strong></a><time datetime="2019-02-22"></time></li>
 
         </ul>
         <ul class="lang">
@@ -30,7 +30,7 @@
             <li><a href="{% url 'index' %}"><strong>TOP</strong></a></li>
             <li><a href="{% url 'xec' %}"><strong>XEC</strong></a></li>
             <li><a href="{% url 'xet' %}"><strong>XET</strong></a></li>
-            <li><a id="if_new" href="/en/news/"><strong>NEWS</strong></a>
+            <li><a id="if_new" href="{% url 'news' %}"><strong>NEWS</strong></a>
                 <p id="new" style="display:none"></p>
                 <!--<time datetime="2019-03-22"></time>-->
             </li>

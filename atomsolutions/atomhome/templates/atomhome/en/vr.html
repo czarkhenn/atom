@@ -1,0 +1,76 @@
+{% load staticfiles %}
+{% include 'atomhome/include/en/head.html' %}
+{% include 'atomhome/include/en/nav.html' %}
+
+
+<meta content="" name="keywords">
+<meta content="" name="description">
+<title>VR WANTED VR PARTNER|AtomSolutions</title>
+
+
+
+<div class="vr-main">
+    <div class="wrap spaceL">
+        <div class="col">
+            <strong>VR<span>VR PARTNER WANTED</span></strong>
+            <p>What would it be like to travel anywhere in the world in real time while still being at home? How would
+                it feel to become a professional singer in a virtual world?<br />
+                To create such amazing world, Atom Solutions is constantly seeking new partner companies.</p>
+            <p>・Atom Solutions has filed a patent application of fee charging system for VR live broadcast
+                <!-- (patent no. 00000)-->. <br />
+                ・Atom Solutions has jointly filed this patent with Nihon Brain Ware Co.</p>
+        </div><!-- /.col -->
+    </div><!-- /.wrap -->
+    <img src="{% static "atomhome/img/en/vr-human.png" %}" alt="VR" class="ico-human">
+    <div class="ico-scroll">
+        <img src="{% static "atomhome/img/en/ico-scroll.png" %}" alt="SCROLL" class="ico-down">
+        <span>SCROLL</span>
+    </div><!-- /.ico-scroll -->
+</div><!-- /.vr-main -->
+<div class="message">
+    <div class="wrap spaceL">
+        <div class="col">
+            <h2 class="ttlM">MESSAGE</h2>
+            <div class="txt">
+                <p>This patent is a system that would enable live broadcasting of events by content distributors and
+                    interested people can view the broadcast in VR and will be charged accordingly.</p>
+                <p>The contents distributors will be able to generate revenue by streaming beautiful images of deserts,
+                    a night sky filed with stars, oceans, auroras, and other attractive sceneries.<br />
+                    In addition, the contents distributors could broadcast realistic images of war zones and refugees to
+                    financially aid the people living in such areas. <br />
+                    The fusion of ever-expanding and idea-driven VR contents, such as drone-shot images and underwater
+                    tours with dolphins, and the real-time fee charging mechanism could possibly become a new mode of
+                    virtual travel in the near future.</p>
+                <p>We soon might be able to go on a space tour or land on the moon using VR.</p>
+                <p>For contents as described above, it is crucial to have both micropayment and cross-border payment
+                    schemes.<br />
+                    The patent applications that we have currently filed, not only covers fee-charging and payment using
+                    virtual currency, but will also enable to settle payments made with electronic money and
+                    company-specific reward points.</p>
+                <p>The interested companies can contact us by sending an inquiry.</p>
+            </div><!-- /.txt -->
+            <a href="{% url 'contact' %}" class="link-btn">CONTACT US HERE</a>
+        </div><!-- /.col -->
+    </div><!-- /.wrap -->
+</div><!-- /.message -->
+{% include 'atomhome/include/en/footer.html' %}
+<script src="{% static "atomhome/js/common.js" %}"> </script> <!-- VR -->
+<script src="{% static "atomhome/js/jquery.bgswitcher.js" %}"></script>
+<script>
+    jQuery(function ($) {
+        $('.vr-main').bgSwitcher({
+            images: ['../static/atomhome/img/en/vr-main01.jpg', '../static/atomhome/img/en/vr-main02.jpg', '../static/atomhome/img/en/vr-main03.jpg'],
+        });
+    });
+</script>
+<!-- VR -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108481174-1');
+</script>

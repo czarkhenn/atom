@@ -1975,7 +1975,7 @@ line-height: 2.0em
 .page-ttl-r1 {
 position: relative;
 color: #fff;
-background: url("../images/page-ttl-r1.jpg");
+background: url("../img/en/page-ttl-r1.jpg");
 background-size: cover;
 /*background: rgba(230,67,67,0.92);*/
 width: 100%;
@@ -2056,7 +2056,7 @@ width: 100%;
 .page-ttl-r3 {
 position: relative;
 color: #fff;
-background: url("../images/page-ttl-r3.jpg");
+background: url("../img/en/page-ttl-r3.jpg");
 background-size: cover;
 /*background: rgba(230,67,67,0.92);*/
 width: 100%;
@@ -2077,7 +2077,7 @@ width: 100%;
 .page-ttl-r4 {
 position: relative;
 color: #fff;
-background: url("../images/page-ttl-r4.jpg");
+background: url("../img/en/page-ttl-r4.jpg");
 background-size: cover;
 /*background: rgba(230,67,67,0.92);*/
 width: 100%;
@@ -2098,7 +2098,7 @@ width: 100%;
 .page-ttl-r5 {
 position: relative;
 color: #fff;
-background: url("../images/page-ttl-r5.jpg");
+background: url("../img/en/page-ttl-r5.jpg");
 background-size: cover;
 /*background: rgba(230,67,67,0.92);*/
 width: 100%;
@@ -2119,7 +2119,7 @@ width: 100%;
 .page-ttl-r6 {
 position: relative;
 color: #fff;
-background: url("../images/page-ttl-r6.jpg");
+background: url("../img/en/page-ttl-r6.jpg");
 background-size: cover;
 /*background: rgba(230,67,67,0.92);*/
 width: 100%;
@@ -3863,7 +3863,7 @@ line-height: 2.0em
 }
 
 .page-ttl-r1 {
-background: url("../images/page-ttl-r1sp.jpg");
+background: url("../img/en/page-ttl-r1sp.jpg");
 background-size: cover;
 height: auto;
 margin-bottom: 12px;
@@ -3903,7 +3903,7 @@ box-sizing: border-box;
 }
 
 .page-ttl-r3 {
-background: url("../images/page-ttl-r3.jpg");
+background: url("../img/en/page-ttl-r3.jpg");
 height: auto;
 margin-bottom: 12px;
 padding: 92px 0 48px 0;
@@ -3912,7 +3912,7 @@ box-sizing: border-box;
 }
 
 .page-ttl-r4 {
-background: url("../images/page-ttl-r4sp.jpg");
+background: url("../img/en/page-ttl-r4sp.jpg");
 background-size: cover;
 height: auto;
 margin-bottom: 12px;
@@ -3922,7 +3922,7 @@ box-sizing: border-box;
 }
 
 .page-ttl-r5 {
-background: url("../images/page-ttl-r5sp.jpg");
+background: url("../img/en/page-ttl-r5sp.jpg");
 background-size: cover;
 height: auto;
 margin-bottom: 12px;
@@ -3932,7 +3932,7 @@ box-sizing: border-box;
 }
 
 .page-ttl-r6 {
-background: url("../images/page-ttl-r6sp.jpg");
+background: url("../img/en/page-ttl-r6sp.jpg");
 height: auto;
 margin-bottom: 12px;
 padding: 92px 0 48px 0;
@@ -4602,7 +4602,7 @@ display: block;
 .page-ttl-r02 {
 width: 100%;
 height: 60%;
-background: url(../images/page_ttl_r02.jpg) center -120px /cover no-repeat;
+background: url(../img/en/page_ttl_r02.jpg) center -120px /cover no-repeat;
 color: #fff;
 display: -webkit-flex;
 display: -moz-flex;
@@ -4706,7 +4706,7 @@ margin-top: 20px;
 padding: 92px 20px 40px 20px;
 box-sizing: border-box;
 height: auto;
-background: url(../images/page_ttl_r02.jpg) center top /cover no-repeat;
+background: url(../img/en/page_ttl_r02.jpg) center top /cover no-repeat;
 }
 .page-ttl-r02 .ttlPage2 span {
 font-size: 1.4rem;

@@ -21,19 +21,20 @@
                                                         href="{% url 'whitelabel' %}">Crypto System
                                                         Development</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-recruit.png" %}"><a
-                                                        href="/en/recruit/">Join Us</a>
+                                                        href="{% url 'recruit' %}">Join Us</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-contact.png" %}"><a
-                                                        href="/en/contact" target="_blank">Contact Us</a></li>
+                                                        href="{% url 'contact' %}" target="_blank">Contact Us</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-privacy.png" %}"><a
-                                                        href="/en/privacy">Privacy
+                                                        href="{% url 'privacy' %}">Privacy
                                                         Policy</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-faq.png" %}"><a
-                                                        href="/en/faq">FAQ</a></li>
+                                                        href="{% url 'faq' %}">FAQ</a></li>
                                 </ul>
                                 <strong class="pt2">CONTENTS</strong>
                                 <ul>
-                                        <li><img src="{% static "atomhome/img/en/ft-ico-vr.png" %}"><a href="/en/vr">VR
+                                        <li><img src="{% static "atomhome/img/en/ft-ico-vr.png" %}"><a
+                                                        href="{% url 'vr' %}">VR
                                                         Partner Wanted</a></li>
                                         <!-- <li><img src="/images/ft-ico-project.png"><a href="/en/project">Eternal Project</a></li> -->
                                         <li><img src="{% static "atomhome/img/en/ft-ico-elook.png" %}"><a

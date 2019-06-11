@@ -5,11 +5,11 @@ from django.urls import reverse
 # Create your models here.
 
 
-class Post (models.Model):
+class Post(models.Model):
     owner = models.ForeignKey(User, null=True, on_delete=models.CASCADE)
     title = models.CharField(max_length=255)
     content = models.TextField(max_length=500)
-    created = models.DateTimeField(auto_now=True)
+    created = models.DateTimeField(auto_now_add=True)
     modified = models.DateField(auto_now=True)
 
     def __str__(self):

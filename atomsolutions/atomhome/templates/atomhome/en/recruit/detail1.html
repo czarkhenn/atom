@@ -1,0 +1,51 @@
+{% load staticfiles %}
+{% include 'atomhome/include/en/head.html' %}
+{% include 'atomhome/include/en/nav.html' %}
+
+<meta content="アトムソリューションズ,AtomSolutions,エターナルコイン,Eternalcoin,仮想通貨,エターナルトークン,Eternaltoken" name="keywords">
+<meta
+    content="アトムソリューションズは仮想通貨エターナルコインの発行、運営、開発業務を行っております。仮想通貨を利用しアイデアと行動力で世界をもっと豊かに、そして便利にするフィンテック企業です。アトムソリューションズオフィシャルページはこちら"
+    name="description">
+<title>リクルート｜アトムソリューションズ</title>
+
+
+
+<div class="page-ttl-r1">
+    <div class="wrap spaceL">
+        <h1 class="ttlPage2 fix-back">システムエンジニア/プログラマー<span>ブロックチェーンやフィンテックに興味がある方の応募を<br
+                    class="forSp">お待ちしております！</span></h1>
+    </div><!-- /.wrap -->
+</div><!-- /.page-ttl -->
+<div class="recruitarea">
+    <div class="wrap spaceL">
+        <div class="col">
+            <div class="recruitbox">
+                <p>アトムソリューションズでは、ブロックチェーンの開発だけではなく、ウォレットシステム、電子マネーシステム、ポイントシステムなどの様々な開発を予定しております。<br><br>
+                    そして、現在当社では各国で利用できる新たな決済インフラの構築や海外送金等、FinTechの分野において革命を起こす新たなスタッフを募集しております。<br><br>
+                    日本から自分たちの作った新たなサービスを一緒に発信してみませんか？<br>
+                    ご興味のある方のご応募をお待ちしています。<br><br>
+                    給与や待遇は、経験やスキルによって決定しますので、詳細については以下よりお問合せ下さい。</p>
+                <div class="blk-mail">
+                    <a href="{% url 'contact' %}">お問い合わせ</a>
+                </div><!-- /.blk-mail -->
+            </div>
+        </div><!-- /.col -->
+    </div><!-- /.wrap -->
+</div><!-- /.ricruitarea -->
+{% include 'atomhome/include/en/footer.html' %}
+
+<script src="{% static "atomhome/js/common.js" $}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108481174-1');
+</script>
+
+</body>
+
+</html>

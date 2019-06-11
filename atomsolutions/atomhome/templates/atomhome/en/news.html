@@ -1,0 +1,69 @@
+{% load staticfiles %}
+{% include 'atomhome/include/en/head.html' %}
+{% include 'atomhome/include/en/nav.html' %}
+
+<meta content="" name="keywords">
+<meta content="" name="description">
+<title>NEWS LIST|AtomSolutions</title>
+
+
+
+<div class="page-bg"></div>
+<div class="page-ttl">
+	<div class="wrap spaceL">
+		<h1 class="ttlPage">NEWS LIST</h1>
+	</div><!-- /.wrap -->
+</div><!-- /.page-ttl -->
+<div class="newsarea">
+	<div class="top3">
+		<div class="wrap spaceL">
+			<div class="col">
+				<div class="news" id="js-load">
+					<dl class="js-load">
+						<dt>{{post.created}}</dt>
+						<dd><a href="{% url 'atomhome:details' post.id %}" target="_blank">{{post.title}}<span
+									class="newtx">NEW!</span></a></dd>
+					</dl>
+
+					<div id="js-btn-wrap" class="btn_more_list"><a href="javascript:;">Read more</a></div>
+				</div><!-- /.news -->
+			</div><!-- /.col -->
+		</div><!-- /.wrap -->
+	</div><!-- /.top3 -->
+</div><!-- /.newspage -->
+{% include 'atomhome/include/en/footer.html' %}
+
+<script src="{% static "atomhome/js/common.js" %}"></script>
+
+<!-- MORE -->
+<script>
+	$(window).on('load', function () {
+		load('#js-load', '20');
+		$("#js-btn-wrap a").on("click", function () {
+			load('#js-load', '20', '#js-btn-wrap');
+		})
+	});
+	function load(id, cnt, btn) {
+		var items_list = id + " .js-load:not(.active)";
+		var items_length = $(items_list).length;
+		var items_total_cnt;
+		if (cnt < items_length) {
+			items_total_cnt = cnt;
+		} else {
+			items_total_cnt = items_length;
+			$(btn).hide();
+		}
+		$(items_list + ":lt(" + items_total_cnt + ")").addClass("active");
+	}
+</script>
+<!-- MORE -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'UA-108481174-1');
+</script>

@@ -1,0 +1,57 @@
+{% load staticfiles %}
+{% include 'atomhome/include/en/head.html' %}
+{% include 'atomhome/include/en/nav.html' %}
+
+
+<meta content="アトムソリューションズ,AtomSolutions,エターナルコイン,Eternalcoin,仮想通貨,エターナルトークン,Eternaltoken" name="keywords">
+<meta
+    content="アトムソリューションズは仮想通貨エターナルコインの発行、運営、開発業務を行っております。仮想通貨を利用しアイデアと行動力で世界をもっと豊かに、そして便利にするフィンテック企業です。アトムソリューションズオフィシャルページはこちら"
+    name="description">
+<title>リクルート｜アトムソリューションズ</title>
+
+
+
+<div class="page-ttl-r3">
+    <div class="wrap spaceL">
+        <h1 class="ttlPage2">コスタリカで働きたい方<span>中米の楽園、地球幸福度指数1位のコスタリカで働きたい<br class="forSp">スタッフを募集しています。</span></h1>
+    </div><!-- /.wrap -->
+</div><!-- /.page-ttl -->
+<div class="recruitarea">
+    <div class="wrap spaceL">
+        <div class="col">
+            <div class="recruitbox">
+                <p>アトムソリューションズでは新たな公認取引所として、コスタリカの現地法人と共同でエターナルコインの取引所の開設準備を進めています。<br>
+                    既に今年、2018年４月に視察及び現地法人との提携は完了しておりますので、今後の業務はコスタリカでの新会社の設立準備や、エターナルウォレットの普及に伴うマーケティング業務メインとなります。<br><br>
+                    仮想通貨を取り巻く環境は、世界中で日々刻々と変化し進化しています。<br>
+                    そんな注目を集めているFinTechの業界で世界へと飛び出してみませんか？<br><br></p>
+                <p>実際の視察風景</p>
+                <img src="{% static "atomhome/img/en/recruit_detail03.jpg" %}" />
+                <p>※必須条件<br>
+                    ・スペイン語が話せる事<br>
+                    ・バイタリティーがある事<br>
+                    ・仮想通貨やFintech業界に興味がある方<br><br>
+                    給与や待遇は、経験やスキル等によって決定しますので、詳細については以下よりお問合せ下さい。</p>
+                <div class="blk-mail">
+                    <a href="{% url 'contact' %}">お問い合わせ</a>
+                </div><!-- /.blk-mail -->
+            </div>
+        </div><!-- /.col -->
+    </div><!-- /.wrap -->
+</div><!-- /.ricruitarea -->
+{% include 'atomhome/include/en/footer.html' %}
+
+<script src="{% static "atomhome/js/common.js" %}"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-108481174-1');
+</script>
+
+</body>
+
+</html>
