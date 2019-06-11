@@ -1,1 +1,47 @@
-<h1>{{ object.title }}</h1>
+{% load staticfiles %}
+{% include 'atomhome/include/en/head.html' %}
+{% include 'atomhome/include/en/nav.html' %}
+
+
+
+
+
+<meta content="" name="keywords">
+<meta content="" name="description">
+<title>NEWS|AtomSolutions</title>
+
+<div class="page-bg"></div>
+<div class="page-ttl">
+	<div class="wrap spaceL">
+		<h1 class="ttlPage">NEWS</h1>
+	</div><!-- /.wrap -->
+</div><!-- /.page-ttl -->
+<div class="newsarea">
+	<div class="wrap spaceL">
+		<div class="col">
+			<h2>{{object.created}}<br>{{object.title}}</h2>
+			<p>{{object.content}}</p>
+		</div><!-- /.col -->
+	</div><!-- /.wrap -->
+</div><!-- /.newspage -->
+{% include 'atomhome/include/en/footer.html' %}
+
+<script src="/en/js/common.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108481174-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'UA-108481174-1');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138678906-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'UA-138678906-1');
+</script>

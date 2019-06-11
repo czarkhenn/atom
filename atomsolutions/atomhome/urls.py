@@ -1,5 +1,6 @@
 from django.urls import path, include
 from . import views
+from .views import NewsDetailView, NewsView
 
 app_name = 'atomhome'
 
@@ -25,7 +26,8 @@ urlpatterns = [
     path('privacy-policy/', views.privacy, name='privacy'),
     path('faq/', views.faq, name='faq'),
     path('vr-partner/', views.vr, name='vr'),
-    path('news/<int:pk>/', views.NewsDetailView.as_view(), name='details'),
     path('news/', views.NewsView.as_view(), name='news'),
+    path('news/<int:pk>/', views.NewsDetailView.as_view(), name='details'),
+
 
 ]

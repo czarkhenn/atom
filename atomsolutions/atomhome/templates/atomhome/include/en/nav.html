@@ -4,17 +4,17 @@
 
 <div class="wrapper">
     <div class="sp-nav">
-        <h1 class="logo"><a href="{% url 'index' %}"><img src="{% static "atomhome/img/en/animatedLogo-Atom.gif" %}"
-                    alt="ATOM SOLUTIONS"></a></h1>
+        <h1 class="logo"><a href="{% url 'atomhome:index' %}"><img
+                    src="{% static "atomhome/img/en/animatedLogo-Atom.gif" %}" alt="ATOM SOLUTIONS"></a></h1>
         <img src="{% static "atomhome/img/en/ico-menu-open.png" %}" alt="Menu" class="menu-open">
     </div><!-- /.sp-nav -->
     <div class="modal-menu">
         <img src="{% static "atomhome/img/en/ico-menu-close.png" %}" alt="Menu Close" class="menu-close">
         <ul class="menu">
-            <li><a href="{% url 'index' %}"><strong>TOP</strong></a></li>
-            <li><a href="{% url 'xec' %}"><strong>XEC</strong></a></li>
-            <li><a href="{% url 'xet' %}"><strong>XET</strong></a></li>
-            <li><a href="{% url 'news' %}"><strong>NEWS</strong></a><time datetime="2019-02-22"></time></li>
+            <li><a href="{% url 'atomhome:index' %}"><strong>TOP</strong></a></li>
+            <li><a href="{% url 'atomhome:xec' %}"><strong>XEC</strong></a></li>
+            <li><a href="{% url 'atomhome:xet' %}"><strong>XET</strong></a></li>
+            <li><a href="{% url 'atomhome:news' %}"><strong>NEWS</strong></a><time datetime="2019-02-22"></time></li>
 
         </ul>
         <ul class="lang">
@@ -24,13 +24,13 @@
         </ul>
     </div><!-- /.modal-menu -->
     <div class="nav">
-        <h1 class="logo"><a href="{% url 'index' %}"><img src="{% static "atomhome/img/en/animatedLogo-Atom.gif" %}"
-                    alt="ATOM SOLUTIONS"></a></h1>
+        <h1 class="logo"><a href="{% url 'atomhome:index' %}"><img
+                    src="{% static "atomhome/img/en/animatedLogo-Atom.gif" %}" alt="ATOM SOLUTIONS"></a></h1>
         <ul class="menu">
-            <li><a href="{% url 'index' %}"><strong>TOP</strong></a></li>
-            <li><a href="{% url 'xec' %}"><strong>XEC</strong></a></li>
-            <li><a href="{% url 'xet' %}"><strong>XET</strong></a></li>
-            <li><a id="if_new" href="{% url 'news' %}"><strong>NEWS</strong></a>
+            <li><a href="{% url 'atomhome:index' %}"><strong>TOP</strong></a></li>
+            <li><a href="{% url 'atomhome:xec' %}"><strong>XEC</strong></a></li>
+            <li><a href="{% url 'atomhome:xet' %}"><strong>XET</strong></a></li>
+            <li><a id="if_new" href="{% url 'atomhome:news' %}"><strong>NEWS</strong></a>
                 <p id="new" style="display:none"></p>
                 <!--<time datetime="2019-03-22"></time>-->
             </li>

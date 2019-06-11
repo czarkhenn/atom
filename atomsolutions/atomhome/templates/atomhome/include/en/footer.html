@@ -8,33 +8,34 @@
                                 <strong>ABOUT ATOM</strong>
                                 <ul>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-company.png" %}"><a
-                                                        href="{% url 'company' %}">Company Overview</a></li>
+                                                        href="{% url 'atomhome:company' %}">Company Overview</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-news.png" %}"><a
                                                         href="/en/news/">NEWS</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-media.png" %}"><a
-                                                        href="{% url 'media' %}">Media Gallery</a>
+                                                        href="{% url 'atomhome:media' %}">Media Gallery</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-movie.png" %}"><a
-                                                        href="{% url 'video' %}">Video Gallery</a>
+                                                        href="{% url 'atomhome:video' %}">Video Gallery</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-system.png" %}"><a
-                                                        href="{% url 'whitelabel' %}">Crypto System
+                                                        href="{% url 'atomhome:whitelabel' %}">Crypto System
                                                         Development</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-recruit.png" %}"><a
-                                                        href="{% url 'recruit' %}">Join Us</a>
+                                                        href="{% url 'atomhome:recruit' %}">Join Us</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-contact.png" %}"><a
-                                                        href="{% url 'contact' %}" target="_blank">Contact Us</a></li>
+                                                        href="{% url 'atomhome:contact' %}" target="_blank">Contact
+                                                        Us</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-privacy.png" %}"><a
-                                                        href="{% url 'privacy' %}">Privacy
+                                                        href="{% url 'atomhome:privacy' %}">Privacy
                                                         Policy</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-faq.png" %}"><a
-                                                        href="{% url 'faq' %}">FAQ</a></li>
+                                                        href="{% url 'atomhome:faq' %}">FAQ</a></li>
                                 </ul>
                                 <strong class="pt2">CONTENTS</strong>
                                 <ul>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-vr.png" %}"><a
-                                                        href="{% url 'vr' %}">VR
+                                                        href="{% url 'atomhome:vr' %}">VR
                                                         Partner Wanted</a></li>
                                         <!-- <li><img src="/images/ft-ico-project.png"><a href="/en/project">Eternal Project</a></li> -->
                                         <li><img src="{% static "atomhome/img/en/ft-ico-elook.png" %}"><a
@@ -78,7 +79,7 @@
                                                         Coin Logo
                                                         Guide (PDF)</a> </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-official.png" %}"><a
-                                                        href="{% url 'ofcexchange' %}" target="_blank">Apply
+                                                        href="{% url 'atomhome:ofcexchange' %}" target="_blank">Apply
                                                         for
                                                         Official Exchange</a></li>
                                 </ul>

@@ -19,12 +19,13 @@
 		<div class="wrap spaceL">
 			<div class="col">
 				<div class="news" id="js-load">
+					{% for post in object_list %}
 					<dl class="js-load">
 						<dt>{{post.created}}</dt>
 						<dd><a href="{% url 'atomhome:details' post.id %}" target="_blank">{{post.title}}<span
 									class="newtx">NEW!</span></a></dd>
 					</dl>
-
+					{% endfor %}
 					<div id="js-btn-wrap" class="btn_more_list"><a href="javascript:;">Read more</a></div>
 				</div><!-- /.news -->
 			</div><!-- /.col -->

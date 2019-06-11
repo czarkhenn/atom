@@ -1,8 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from requests_html import HTMLSession
 from django.views.generic.list import ListView
 from .models import Post
+from django.views.generic import DetailView
 from django.views import generic
+
 
 # Create your views here.
 
@@ -98,5 +100,5 @@ class NewsView(ListView):
 
 
 class NewsDetailView(generic.DetailView):
-    template_name = 'atomhome/details.html'
+    template_name = 'atomhome/en/details.html'
     model = Post
