@@ -737,7 +737,7 @@ background: #e8e8e0;
 font-size: 1.4rem;
 line-height: 1.6em;
 font-weight: 700;
-width: 220px;
+width: 200px;
 padding: 24px 0 24px 12px;
 }
 .top3 .wrap .col .news dl dd {
@@ -4084,10 +4084,10 @@ display: none !important;
 display: flex !important;
 }
 .btn_more_list a {
-display: block;
-width: 120px;
+display: inline-block;
+width: 40px;
 line-height: 40px;
-border-radius: 40px;
+border-radius: 10px;
 text-align: center;
 font-weight: 500;
 color: #fff !important;
@@ -4474,7 +4474,7 @@ padding: 0 20px;
 }
 .top3 .wrap .col .news dl dt {
 font-size: 1.2rem;
-width: 220px;
+width: 200px;
 padding: 20px 0;
 }
 .top3 .wrap .col .news dl dd {

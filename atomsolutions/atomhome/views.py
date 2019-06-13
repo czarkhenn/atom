@@ -4,6 +4,8 @@ from django.views.generic.list import ListView
 from .models import Post
 from django.views.generic import DetailView
 from django.views import generic
+from django.shortcuts import render_to_response
+from django.template import RequestContext
 
 
 # Create your views here.
@@ -93,12 +95,14 @@ def faq(request):
 def vr(request):
     return render(request, 'atomhome/en/vr.html')
 
-
 class NewsView(ListView):
     model = Post
     template_name = 'atomhome/en/news.html'
+    paginate_by = 5
+    ordering = ['-created']
 
-
+   
 class NewsDetailView(generic.DetailView):
     template_name = 'atomhome/en/details.html'
     model = Post
+

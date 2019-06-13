@@ -25,7 +25,7 @@ SECRET_KEY = 'hl0mp7wn6-&5ej+(_#ql6e6hhbn+@#y=&!5t1m=vwka=%!)kgs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.110']
+ALLOWED_HOSTS = ['192.168.1.110', 'localhost', 'asd']
 
 
 # Application definition
@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'atomhome',
     'requests_html',
-    'markdown_deux'
+    'markdown_deux',
+    
 ]
 
 MIDDLEWARE = [

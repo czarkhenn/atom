@@ -4,6 +4,7 @@ from .views import NewsDetailView, NewsView
 
 app_name = 'atomhome'
 
+
 urlpatterns = [
     path('', views.index, name='index'),
     path('index/', views.index, name='index'),

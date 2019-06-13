@@ -2,6 +2,7 @@
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
 
+
 <meta content="" name="keywords">
 <meta content="" name="description">
 <title>NEWS LIST|AtomSolutions</title>
@@ -22,11 +23,37 @@
 					{% for post in object_list %}
 					<dl class="js-load">
 						<dt>{{post.created}}</dt>
-						<dd><a href="{% url 'atomhome:details' post.id %}" target="_blank">{{post.title}}<span
-									class="newtx">NEW!</span></a></dd>
+						<dd><a href="{% url 'atomhome:details' post.id %}" target="_blank">{{post.title|truncatechars:50}}
+								
+								<span class="newtx"> {{ post.get_label|safe }}</span></a></dd>
+
+						
+						
 					</dl>
 					{% endfor %}
-					<div id="js-btn-wrap" class="btn_more_list"><a href="javascript:;">Read more</a></div>
+					<div id="js-btn-wrap" class="btn_more_list">
+					{% if is_paginated %}
+
+					{% if page_obj.has_previous %}
+					  <a class="btn btn-outline-info mb-4" href="?page=1">First</a>
+					  <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.previous_page_number }}">Prev</a>
+					{% endif %}
+			  
+					{% for num in page_obj.paginator.page_range %}
+					  {% if page_obj.number == num %}
+						<a class="btn btn-info mb-4" href="?page={{ num }}">{{ num }}</a>
+					  {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+						<a class="btn btn-outline-info mb-4" href="?page={{ num }}">{{ num }}</a>
+					  {% endif %}
+					{% endfor %}
+			  
+					{% if page_obj.has_next %}
+					  <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.next_page_number }}">Next</a>
+					  <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.paginator.num_pages }}">Last</a>
+					{% endif %}
+				</div>
+				  {% endif %}
+					
 				</div><!-- /.news -->
 			</div><!-- /.col -->
 		</div><!-- /.wrap -->
