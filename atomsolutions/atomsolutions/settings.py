@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'atomhome',
     'requests_html',
+    'markdown_deux'
 ]
 
 MIDDLEWARE = [

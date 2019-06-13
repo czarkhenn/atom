@@ -1,7 +1,7 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
-
+{% load markdown_deux_tags %}
 
 
 
@@ -20,7 +20,7 @@
 	<div class="wrap spaceL">
 		<div class="col">
 			<h2>{{object.created}}<br>{{object.title}}</h2>
-			<p>{{object.content}}</p>
+			<p>{{ object.content|markdown }}</p>
 		</div><!-- /.col -->
 	</div><!-- /.wrap -->
 </div><!-- /.newspage -->

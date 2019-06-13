@@ -13,7 +13,7 @@ class Post(models.Model):
     modified = models.DateField(auto_now=True)
 
     def __str__(self):
-        return self.owner
+        return self.owner.username
 
     def get_title(self):
         return self.title
