@@ -25,7 +25,7 @@ class Post(models.Model):
 
     def get_label(self):
         
-        if self.modified > datetime.date.today() - datetime.timedelta(days=1):
+        if self.modified > datetime.date.today() - datetime.timedelta(days=7):
            return "NEW!" 
         else:
            return " "

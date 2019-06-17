@@ -1,7 +1,9 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
-<title>Overseas remittance｜ETERNAL LIVE</title>
+{% load i18n %}
+{% load i18n_urls %}
+<title>{% trans "Overseas remittance｜ETERNAL LIVE" %}</title>
 
 <div id="wrap">
     <div id="content">
@@ -10,14 +12,14 @@
                 <video src="{% static "atomhome/img/en/bg_main_animation.mov" %}" muted autoplay loop webkit-playsinline
                     playsinline preload="metadata"></video>
                 <div class="inner" style="padding: 100px 0px 0px 0px">
-                    <h2>SEND MONEY WORLDWIDE AT THE <br class="sp-none">LOWEST COST AND FASTEST SPEED!</h2>
-                    <p class="description desc-typeA">With Eternal Wallet, you can send money <br
-                            class="pc-none">without using a bank at Anytime, Anywhere.</p>
+                    <h2>{% trans "SEND MONEY WORLDWIDE AT THE" %}<br class="sp-none">{% trans "LOWEST COST AND FASTEST SPEED!" %}</h2>
+                    <p class="description desc-typeA">{% trans "With Eternal Wallet, you can send money" %} <br
+                            class="pc-none">{% trans "without using a bank at Anytime, Anywhere." %}</p>
                 </div>
                 <div class="txtRelease">
                     <div>
-                        <p><span>TOPICS</span>We are currently upgrading our new wallet system.<br>Please see news
-                            updates for more details!</p>
+                        <p><span>TOPICS</span>{% trans "We are currently upgrading our new wallet system." %}<br>
+                            {% trans "Please see news updates for more details!" %}</p>
                     </div>
                 </div>
                 <p id="scroll"><img src="{% static "atomhome/img/en/index/scroll.png" %}" alt=" SCROLL"></p>
@@ -26,27 +28,27 @@
         <section>
             <div class="section" id="section02">
                 <div id="section02-inner">
-                    <h2>Eternal Wallet provides <br class="forSp">the Fastest <br class="forPc">Remittance <br
-                            class="forSp">Services and Highest <br>Receivable Amount Ever !</h2>
-                    <p class="description desc-typeB"><span class="beta">Our remittance rate is +0.5% from <br
-                                class="forSp">interbank Transfer Middle Rate (TTM).</span></p>
+                    <h2>{% trans "Eternal Wallet provides" %} <br class="forSp">{% trans "the Fastest" %} <br class="forPc">{% trans "Remittance" %} <br
+                            class="forSp">{% trans "Services and Highest" %} <br>{% trans "Receivable Amount Ever!" %}</h2>
+                    <p class="description desc-typeB"><span class="beta">{% trans "Our remittance rate is +0.5% from" %} <br
+                                class="forSp">{% trans "interbank Transfer Middle Rate (TTM)." %}</span></p>
                     <div class="aboutBox">
                         <div class="col">
-                            <strong>Available Countries</strong>
+                            <strong>{% trans "Available Countries" %}</strong>
                             <ul>
-                                <li>Philippines</li>
-                                <li>Korea</li>
-                                <li>Hong Kong</li>
+                                <li>{% trans "Philippines" %}</li>
+                                <li>{% trans "Korea" %}</li>
+                                <li>{% trans "Hong Kong" %}</li>
                             </ul>
-                            <p>Eternal Wallet expansion targeting 10 countries in 2019.<br>
-                                Overseas remittance using Eternal Wallet will not be going through bank but P2P
-                                transaction between Eternal Wallet users.</p>
+                            
+                            <p>{% trans "Eternal Wallet expansion targeting 10 countries in 2019." %}<br>
+                                {% trans "Overseas remittance using Eternal Wallet will not be going through bank but P2P transaction between Eternal Wallet users." %}</p> 
                         </div>
                         <div class="col">
-                            <strong>Users</strong>
-                            <p class="num">Over 40000 Eternal Wallet Users +</p>
-                            <span>* Refers to Eternal Wallet registration number.</span>
-                        </div>{% include 'atomhome/include/en/head.html' %}
+                            <strong>{% trans "Users" %}</strong>
+                            <p class="num">{% trans "Over 40000 Eternal Wallet Users +" %}</p>
+                            <span>{% trans "* Refers to Eternal Wallet registration number." %}</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -54,44 +56,45 @@
         <section>
             <div class="section" id="section03">
                 <div class="inner">
-                    <h2>We have achieved our goals in <br class="forSp">providing <br class="forPc"> the world’s fastest
-                        <br class="forSp">overseas <br class="forPc">remittance services <br class="forSp">at the lowest
-                        cost <br>and equivalent value through <br class="forSp">our unique <br class="forPc">features,
-                        functions, <br class="forSp">technologies, and ideas.</h2>
-                    <p class="description desc-typeB">* Patent Filed</p>
+                    <h2>{% trans "We have achieved our goals in" %} <br class="forSp">{% trans "providing" %} <br class="forPc"> {% trans "the world’s fastest" %}
+                        <br class="forSp">{% trans "overseas" %} <br class="forPc">{% trans "remittance services" %} <br class="forSp">{% trans "at the lowestcost" %} 
+                        <br>{% trans "and equivalent value through" %} <br class="forSp">{% trans "our unique" %} <br class="forPc">{% trans "features,functions," %}
+                        <br class="forSp">{% trans "technologies, and ideas." %}</h2>
+                    <p class="description desc-typeB">{% trans "* Patent Filed" %}</p>
+                    
                     <div class="bnr_link"><a href="http://pool.atom-solutions.jp/" target="_blank"><img
-                                src="{% static "atomhome/img/en/bnr_demo_en.png" %}"
-                                alt="Try and Experience the World's Lowest Overseas Remittances Fee Simulator!!"></a>
+                        src="{% static "atomhome/img/en/bnr_demo_en.png" %}"
+                        alt="Try and Experience the World's Lowest Overseas Remittances Fee Simulator!!"></a>
                     </div>
+                  
                     <ul class="circles">
-                        <li class="circle">XEC</li>
-                        <li class="circle">XET</li>
-                        <li class="circle">Blockchain</li>
-                        <li class="circle">Authorized Exchange System</li>
-                        <li class="circle">DOT</li>
-                        <li class="circle">Transfer via Phone Number</li>
-                        <li class="circle">Pool Wallet</li>
-                        <li class="circle">XEC Lending Feature</li>
-                        <li class="circle">Arbitrage</li>
-                        <li class="circle">Multi Currency Wallet</li>
-                        <li class="circle">7 Pending Patents</li>
-                        <li class="circle">ELook App</li>
-                        <li class="circle">Economy Sharing</li>
+                        <li class="circle">{% trans "XEC" %}</li>
+                        <li class="circle">{% trans "XET" %}</li>
+                        <li class="circle">{% trans "Blockchain" %}</li>
+                        <li class="circle">{% trans "Authorized Exchange System" %}</li>
+                        <li class="circle">{% trans "DOT" %}</li>
+                        <li class="circle">{% trans "Transfer via Phone Number" %}</li>
+                        <li class="circle">{% trans "Pool Wallet" %}</li>
+                        <li class="circle">{% trans "XEC Lending Feature" %}</li>
+                        <li class="circle">{% trans "Arbitrage" %}</li>
+                        <li class="circle">{% trans "Multi Currency Wallet" %}</li>
+                        <li class="circle">{% trans "7 Pending Patents" %}</li>
+                        <li class="circle">{% trans "ELook App" %}</li>
+                        <li class="circle">{% trans "Economy Sharing" %}</li>
                     </ul>
                     <div class="clear"></div>
-                    <p class="txt_wp">For more details about the mechanism, <br class="forSp">please refer to Eternal
-                        Coin Whitepaper</p>
+                    <p class="txt_wp">{% trans "For more details about the mechanism," %} <br class="forSp">{% trans "please refer to EternalCoin Whitepaper" %}</p>
                     <a class="btn_wp" href="{% static "atomhome/whitepaper/XEC_whitepaperver.2.0en.pdf" %}"
-                        target="_blank">WHITE PAPER</a>
+                        target="_blank">{% trans "WHITE PAPER" %}</a>
                 </div>
             </div>
         </section>
         <section>
             <div class="section" id="section04">
-                <strong class="txt_ssv">SHARING<br>SERVICES</strong>
+                <strong class="txt_ssv">{% trans "SHARING" %}<br>{% trans "SERVICES" %}</strong>
                 <div id="section04-inner">
-                    <h2>No Bank Account is required to <br>send / receive the money</h2>
-                    <a class="linkBtn001" href="https://www.el-ook.com/s.php" target="_blank">E-Counter</a>
+                    <h2>{% trans "No Bank Account is required to" %} <br>{% trans "send / receive the money" %}</h2>
+                    <a class="linkBtn001" href="https://www.el-ook.com/s.php" target="_blank">{% trans "E-Counter" %}</a>
                     <img src="{% static "atomhome/img/en/index/phone.png" %}">
                 </div>
             </div>
@@ -99,12 +102,12 @@
         <section>
             <div id="group">
                 <h2><img src="{% static "atomhome/img/en/index/group_tit.png" %}" alt="ETERNAL GROUP"></h2>
-                <p class="desc-typeD">We are empowered by Eternal Group <br class="forSp">around the world.</p>
-                <a class="contact-btn" href="{% url 'atomhome:contact' %}" target="_blank">CONTACT HERE</a>
-                <p class="txt_form">Japanese・English・Korean・Chinese・<br class="forSp">Malay・Mongolian・Tagalog are
-                    supported.<br>Please feel free to contact us</p>
+                <p class="desc-typeD">{% trans "We are empowered by Eternal Group" %} <br class="forSp">{% trans "around the world." %}</p>
+                <a class="contact-btn" href="{% url 'atomhome:contact' %}" target="_blank">{% trans "CONTACT HERE" %}</a>
+                <p class="txt_form">{% trans "Japanese・English・Korean・Chinese・" %}<br class="forSp">{% trans "Malay・Mongolian・Tagalog are supported." %}
+                    <br>{% trans "Please feel free to contact us" %}</p>
                 <div class="colGroupImg">
-                    <a href="/en/"><img src="{% static "atomhome/img/en/index/logoGroupAtom.jpg" %}" alt=""></a>
+                    <a href="{% url 'atomhome:index' %}"><img src="{% static "atomhome/img/en/index/logoGroupAtom.jpg" %}" alt=""></a>
                     <a href="https://eternallive.jp/investment/" target="_blank"><img
                             src="{% static "atomhome/img/en/index/logoGroupEl.jpg" %}" alt=""></a>
                     <a href="https://tokenhub.asia/home/" target="_blank"><img

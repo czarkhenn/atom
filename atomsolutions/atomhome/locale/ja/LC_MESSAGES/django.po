@@ -1,0 +1,441 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-17 08:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: atomhome/templates/atomhome/en/index.html:6
+msgid "Overseas remittance｜ETERNAL LIVE"
+msgstr "エターナルウォレット｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/index.html:15
+msgid "SEND MONEY WORLDWIDE AT THE"
+msgstr "世界最速"
+
+#: atomhome/templates/atomhome/en/index.html:15
+msgid "LOWEST COST AND FASTEST SPEED!"
+msgstr "世界最安で海外送金をしよう"
+
+#: atomhome/templates/atomhome/en/index.html:16
+msgid "With Eternal Wallet, you can send money"
+msgstr "エターナルウォレットなら、銀行に行かなくても"
+
+#: atomhome/templates/atomhome/en/index.html:17
+msgid "without using a bank at Anytime, Anywhere."
+msgstr "好きな時好きな場所から海外送金ができます。"
+
+#: atomhome/templates/atomhome/en/index.html:21
+msgid "We are currently upgrading our new wallet system."
+msgstr "現在、新しい財布システムをアップグレードしています。"
+
+#: atomhome/templates/atomhome/en/index.html:22
+msgid "Please see news updates for more details!"
+msgstr "詳細については最新のニュースをご覧ください。"
+
+#: atomhome/templates/atomhome/en/index.html:31
+msgid "Eternal Wallet provides"
+msgstr "永遠の財布が提供する"
+
+#: atomhome/templates/atomhome/en/index.html:31
+msgid "the Fastest"
+msgstr "最速"
+
+#: atomhome/templates/atomhome/en/index.html:31
+msgid "Remittance"
+msgstr "送金"
+
+#: atomhome/templates/atomhome/en/index.html:32
+msgid "Services and Highest"
+msgstr "サービスと最高"
+
+#: atomhome/templates/atomhome/en/index.html:32
+msgid "Receivable Amount Ever!"
+msgstr "今までの売上げ金額！"
+
+#: atomhome/templates/atomhome/en/index.html:33
+#, python-format
+msgid "Our remittance rate is +0.5%% from"
+msgstr "私達の送金率はからの+ 0.5％です"
+
+#: atomhome/templates/atomhome/en/index.html:34
+msgid "interbank Transfer Middle Rate (TTM)."
+msgstr "銀行間振替中レート（TTM）。"
+
+#: atomhome/templates/atomhome/en/index.html:37
+msgid "Available Countries"
+msgstr "利用可能国"
+
+#: atomhome/templates/atomhome/en/index.html:39
+msgid "Philippines"
+msgstr "フィリピン"
+
+#: atomhome/templates/atomhome/en/index.html:40
+msgid "Korea"
+msgstr "韓国"
+
+#: atomhome/templates/atomhome/en/index.html:41
+msgid "Hong Kong"
+msgstr "香港"
+
+#: atomhome/templates/atomhome/en/index.html:44
+msgid "Eternal Wallet expansion targeting 10 countries in 2019."
+msgstr "エターナルウォレットの利用可能国は2019年度10か国を目指しています。"
+
+#: atomhome/templates/atomhome/en/index.html:45
+msgid ""
+"Overseas remittance using Eternal Wallet will not be going through bank but "
+"P2P transaction between Eternal Wallet users."
+msgstr ""
+"エターナルウォレットを利用した海外送金は銀行を介さない、ユーザー同士のP２P取"
+"引となります。"
+
+#: atomhome/templates/atomhome/en/index.html:48
+msgid "Users"
+msgstr "利用者数"
+
+#: atomhome/templates/atomhome/en/index.html:49
+msgid "Over 40000 Eternal Wallet Users +"
+msgstr "40000人以上"
+
+#: atomhome/templates/atomhome/en/index.html:50
+msgid "* Refers to Eternal Wallet registration number."
+msgstr "※エターナルウォレットの開設数となります。"
+
+#: atomhome/templates/atomhome/en/index.html:59
+msgid "We have achieved our goals in"
+msgstr "私達は私達の目的を達成しました"
+
+#: atomhome/templates/atomhome/en/index.html:59
+msgid "providing"
+msgstr "提供する"
+
+#: atomhome/templates/atomhome/en/index.html:59
+msgid "the world’s fastest"
+msgstr "最速"
+
+#: atomhome/templates/atomhome/en/index.html:60
+msgid "overseas"
+msgstr "海外"
+
+#: atomhome/templates/atomhome/en/index.html:60
+msgid "remittance services"
+msgstr "送金"
+
+#: atomhome/templates/atomhome/en/index.html:60
+msgid "at the lowestcost"
+msgstr "最安値で"
+
+#: atomhome/templates/atomhome/en/index.html:61
+msgid "and equivalent value through"
+msgstr "そして同等の価値"
+
+#: atomhome/templates/atomhome/en/index.html:61
+msgid "our unique"
+msgstr "私たちのユニークな"
+
+#: atomhome/templates/atomhome/en/index.html:61
+msgid "features,functions,"
+msgstr "機能、機能、"
+
+#: atomhome/templates/atomhome/en/index.html:62
+msgid "technologies, and ideas."
+msgstr "技術、そしてアイデア。"
+
+#: atomhome/templates/atomhome/en/index.html:63
+msgid "* Patent Filed"
+msgstr "※特許出願中"
+
+#: atomhome/templates/atomhome/en/index.html:71
+#: atomhome/templates/atomhome/include/en/nav.html:16
+#: atomhome/templates/atomhome/include/en/nav.html:32
+msgid "XEC"
+msgstr "エターナルコイン"
+
+#: atomhome/templates/atomhome/en/index.html:72
+#: atomhome/templates/atomhome/include/en/footer.html:88
+#: atomhome/templates/atomhome/include/en/nav.html:17
+#: atomhome/templates/atomhome/include/en/nav.html:33
+msgid "XET"
+msgstr "エターナルトークン"
+
+#: atomhome/templates/atomhome/en/index.html:73
+msgid "Blockchain"
+msgstr "ブロックチェーン<"
+
+#: atomhome/templates/atomhome/en/index.html:74
+msgid "Authorized Exchange System"
+msgstr "公認取引所制度"
+
+#: atomhome/templates/atomhome/en/index.html:75
+msgid "DOT"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/index.html:76
+msgid "Transfer via Phone Number"
+msgstr "電話番号送信"
+
+#: atomhome/templates/atomhome/en/index.html:77
+msgid "Pool Wallet"
+msgstr "プールウォレット"
+
+#: atomhome/templates/atomhome/en/index.html:78
+msgid "XEC Lending Feature"
+msgstr "XEC貸し出し"
+
+#: atomhome/templates/atomhome/en/index.html:79
+msgid "Arbitrage"
+msgstr "アービトラージ"
+
+#: atomhome/templates/atomhome/en/index.html:80
+msgid "Multi Currency Wallet"
+msgstr "マルチカレンシーウォレット"
+
+#: atomhome/templates/atomhome/en/index.html:81
+msgid "7 Pending Patents"
+msgstr "7つの特許申請"
+
+#: atomhome/templates/atomhome/en/index.html:82
+#: atomhome/templates/atomhome/include/en/footer.html:41
+msgid "ELook App"
+msgstr "Eルックアプリ"
+
+#: atomhome/templates/atomhome/en/index.html:83
+msgid "Economy Sharing"
+msgstr "シェアリングエコノミー"
+
+#: atomhome/templates/atomhome/en/index.html:86
+msgid "For more details about the mechanism,"
+msgstr "ロジックの詳細はエターナルコインの"
+
+#: atomhome/templates/atomhome/en/index.html:86
+msgid "please refer to EternalCoin Whitepaper"
+msgstr "ホワイトペーパーをご覧ください"
+
+#: atomhome/templates/atomhome/en/index.html:88
+msgid "WHITE PAPER"
+msgstr "ホワイトペーパー"
+
+#: atomhome/templates/atomhome/en/index.html:94
+msgid "SHARING"
+msgstr "共有する"
+
+#: atomhome/templates/atomhome/en/index.html:94
+msgid "SERVICES"
+msgstr "サービス"
+
+#: atomhome/templates/atomhome/en/index.html:96
+msgid "No Bank Account is required to"
+msgstr "銀行口座がない方でも、"
+
+#: atomhome/templates/atomhome/en/index.html:96
+msgid "send / receive the money"
+msgstr "送金、受取が可能。"
+
+#: atomhome/templates/atomhome/en/index.html:97
+msgid "E-Counter"
+msgstr "Eカウンター"
+
+#: atomhome/templates/atomhome/en/index.html:105
+msgid "We are empowered by Eternal Group"
+msgstr "エターナルウォレットを利用した送金"
+
+#: atomhome/templates/atomhome/en/index.html:105
+msgid "around the world."
+msgstr "サービスは世界のETERNAL GROUPによって サポートされています"
+
+#: atomhome/templates/atomhome/en/index.html:106
+msgid "CONTACT HERE"
+msgstr "お問い合わせはこちら"
+
+#: atomhome/templates/atomhome/en/index.html:107
+msgid "Japanese・English・Korean・Chinese・"
+msgstr "日本語・英語・韓国語・中国語・マレー語・"
+
+#: atomhome/templates/atomhome/en/index.html:107
+msgid "Malay・Mongolian・Tagalog are supported."
+msgstr "モンゴル語・タガログ語に対応しております。"
+
+#: atomhome/templates/atomhome/en/index.html:108
+msgid "Please feel free to contact us"
+msgstr "お気軽にお問い合わせくださいませ。"
+
+#: atomhome/templates/atomhome/include/en/footer.html:8
+msgid "ABOUT ATOM"
+msgstr "アトムについて"
+
+#: atomhome/templates/atomhome/include/en/footer.html:11
+msgid "Company Overview"
+msgstr "会社概要"
+
+#: atomhome/templates/atomhome/include/en/footer.html:13
+#: atomhome/templates/atomhome/include/en/nav.html:18
+#: atomhome/templates/atomhome/include/en/nav.html:34
+msgid "NEWS"
+msgstr "お知らせ"
+
+#: atomhome/templates/atomhome/include/en/footer.html:15
+msgid "Media Gallery"
+msgstr "メディアギャラリー"
+
+#: atomhome/templates/atomhome/include/en/footer.html:18
+msgid "Video Gallery"
+msgstr "動画ギャラリー"
+
+#: atomhome/templates/atomhome/include/en/footer.html:21
+msgid "Crypto System Development"
+msgstr "仮想通貨システム開発"
+
+#: atomhome/templates/atomhome/include/en/footer.html:23
+msgid "Join Us"
+msgstr "採用情報"
+
+#: atomhome/templates/atomhome/include/en/footer.html:26
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: atomhome/templates/atomhome/include/en/footer.html:28
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: atomhome/templates/atomhome/include/en/footer.html:30
+msgid "FAQ"
+msgstr "よくある質問"
+
+#: atomhome/templates/atomhome/include/en/footer.html:32
+msgid "CONTENTS"
+msgstr "コンテンツ"
+
+#: atomhome/templates/atomhome/include/en/footer.html:35
+msgid "VR Partner Wanted"
+msgstr "VRパートナー募集"
+
+#: atomhome/templates/atomhome/include/en/footer.html:38
+msgid "Eternal Square"
+msgstr "利用可能店情報"
+
+#: atomhome/templates/atomhome/include/en/footer.html:48
+#: atomhome/templates/atomhome/include/en/footer.html:90
+msgid "White Paper"
+msgstr "ホワイトペーパー"
+
+#: atomhome/templates/atomhome/include/en/footer.html:52
+#: atomhome/templates/atomhome/include/en/footer.html:94
+msgid "Japanese"
+msgstr "日本語"
+
+#: atomhome/templates/atomhome/include/en/footer.html:54
+#: atomhome/templates/atomhome/include/en/footer.html:96
+msgid "English"
+msgstr "英語"
+
+#: atomhome/templates/atomhome/include/en/footer.html:56
+#: atomhome/templates/atomhome/include/en/footer.html:98
+msgid "Korean"
+msgstr "韓国"
+
+#: atomhome/templates/atomhome/include/en/footer.html:58
+#: atomhome/templates/atomhome/include/en/footer.html:100
+msgid "Chinese"
+msgstr "中国語"
+
+#: atomhome/templates/atomhome/include/en/footer.html:60
+#: atomhome/templates/atomhome/include/en/footer.html:102
+msgid "Mongolian"
+msgstr "モンゴル語"
+
+#: atomhome/templates/atomhome/include/en/footer.html:66
+msgid "The Synergy Effects of XEC & XET"
+msgstr "XECとXETの相乗効果"
+
+#: atomhome/templates/atomhome/include/en/footer.html:69
+msgid "API"
+msgstr ""
+
+#: atomhome/templates/atomhome/include/en/footer.html:71
+msgid "Eternal Coin Logo Guide (PDF)"
+msgstr "ロゴの利用について (PDF)"
+
+#: atomhome/templates/atomhome/include/en/footer.html:72
+msgid "Apply for Official Exchange"
+msgstr "公認取引所申請"
+
+#: atomhome/templates/atomhome/include/en/footer.html:74
+msgid "OFFICIAL EXCHANGES"
+msgstr "公認取引所"
+
+#: atomhome/templates/atomhome/include/en/footer.html:77
+msgid "Japan (Eternal Live)"
+msgstr "日本（エターナルライブ）"
+
+#: atomhome/templates/atomhome/include/en/footer.html:79
+msgid "Philippines (Token Hub)"
+msgstr "フィリピン（トークンハブ）"
+
+#: atomhome/templates/atomhome/include/en/footer.html:81
+msgid "Hong Kong (Eternal Hong Kong)"
+msgstr "香港（エターナル香港）"
+
+#: atomhome/templates/atomhome/include/en/footer.html:83
+msgid "Korea (Eternal Korea)"
+msgstr "韓国（エターナルコリア）"
+
+#: atomhome/templates/atomhome/include/en/footer.html:117
+msgid "Bitcoin Forum"
+msgstr "Bitcoin フォーラム"
+
+#: atomhome/templates/atomhome/include/en/footer.html:121
+msgid "Rating (TokenInsight)"
+msgstr "格付け (TokenInsight)"
+
+#: atomhome/templates/atomhome/include/en/footer.html:124
+msgid "SC Audit Report (BEOSIN)"
+msgstr "SC監査レポート (BEOSIN)"
+
+#: atomhome/templates/atomhome/include/en/footer.html:126
+#, fuzzy
+#| msgid "OFFICIAL EXCHANGES"
+msgid "EXCHANGE"
+msgstr "公認取引所"
+
+#: atomhome/templates/atomhome/include/en/footer.html:144
+msgid "RANKING"
+msgstr "ランキングサイト"
+
+#: atomhome/templates/atomhome/include/en/footer.html:167
+msgid "FB(ATOM SOLUTIONS)"
+msgstr "FB（アトムソリューションズ）"
+
+#: atomhome/templates/atomhome/include/en/footer.html:170
+msgid "FB(ETERNAL GROUP)"
+msgstr "FB（エターナルグループ）"
+
+#: atomhome/templates/atomhome/include/en/nav.html:15
+#: atomhome/templates/atomhome/include/en/nav.html:31
+msgid "TOP"
+msgstr "トップ"
+
+#: atomhome/templates/atomhome/include/en/nav.html:38
+msgid "WALLET"
+msgstr "ウォレットログイン"
+
+#: atomhome/templates/atomhome/include/en/nav.html:41
+msgid "JA"
+msgstr "日本人"
+
+#: atomhome/templates/atomhome/include/en/nav.html:43
+msgid "EN"
+msgstr "英語"

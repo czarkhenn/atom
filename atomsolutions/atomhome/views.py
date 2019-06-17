@@ -106,3 +106,4 @@ class NewsDetailView(generic.DetailView):
     template_name = 'atomhome/en/details.html'
     model = Post
 
+

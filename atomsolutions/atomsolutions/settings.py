@@ -41,16 +41,23 @@ INSTALLED_APPS = [
     'requests_html',
     'markdown_deux',
     
+    
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
+    'atomhome.force_default_middleware.ForceDefaultLanguageMiddleware',
+    'django.middleware.security.SecurityMiddleware',  
     'django.contrib.sessions.middleware.SessionMiddleware',
+    
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+
+    
 ]
 
 ROOT_URLCONF = 'atomsolutions.urls'
@@ -107,17 +114,28 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ja'
+
+
+LANGUAGES = (
+    ('en-us', 'English'),
+    ('ja', 'Japanese'),
+)
+
 
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
+
 DATETIME_FORMAT = 'Y-m-d'
 
-USE_L10N = False
+USE_L10N = True
 
 USE_TZ = True
 
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale'),
+]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/

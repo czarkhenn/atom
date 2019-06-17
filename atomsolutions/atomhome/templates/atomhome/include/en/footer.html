@@ -1,122 +1,105 @@
 {% load staticfiles %}
-
+{% load i18n %}
 
 <div class="footer">
         <div class="wrap spaceL">
                 <div class="ft-menu">
                         <div class="col">
-                                <strong>ABOUT ATOM</strong>
+                                <strong>{% trans "ABOUT ATOM" %}</strong>
                                 <ul>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-company.png" %}"><a
-                                                        href="{% url 'atomhome:company' %}">Company Overview</a></li>
+                                                        href="{% url 'atomhome:company' %}">{% trans "Company Overview" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-news.png" %}"><a
-                                                        href="/en/news/">NEWS</a></li>
+                                                        href="{% url 'atomhome:news' %}">{% trans "NEWS" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-media.png" %}"><a
-                                                        href="{% url 'atomhome:media' %}">Media Gallery</a>
+                                                        href="{% url 'atomhome:media' %}">{% trans "Media Gallery" %}</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-movie.png" %}"><a
-                                                        href="{% url 'atomhome:video' %}">Video Gallery</a>
+                                                        href="{% url 'atomhome:video' %}">{% trans "Video Gallery" %}</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-system.png" %}"><a
-                                                        href="{% url 'atomhome:whitelabel' %}">Crypto System
-                                                        Development</a></li>
+                                                        href="{% url 'atomhome:whitelabel' %}">{% trans "Crypto System Development" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-recruit.png" %}"><a
-                                                        href="{% url 'atomhome:recruit' %}">Join Us</a>
+                                                        href="{% url 'atomhome:recruit' %}">{% trans "Join Us" %}</a>
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-contact.png" %}"><a
-                                                        href="{% url 'atomhome:contact' %}" target="_blank">Contact
-                                                        Us</a></li>
+                                                        href="{% url 'atomhome:contact' %}" target="_blank">{% trans "Contact Us" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-privacy.png" %}"><a
-                                                        href="{% url 'atomhome:privacy' %}">Privacy
-                                                        Policy</a></li>
+                                                        href="{% url 'atomhome:privacy' %}">{% trans "Privacy Policy" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-faq.png" %}"><a
-                                                        href="{% url 'atomhome:faq' %}">FAQ</a></li>
+                                                        href="{% url 'atomhome:faq' %}">{% trans "FAQ" %}</a></li>
                                 </ul>
-                                <strong class="pt2">CONTENTS</strong>
+                                <strong class="pt2">{% trans "CONTENTS" %}</strong>
                                 <ul>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-vr.png" %}"><a
-                                                        href="{% url 'atomhome:vr' %}">VR
-                                                        Partner Wanted</a></li>
+                                                        href="{% url 'atomhome:vr' %}">{% trans "VR Partner Wanted" %}</a></li>
                                         <!-- <li><img src="/images/ft-ico-project.png"><a href="/en/project">Eternal Project</a></li> -->
                                         <li><img src="{% static "atomhome/img/en/ft-ico-elook.png" %}"><a
-                                                        href="https://www.el-ook.com/s.php?l=en" target="_blank">Eternal
-                                                        Square</a></li>
+                                                        href="https://www.el-ook.com/s.php?l=en" target="_blank">{% trans "Eternal Square" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-gp.png" %}"><a
                                                         href="https://play.google.com/store/apps/details?id=jp.co.backapp.elook&hl=en-US"
-                                                        target="_blank">ELook App</a></li>
+                                                        target="_blank">{% trans "ELook App" %}</a></li>
                                 </ul>
                         </div><!-- /.col -->
 
                         <div class="col">
                                 <strong>XEC</strong>
                                 <div class="ft-acd">
-                                        <label for="item1"><img src="{% static "atomhome/img/en/ft-ico-wp.png" %}">White
-                                                Paper</label>
+                                        <label for="item1"><img src="{% static "atomhome/img/en/ft-ico-wp.png" %}">{% trans "White Paper" %}</label>
                                         <input type="checkbox" id="item1">
                                         <ul>
                                                 <li><a href="{% static "atomhome/whitepaper/XEC_whitepaperver.2.0ja.pdf" %}"
-                                                                target="_blank">Japanese</a></li>
+                                                                target="_blank">{% trans "Japanese" %}</a></li>
                                                 <li><a href="{% static "atomhome/whitepaper/XEC_whitepaperver.2.0en.pdf" %}"
-                                                                target="_blank">English</a></li>
+                                                                target="_blank">{% trans "English" %}</a></li>
                                                 <li><a href="{% static "atomhome/whitepaper/XEC_whitepaperver.2.0kr.pdf" %}"
-                                                                target="_blank">Korean</a></li>
+                                                                target="_blank">{% trans "Korean" %}</a></li>
                                                 <li><a href="{% static "atomhome/whitepaper/XEC_whitepaperver.2.0cn.pdf" %}"
-                                                                target="_blank">Chinese</a></li>
+                                                                target="_blank">{% trans "Chinese" %}</a></li>
                                                 <li><a href="{% static "atomhome/whitepaper/XEC_whitepaperver.2.0mn.pdf" %}"
-                                                                target="_blank">Mongolian</a></li>
+                                                                target="_blank">{% trans "Mongolian" %}</a></li>
                                         </ul>
                                 </div>
                                 <ul>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-synergy.png" %}"><a
                                                         href="{% static "atomhome/pdf/synergy_en.pdf" %}"
-                                                        target="_blank">The Synergy
-                                                        Effects of XEC & XET</a></li>
+                                                        target="_blank">{% trans "The Synergy Effects of XEC & XET" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-api.png" %}"><a
                                                         href="http://xec.atom-solutions.net/api-docs"
-                                                        target="_blank">API</a></li>
+                                                        target="_blank">{% trans "API" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-logo.png" %}"><a
-                                                        href="{% static "atomhome/pdf/EternalCoinLogo_Guide_en.pdf" %}">Eternal
-                                                        Coin Logo
-                                                        Guide (PDF)</a> </li>
-                                        <li><img src="{% static "atomhome/img/en/ft-ico-official.png" %}"><a
-                                                        href="{% url 'atomhome:ofcexchange' %}" target="_blank">Apply
-                                                        for
-                                                        Official Exchange</a></li>
+                                                        href="{% static "atomhome/pdf/EternalCoinLogo_Guide_en.pdf" %}">{% trans "Eternal Coin Logo Guide (PDF)" %}</a> </li>
+                                        <li><img src="{% static "atomhome/img/en/ft-ico-official.png" %}"><a href="{% url 'atomhome:ofcexchange' %}" target="_blank">{% trans "Apply for Official Exchange" %}</a></li>
                                 </ul>
-                                <strong class="pt2">OFFICIAL EXCHANGES</strong>
+                                <strong class="pt2">{% trans "OFFICIAL EXCHANGES" %}</strong>
                                 <ul>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-el.png" %}"><a
-                                                        href="https://eternallive.jp/investment/" target="_blank">Japan
-                                                        (Eternal Live)</a></li>
+                                                        href="https://eternallive.jp/investment/" target="_blank">{% trans "Japan (Eternal Live)" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-th.png" %}"><a
-                                                        href="https://tokenhub.asia/" target="_blank">Philippines
-                                                        (Token Hub)</a></li>
+                                                        href="https://tokenhub.asia/" target="_blank">{% trans "Philippines (Token Hub)" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-eh.png" %}"><a
-                                                        href="https://eternalhongkong.com/" target="_blank">Hong
-                                                        Kong (Eternal Hong Kong)</a></li>
+                                                        href="https://eternalhongkong.com/" target="_blank">{% trans "Hong Kong (Eternal Hong Kong)" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-ek.png" %}"><a
-                                                        href="http://eternalkor.com/?ckattempt=1" target="_blank">Korea
-                                                        (Eternal Korea)</a></li>
+                                                        href="http://eternalkor.com/?ckattempt=1" target="_blank">{% trans "Korea (Eternal Korea)" %}</a></li>
                                 </ul>
                         </div><!-- /.col -->
 
                         <div class="col">
-                                <strong>XET</strong>
+                                <strong>{% trans "XET" %}</strong>
                                 <div class="ft-acd">
-                                        <label for="item2"><img src="{% static "atomhome/img/en/ft-ico-wp.png" %}">White
-                                                Paper</label>
+                                        <label for="item2"><img src="{% static "atomhome/img/en/ft-ico-wp.png" %}">{% trans "White Paper" %}</label>
                                         <input type="checkbox" id="item2">
                                         <ul>
                                                 <li><a href="{% static "atomhome/whitepaper/XET_whitepaperver.2.0ja.pdf" %}"
-                                                                target="_blank">Japanese</a></li>
+                                                                target="_blank">{% trans "Japanese" %}</a></li>
                                                 <li><a href="{% static "atomhome/whitepaper/XET_whitepaperver.2.0en.pdf" %}"
-                                                                target="_blank">English</a></li>
+                                                                target="_blank">{% trans "English" %}</a></li>
                                                 <li><a href="{% static "atomhome/whitepaper/XET_whitepaperver.2.0kr.pdf" %}"
-                                                                target="_blank">Korean</a></li>
+                                                                target="_blank">{% trans "Korean" %}</a></li>
                                                 <li><a href="{% static "atomhome/whitepaper/XET_whitepaperver.2.0cn.pdf" %}"
-                                                                target="_blank">Chinese</a></li>
+                                                                target="_blank">{% trans "Chinese" %}</a></li>
                                                 <li><a href="{% static "atomhome/whitepaper/XET_whitepaperver.2.0mn.pdf" %}"
-                                                                target="_blank">Mongolian</a></li>
+                                                                target="_blank">{% trans "Mongolian" %}</a></li>
                                         </ul>
                                 </div>
                                 <ul>
@@ -131,18 +114,16 @@
                                                         target="_blank">Blockchain</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-foram.png" %}"><a
                                                         href="https://bitcointalk.org/index.php?topic=4458425.0"
-                                                        target="_blank">Bitcoin Forum</a></li>
+                                                        target="_blank">{% trans "Bitcoin Forum" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-tokeninsight.png" %}"><a
                                                         href="{% static "atomhome/img/en/ft-ico-tokeninsight.png" %}"><a
                                                                 href="https://tokeninsight.com/tokenDetail?cid=20701"
-                                                                target="_blank">Rating
-                                                                (TokenInsight)</a></li>
+                                                                target="_blank">{% trans "Rating (TokenInsight)" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-beosin.png" %}"><a
                                                         href="{% static "atomhome/pdf/Smart_contract_security_audit_report-XET.pdf" %}"
-                                                        target="_blank">SC Audit Report
-                                                        (BEOSIN)</a></li>
+                                                        target="_blank">{% trans "SC Audit Report (BEOSIN)" %}</a></li>
                                 </ul>
-                                <strong class="pt2">EXCHANGE</strong>
+                                <strong class="pt2">{% trans "EXCHANGE" %}</strong>
                                 <ul>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-idax.png" %}"><a
                                                         href="https://www.idax.mn/#/" target="_blank">IDAX</a>
@@ -160,7 +141,7 @@
                         </div><!-- /.col -->
 
                         <div class="col">
-                                <strong>RANKING</strong>
+                                <strong>{% trans "RANKING" %}</strong>
                                 <ul>
                                         <li>&middot;&nbsp;<a href="https://coinmarketcap.com/currencies/eternal-token/"
                                                         target="_blank">CoinMarketCap</a></li>
@@ -183,10 +164,10 @@
                                         </li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-facebook.png" %}"><a
                                                         href="https://www.facebook.com/Atomsolutions%E3%82%A2%E3%83%88%E3%83%A0%E3%82%BD%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA-1927341364229409/"
-                                                        target="_blank">FB(ATOM SOLUTIONS)</a></li>
+                                                        target="_blank">{% trans "FB(ATOM SOLUTIONS)" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-facebook.png" %}"><a
                                                         href="https://www.facebook.com/eternalcoingroup/"
-                                                        target="_blank">FB(ETERNAL GROUP)</a></li>
+                                                        target="_blank">{% trans "FB(ETERNAL GROUP)" %}</a></li>
                                         <li><img src="{% static "atomhome/img/en/ft-ico-youtube.png" %}"><a
                                                         href="https://www.youtube.com/channel/UCCZjn_fKviwhoW-SBnwpbLA"
                                                         target="_blank">Youtube</a>

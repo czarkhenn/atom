@@ -1,6 +1,8 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
-
+{% load i18n %}
+{% load i18n_urls %}
+{% get_current_language as LANGUAGE_CODE %}
 
 <div class="wrapper">
     <div class="sp-nav">
@@ -11,10 +13,10 @@
     <div class="modal-menu">
         <img src="{% static "atomhome/img/en/ico-menu-close.png" %}" alt="Menu Close" class="menu-close">
         <ul class="menu">
-            <li><a href="{% url 'atomhome:index' %}"><strong>TOP</strong></a></li>
-            <li><a href="{% url 'atomhome:xec' %}"><strong>XEC</strong></a></li>
-            <li><a href="{% url 'atomhome:xet' %}"><strong>XET</strong></a></li>
-            <li><a href="{% url 'atomhome:news' %}"><strong>NEWS</strong></a><time datetime="2019-02-22"></time></li>
+            <li><a href="{% url 'atomhome:index' %}"><strong>{% trans "TOP" %}</strong></a></li>
+            <li><a href="{% url 'atomhome:xec' %}"><strong>{% trans "XEC" %}</strong></a></li>
+            <li><a href="{% url 'atomhome:xet' %}"><strong>{% trans "XET" %}</strong></a></li>
+            <li><a href="{% url 'atomhome:news' %}"><strong>{% trans "NEWS" %}</strong></a><time datetime="2019-02-22"></time></li>
 
         </ul>
         <ul class="lang">
@@ -27,18 +29,18 @@
         <h1 class="logo"><a href="{% url 'atomhome:index' %}"><img
                     src="{% static "atomhome/img/en/animatedLogo-Atom.gif" %}" alt="ATOM SOLUTIONS"></a></h1>
         <ul class="menu">
-            <li><a href="{% url 'atomhome:index' %}"><strong>TOP</strong></a></li>
-            <li><a href="{% url 'atomhome:xec' %}"><strong>XEC</strong></a></li>
-            <li><a href="{% url 'atomhome:xet' %}"><strong>XET</strong></a></li>
-            <li><a id="if_new" href="{% url 'atomhome:news' %}"><strong>NEWS</strong></a>
+            <li><a href="{% url 'atomhome:index' %}"><strong>{% trans "TOP" %}</strong></a></li>
+            <li><a href="{% url 'atomhome:xec' %}"><strong>{% trans "XEC" %}</strong></a></li>
+            <li><a href="{% url 'atomhome:xet' %}"><strong>{% trans "XET" %}</strong></a></li>
+            <li><a id="if_new" href="{% url 'atomhome:news' %}"><strong>{% trans "NEWS" %}</strong></a>
                 <p id="new" style="display:none"></p>
                 <!--<time datetime="2019-03-22"></time>-->
             </li>
-            <li><a href="https://atom-solutions.net"><strong>WALLET</strong></a></li>
+            <li><a href="https://atom-solutions.net"><strong>{% trans "WALLET" %}</strong></a></li>
         </ul>
         <ul class="lang">
-            <li><a href="/">JP</a></li>
+            <li><a href="{% change_lang 'ja' %}">{% trans "JA" %}</a></li>
             <li>/</li>
-            <li class="now">EN</a></li>
+            <li><a href="{% change_lang 'en-us' %}">{% trans "EN" %}</a></li>
         </ul>
     </div>
