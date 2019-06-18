@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-17 08:08+0000\n"
+"POT-Creation-Date: 2019-06-18 09:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,119 +159,528 @@ msgstr "技術、そしてアイデア。"
 msgid "* Patent Filed"
 msgstr "※特許出願中"
 
-#: atomhome/templates/atomhome/en/index.html:71
-#: atomhome/templates/atomhome/include/en/nav.html:16
-#: atomhome/templates/atomhome/include/en/nav.html:32
+#: atomhome/templates/atomhome/en/index.html:78
+#: atomhome/templates/atomhome/en/xet.html:44
+#: atomhome/templates/atomhome/en/xet.html:78
+#: atomhome/templates/atomhome/include/en/nav.html:17
+#: atomhome/templates/atomhome/include/en/nav.html:33
 msgid "XEC"
 msgstr "エターナルコイン"
 
-#: atomhome/templates/atomhome/en/index.html:72
+#: atomhome/templates/atomhome/en/index.html:79
+#: atomhome/templates/atomhome/en/xet.html:45
+#: atomhome/templates/atomhome/en/xet.html:103
 #: atomhome/templates/atomhome/include/en/footer.html:88
-#: atomhome/templates/atomhome/include/en/nav.html:17
-#: atomhome/templates/atomhome/include/en/nav.html:33
+#: atomhome/templates/atomhome/include/en/nav.html:18
+#: atomhome/templates/atomhome/include/en/nav.html:34
 msgid "XET"
 msgstr "エターナルトークン"
 
-#: atomhome/templates/atomhome/en/index.html:73
+#: atomhome/templates/atomhome/en/index.html:80
 msgid "Blockchain"
 msgstr "ブロックチェーン<"
 
-#: atomhome/templates/atomhome/en/index.html:74
+#: atomhome/templates/atomhome/en/index.html:81
 msgid "Authorized Exchange System"
 msgstr "公認取引所制度"
 
-#: atomhome/templates/atomhome/en/index.html:75
+#: atomhome/templates/atomhome/en/index.html:82
 msgid "DOT"
 msgstr ""
 
-#: atomhome/templates/atomhome/en/index.html:76
+#: atomhome/templates/atomhome/en/index.html:83
 msgid "Transfer via Phone Number"
 msgstr "電話番号送信"
 
-#: atomhome/templates/atomhome/en/index.html:77
+#: atomhome/templates/atomhome/en/index.html:84
 msgid "Pool Wallet"
 msgstr "プールウォレット"
 
-#: atomhome/templates/atomhome/en/index.html:78
+#: atomhome/templates/atomhome/en/index.html:85
 msgid "XEC Lending Feature"
 msgstr "XEC貸し出し"
 
-#: atomhome/templates/atomhome/en/index.html:79
+#: atomhome/templates/atomhome/en/index.html:86
 msgid "Arbitrage"
 msgstr "アービトラージ"
 
-#: atomhome/templates/atomhome/en/index.html:80
+#: atomhome/templates/atomhome/en/index.html:87
 msgid "Multi Currency Wallet"
 msgstr "マルチカレンシーウォレット"
 
-#: atomhome/templates/atomhome/en/index.html:81
+#: atomhome/templates/atomhome/en/index.html:88
 msgid "7 Pending Patents"
 msgstr "7つの特許申請"
 
-#: atomhome/templates/atomhome/en/index.html:82
+#: atomhome/templates/atomhome/en/index.html:89
 #: atomhome/templates/atomhome/include/en/footer.html:41
 msgid "ELook App"
 msgstr "Eルックアプリ"
 
-#: atomhome/templates/atomhome/en/index.html:83
+#: atomhome/templates/atomhome/en/index.html:90
 msgid "Economy Sharing"
 msgstr "シェアリングエコノミー"
 
-#: atomhome/templates/atomhome/en/index.html:86
+#: atomhome/templates/atomhome/en/index.html:93
 msgid "For more details about the mechanism,"
 msgstr "ロジックの詳細はエターナルコインの"
 
-#: atomhome/templates/atomhome/en/index.html:86
+#: atomhome/templates/atomhome/en/index.html:93
 msgid "please refer to EternalCoin Whitepaper"
 msgstr "ホワイトペーパーをご覧ください"
 
-#: atomhome/templates/atomhome/en/index.html:88
+#: atomhome/templates/atomhome/en/index.html:95
 msgid "WHITE PAPER"
 msgstr "ホワイトペーパー"
 
-#: atomhome/templates/atomhome/en/index.html:94
+#: atomhome/templates/atomhome/en/index.html:101
 msgid "SHARING"
 msgstr "共有する"
 
-#: atomhome/templates/atomhome/en/index.html:94
+#: atomhome/templates/atomhome/en/index.html:101
 msgid "SERVICES"
 msgstr "サービス"
 
-#: atomhome/templates/atomhome/en/index.html:96
+#: atomhome/templates/atomhome/en/index.html:103
 msgid "No Bank Account is required to"
 msgstr "銀行口座がない方でも、"
 
-#: atomhome/templates/atomhome/en/index.html:96
+#: atomhome/templates/atomhome/en/index.html:103
 msgid "send / receive the money"
 msgstr "送金、受取が可能。"
 
-#: atomhome/templates/atomhome/en/index.html:97
+#: atomhome/templates/atomhome/en/index.html:104
 msgid "E-Counter"
 msgstr "Eカウンター"
 
-#: atomhome/templates/atomhome/en/index.html:105
+#: atomhome/templates/atomhome/en/index.html:112
 msgid "We are empowered by Eternal Group"
 msgstr "エターナルウォレットを利用した送金"
 
-#: atomhome/templates/atomhome/en/index.html:105
+#: atomhome/templates/atomhome/en/index.html:112
 msgid "around the world."
 msgstr "サービスは世界のETERNAL GROUPによって サポートされています"
 
-#: atomhome/templates/atomhome/en/index.html:106
+#: atomhome/templates/atomhome/en/index.html:113
 msgid "CONTACT HERE"
 msgstr "お問い合わせはこちら"
 
-#: atomhome/templates/atomhome/en/index.html:107
+#: atomhome/templates/atomhome/en/index.html:114
 msgid "Japanese・English・Korean・Chinese・"
 msgstr "日本語・英語・韓国語・中国語・マレー語・"
 
-#: atomhome/templates/atomhome/en/index.html:107
+#: atomhome/templates/atomhome/en/index.html:114
 msgid "Malay・Mongolian・Tagalog are supported."
 msgstr "モンゴル語・タガログ語に対応しております。"
 
-#: atomhome/templates/atomhome/en/index.html:108
+#: atomhome/templates/atomhome/en/index.html:115
 msgid "Please feel free to contact us"
 msgstr "お気軽にお問い合わせくださいませ。"
+
+#: atomhome/templates/atomhome/en/xec.html:9
+msgid "Official Page|AtomSolutions"
+msgstr "TOP｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/xec.html:21
+msgid "ETERAL COIN（XEC)"
+msgstr "エターナルコイン（XEC）"
+
+#: atomhome/templates/atomhome/en/xec.html:31
+#, python-format
+msgid "50%% of the service fees,"
+msgstr "エターナルウォレットを利用して"
+
+#: atomhome/templates/atomhome/en/xec.html:31
+msgid "incurred during the buying and selling,"
+msgstr "エターナルコインの"
+
+#: atomhome/templates/atomhome/en/xec.html:31
+msgid "and overseas remittances of"
+msgstr "売買や海外送金を行う時に"
+
+#: atomhome/templates/atomhome/en/xec.html:32
+msgid "Eternal Coin via Eternal Wallet,"
+msgstr "発生する手数料の50%が"
+
+#: atomhome/templates/atomhome/en/xec.html:32
+msgid "will be rebated to Eternal Coin holders."
+msgstr "エターナルコインのホルダーに分配されます。"
+
+#: atomhome/templates/atomhome/en/xec.html:40
+msgid "To Trading"
+msgstr "取引を行うには"
+
+#: atomhome/templates/atomhome/en/xec.html:41
+msgid ""
+"To trade Eternal Coin, please create an Eternal Wallet to the following "
+"exchanges."
+msgstr ""
+"エターナルコインの売買を行うには、以下の取引所にてウォレットの開設をしていた"
+"だく必要があります。"
+
+#: atomhome/templates/atomhome/en/xec.html:48
+msgid "ETERNAL LIVE（Japan）"
+msgstr "エターナルライブ（日本）"
+
+#: atomhome/templates/atomhome/en/xec.html:56
+msgid "TOKEN HUB（Philippines）"
+msgstr "トークンハブ（フィリピン）"
+
+#: atomhome/templates/atomhome/en/xec.html:64
+msgid "ETERNAL HONG KONG（Hong Kong)"
+msgstr "エターナルHK（香港）"
+
+#: atomhome/templates/atomhome/en/xec.html:72
+msgid "ETERNAL KOREA（Korea）"
+msgstr "エターナルコリア（韓国）"
+
+#: atomhome/templates/atomhome/en/xec.html:103
+msgid "Features of Eternal Wallet"
+msgstr "エターナルウォレットの特徴"
+
+#: atomhome/templates/atomhome/en/xec.html:109
+msgid "Fee distribution function"
+msgstr "手数料分配機能"
+
+#: atomhome/templates/atomhome/en/xec.html:110
+#, python-format
+msgid ""
+"Approx. 5 Yen is charged as transaction fee for any remittance or sale, "
+"purchase done using Eternal Wallet. 50%% of the total fee collected during 1 "
+"week is distributed to the Eternal Coin owner. This is applicable for all "
+"the Eternal Coin owners, so the users can earn profits even without "
+"performing any transaction."
+msgstr ""
+"エターナルウォレットでは送信や売買などの取引を行う際、約5円の手数料が発生しま"
+"す。これらの一週間の総取引手数料の50％が、エターナルコイン保有ユーザーに分配"
+"されます。 エターナルコインを保有しているユーザー全てが対象となるため、取引を"
+"行っていなくてもエターナルコインを保有しているだけで分配が受け取れる仕組みと"
+"なっております。"
+
+#: atomhome/templates/atomhome/en/xec.html:117
+msgid "Division function"
+msgstr "分割機能"
+
+#: atomhome/templates/atomhome/en/xec.html:118
+msgid ""
+"Unlike any other virtual currency, Eternal Coins can only be processed "
+"through the Eternal Wallets. This unique characteristic allows to split "
+"Eternal Coins into smaller bits."
+msgstr ""
+"エターナルコインは他の仮想通貨と違い、エターナルウォレットでしか取り扱う事が"
+"できないために、分割が行える仕様となっています。"
+
+#: atomhome/templates/atomhome/en/xec.html:120
+msgid ""
+"While the current architecture of Eternal Coin is not blockchain-based, a "
+"possible adoption of blockchain technology in the future won’t prevent the "
+"division of Eternal Coins, as Eternal Coins can only exist inside the "
+"Eternal Wallets."
+msgstr ""
+"エターナルコインの仕組みは現時点ではブロックチェーンではありませんが、ブロッ"
+"クチェーンになった場合でも、エターナルウォレット上でしかエターナルコインは存"
+"在しないために分割を行う事は可能となります。"
+
+#: atomhome/templates/atomhome/en/xec.html:122
+msgid ""
+"*If there is a plan to perform division of Eternal Coins, a notification "
+"will be provided at least one month in advance."
+msgstr "※分割を行う際には、１か月以上前に告知をいたします。"
+
+#: atomhome/templates/atomhome/en/xec.html:129
+msgid "Phone number transmission function"
+msgstr "電話番号送信機能"
+
+#: atomhome/templates/atomhome/en/xec.html:130
+msgid ""
+"In Eternal Wallet, the users can transmit money to any recipient’s phone "
+"number instead of Wallet Address. The function not only allows the users to "
+"avoid the trouble of typing long Wallet Address or sending money to a wrong "
+"recipient, but also serves as a security measure to protect against identity "
+"theft and other types of fraud."
+msgstr ""
+"エターナルウォレットでは、ウォレットアドレスではなく電話番号にて送信を行う事"
+"ができます。そして電話番号送信機能では他のウォレットのように長いウォレットア"
+"ドレスを入力する事による煩わしさや、間違いを防ぐだけでなく、なりすまし等の不"
+"正を防止する事にもなります。"
+
+#: atomhome/templates/atomhome/en/xec.html:137
+msgid "One-touch transmission"
+msgstr "ワンタッチ送信"
+
+#: atomhome/templates/atomhome/en/xec.html:138
+msgid ""
+"For the users who do not own any Eternal Coins, the one-touch transmission "
+"function allows conversion of a given fiat currency into a different fiat "
+"currency, and instant transmission to other party`s Eternal Wallet."
+msgstr ""
+"ワンタッチ送信とは、エターナルコインを保有していなくても、フィアット通貨から"
+"フィアット通貨に交換ができ、そして相手のウォレットへの送信が一瞬で行える機能"
+"です。"
+
+#: atomhome/templates/atomhome/en/xec.html:142
+msgid "More Features Coming Soon"
+msgstr "今後、追加予定の機能"
+
+#: atomhome/templates/atomhome/en/xec.html:148
+msgid "Money exchange function"
+msgstr "両替機能"
+
+#: atomhome/templates/atomhome/en/xec.html:149
+msgid "The money exchange function is currently in development."
+msgstr "両替機能においては現在開発中となります。"
+
+#: atomhome/templates/atomhome/en/xec.html:151
+msgid ""
+"Please read the white paper for details regarding the logic of money "
+"exchange function."
+msgstr "両替機能の詳しいロジックはホワイトペーパーをご覧ください。"
+
+#: atomhome/templates/atomhome/en/xec.html:153
+msgid ""
+"*There is a possibility that this function cannot be used at certain "
+"exchanges, depending on the country where it is based."
+msgstr "※取引所が運営されている国によってはご利用できない場合があります。"
+
+#: atomhome/templates/atomhome/en/xec.html:160
+msgid "Point aggregation wallet"
+msgstr "ポイント統合ウォレット"
+
+#: atomhome/templates/atomhome/en/xec.html:161
+msgid ""
+"Atom Solutions is currently developing a wallet that allows the users to "
+"consolidate all the points cards that they carry in their purses, and also "
+"enables small shops and sole proprietors to issue their own points cards "
+"with relative ease. This new wallet will also be equipped with a capability "
+"to run highly cost-effective advertisements using the GPS functions that are "
+"built into smartphones."
+msgstr ""
+"財布の中の沢山のポイントカードが、一つのウォレットになり、そして小さな商店や"
+"個人事業主でも簡単にポイントカードが発行できる。そしてスマホのＧＰＳにより費"
+"用対効果が高い広告を出せる。このようなウォレットを現在作成中です。"
+
+#: atomhome/templates/atomhome/en/xec.html:168
+msgid "VR"
+msgstr "バーチャルリアリティ"
+
+#: atomhome/templates/atomhome/en/xec.html:169
+msgid ""
+"In the near future, people might be able to use VR to travel around the "
+"world without leaving the comfort of their own homes. In addition, various "
+"new businesses will likely emerge that embrace VR technology. When such new "
+"era arrives, overseas remittance of small amounts of money might pose an "
+"issue. To preempt such issue, Atom Solutions will work toward expanding the "
+"number of countries and regions where the Eternal Wallet can be used."
+msgstr ""
+"近い将来、自宅にいながら、ＶＲを利用して世界中を旅行できる日がくるでしょう。"
+"また、ＶＲを通じた様々なビジネスも行われることでしょう。そのような時代になっ"
+"た時に問題となるのは、少額の国際送金です。エターナルウォレットではそのような"
+"問題を解決するために、エターナルウォレットが利用される国と地域を広げていきま"
+"す。"
+
+#: atomhome/templates/atomhome/en/xet.html:7
+msgid "Exchange to XET|AtomSolutions"
+msgstr "XETとXEC交換｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/xet.html:18
+msgid "As of March 5th, 2019"
+msgstr "2019年度4月25日時点"
+
+#: atomhome/templates/atomhome/en/xet.html:19
+msgid "Eternal Token has successfully acquired"
+msgstr "エターナルトークンは仮想通貨のランキングサイトにて"
+
+#: atomhome/templates/atomhome/en/xet.html:20
+msgid "Top-ranked among Japan's Cryptocurrencies"
+msgstr "日本発行の仮想通貨"
+
+#: atomhome/templates/atomhome/en/xet.html:21
+msgid "in Coinmarketcap"
+msgstr "の中でランキング順位がトップとなりました。"
+
+#: atomhome/templates/atomhome/en/xet.html:31
+msgid "XET VALUE"
+msgstr "値XET"
+
+#: atomhome/templates/atomhome/en/xet.html:33
+msgid "VIEW OUR PAGE HERE"
+msgstr "私達のページをここに見なさい"
+
+#: atomhome/templates/atomhome/en/xet.html:35
+msgid "About Eternal Token（XET)"
+msgstr "エターナルトークン（XET）とは"
+
+#: atomhome/templates/atomhome/en/xet.html:36
+msgid ""
+"XET refers to a token that can be exchanged with Eternal Coin (XEC) at 1:10 "
+"ratio."
+msgstr "XETとはエターナルコイン（XEC）と１対１０で交換ができるトークンです。"
+
+#: atomhome/templates/atomhome/en/xet.html:37
+msgid ""
+"Eternal Coin (XEC) can be traded and acquired via authorized exchanges ONLY "
+"which leads to the disadvantage that XEC can’t be acquired via ANY "
+"unauthorized exchanges throughout the world."
+msgstr "エターナルコイン（XEC）は公認取引所でのみ売買・保管ができる仮想通貨の為、公認取引所の無い国においてはXECの売買ができないデメリットがあります。"
+
+#: atomhome/templates/atomhome/en/xet.html:38
+msgid ""
+"Therefore, Eternal Token (XET) is developed to be listed and tradable with "
+"various currencies on global exchanges."
+msgstr "そしてXET は世界中の取引所で取引されることによって、さまざまな仮想通貨と交換することができます。"
+
+#: atomhome/templates/atomhome/en/xet.html:39
+msgid ""
+"The issuance between two compatible virtual currencies is a new form of "
+"virtual currency to solve the disadvantage of XEC and other currencies with "
+"similar situation."
+msgstr "アトムソリューションズでは、XECとXETという互換性のある仮想通貨を発行する事によって、XEC のデメリットと一般的な仮想通貨のデメリットを解決しました。"
+
+#: atomhome/templates/atomhome/en/xet.html:48
+#: atomhome/templates/atomhome/en/xet.html:81
+#: atomhome/templates/atomhome/en/xet.html:106
+msgid "Issuer"
+msgstr "発行者"
+
+#: atomhome/templates/atomhome/en/xet.html:49
+#: atomhome/templates/atomhome/en/xet.html:50
+#: atomhome/templates/atomhome/en/xet.html:82
+#: atomhome/templates/atomhome/en/xet.html:107
+
+msgid "Atom Solutions"
+msgstr "アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/xet.html:53
+#: atomhome/templates/atomhome/en/xet.html:85
+#: atomhome/templates/atomhome/en/xet.html:110
+msgid "Conversion Exchange"
+msgstr "交換所"
+
+#: atomhome/templates/atomhome/en/xet.html:54
+msgid "Authorized Exchange : Hong Kong Korea・Philippines"
+msgstr "香港・韓国・フィリピンのエターナルコイン公認取引所"
+
+#: atomhome/templates/atomhome/en/xet.html:55
+#: atomhome/templates/atomhome/en/xet.html:111
+msgid "Global Exchanges in Countries"
+msgstr "各国の仮想通貨取引所"
+
+#: atomhome/templates/atomhome/en/xet.html:58
+#: atomhome/templates/atomhome/en/xet.html:89
+#: atomhome/templates/atomhome/en/xet.html:114
+msgid "Total Supply"
+msgstr "発行枚数"
+
+#: atomhome/templates/atomhome/en/xet.html:59
+#: atomhome/templates/atomhome/en/xet.html:90
+msgid "2 Billion units"
+msgstr "2億枚"
+
+#: atomhome/templates/atomhome/en/xet.html:60
+#: atomhome/templates/atomhome/en/xet.html:115
+msgid "200 Million units"
+msgstr "20億枚"
+
+#: atomhome/templates/atomhome/en/xet.html:63
+#: atomhome/templates/atomhome/en/xet.html:93
+#: atomhome/templates/atomhome/en/xet.html:118
+msgid "Advantages"
+msgstr "メリット"
+
+#: atomhome/templates/atomhome/en/xet.html:64
+msgid ""
+"・Fiat Currency Exchange・Transfer via Phone Number・Value Division System・"
+"Weekly Dividends Distribution."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:64
+#: atomhome/templates/atomhome/en/xet.html:96
+msgid "・Guaranteed from Cyber Hacking and Unauthorized Wallet Access."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:65
+#: atomhome/templates/atomhome/en/xet.html:119
+msgid "・Tradable with Various Currencies on Global Exchanges."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:68
+#: atomhome/templates/atomhome/en/xet.html:99
+#: atomhome/templates/atomhome/en/xet.html:122
+msgid "Disadvantages"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:69
+msgid "・Tradable with Eternal Coin ONLY."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:70
+#: atomhome/templates/atomhome/en/xet.html:123
+msgid "・Eternal Wallet functions cannot be used."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:71
+#: atomhome/templates/atomhome/en/xet.html:124
+msgid "・No guarantee from cyber security like hacking or stolen password."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:86
+msgid "Authorized Exchange : Hong Kong・Korea・Philippines"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:94
+msgid "・Fiat Currency Exchange・Transfer via Phone Number・Value Division"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:135
+msgid "Third-party Evaluation"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:136
+msgid ""
+"Our XET Project and Smart Contract are evaluated as having a high credibility"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:137
+msgid "and proven secured by third-party organizations."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:147
+msgid "XET Tradable Exchange"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:148
+msgid "XET is tradable via the exchanges below."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:149
+msgid ""
+"Atom Solutions will continue to get XET listed on different exchanges to "
+"increase the value of XET and keeping XET circulated on the market"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:159
+msgid "Opening Soon!"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:159
+msgid "On June 17th, 2019"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:175
+msgid "XET ⇔ XEC Conversion"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:179
+msgid ""
+"For conversion between Eternal Coin (XEC) and Eternal Token (XET), please "
+"visit to the URL below."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/xet.html:181
+msgid ""
+"※In addition, for Japan users, trading or transacting XEC/JPY is not yet "
+"available until further notice."
+msgstr ""
 
 #: atomhome/templates/atomhome/include/en/footer.html:8
 msgid "ABOUT ATOM"
@@ -282,8 +691,8 @@ msgid "Company Overview"
 msgstr "会社概要"
 
 #: atomhome/templates/atomhome/include/en/footer.html:13
-#: atomhome/templates/atomhome/include/en/nav.html:18
-#: atomhome/templates/atomhome/include/en/nav.html:34
+#: atomhome/templates/atomhome/include/en/nav.html:19
+#: atomhome/templates/atomhome/include/en/nav.html:35
 msgid "NEWS"
 msgstr "お知らせ"
 
@@ -423,19 +832,19 @@ msgstr "FB（アトムソリューションズ）"
 msgid "FB(ETERNAL GROUP)"
 msgstr "FB（エターナルグループ）"
 
-#: atomhome/templates/atomhome/include/en/nav.html:15
-#: atomhome/templates/atomhome/include/en/nav.html:31
+#: atomhome/templates/atomhome/include/en/nav.html:16
+#: atomhome/templates/atomhome/include/en/nav.html:32
 msgid "TOP"
 msgstr "トップ"
 
-#: atomhome/templates/atomhome/include/en/nav.html:38
+#: atomhome/templates/atomhome/include/en/nav.html:39
 msgid "WALLET"
 msgstr "ウォレットログイン"
 
-#: atomhome/templates/atomhome/include/en/nav.html:41
+#: atomhome/templates/atomhome/include/en/nav.html:42
 msgid "JA"
 msgstr "日本人"
 
-#: atomhome/templates/atomhome/include/en/nav.html:43
+#: atomhome/templates/atomhome/include/en/nav.html:44
 msgid "EN"
 msgstr "英語"

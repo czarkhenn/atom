@@ -1,10 +1,10 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
-
+{% load i18n %}
 <meta content="AtomSolutions,Eternalcoin,Eternaltoken" name="keywords">
 <meta content="" name="description">
-<title>Exchange to XET|AtomSolutions</title>
+<title>{% trans "Exchange to XET|AtomSolutions" %}</title>
 
 
 
@@ -15,10 +15,10 @@
 		<div class="award">
 			<img class="aw01" src="{% static "atomhome/img/en/award.png" %}" alt="No.1">
 			<div>
-				<span>As of March 5th, 2019</span>
-				<p class="p_aw1">Eternal Token has successfully acquired</p>
-				<p class="p_aw2">Top-ranked among Japan's Cryptocurrencies</p>
-				<p class="p_aw1">in Coinmarketcap</p>
+				<span>{% trans "As of March 5th, 2019" %}</span>
+				<p class="p_aw1">{% trans "Eternal Token has successfully acquired" %}</p>
+				<p class="p_aw2">{% trans "Top-ranked among Japan's Cryptocurrencies" %}</p>
+				<p class="p_aw1">{% trans "in Coinmarketcap" %}</p>
 			</div>
 			<img class="aw02" src="{% static "atomhome/img/en/award.png" %}" alt="No.1">
 		</div><!-- /.award -->
@@ -28,104 +28,100 @@
 	<div class="wrap spaceL">
 		<div class="col">
 			<div class="ranking">
-				<div><span>XET VALUE</span><strong class="changeOpacity">$</strong><strong class="changeOpacity"
+				<div><span>{% trans "XET VALUE" %}</span><strong class="changeOpacity">$</strong><strong class="changeOpacity"
 						id="counter">{{ valueint }}</strong></div>
-				<a href="https://coinmarketcap.com/currencies/eternal-token/" target="_blank">VIEW OUR PAGE HERE</a>
+				<a href="https://coinmarketcap.com/currencies/eternal-token/" target="_blank">{% trans "VIEW OUR PAGE HERE" %}</a>
 			</div><!-- /.ranking -->
-			<p>XET refers to a token that can be exchanged with Eternal Coin (XEC) at 1:10 ratio.</p>
-			<p>Eternal Coin (XEC) can be traded and acquired via authorized exchanges ONLY which leads to the
-				disadvantage that XEC can’t be acquired via ANY unauthorized exchanges throughout the world.</p>
-			<p>Therefore, Eternal Token (XET) is developed to be listed and tradable with various currencies on global
-				exchanges.</p>
-			<p>The issuance between two compatible virtual currencies is a new form of virtual currency to solve the
-				disadvantage of XEC and other currencies with similar situation.</p>
+			<h2 class="ttlM">{% trans "About Eternal Token（XET)" %}</h2>
+			<p>{% trans "XET refers to a token that can be exchanged with Eternal Coin (XEC) at 1:10 ratio." %}</p>
+			<p>{% trans "Eternal Coin (XEC) can be traded and acquired via authorized exchanges ONLY which leads to the disadvantage that XEC can’t be acquired via ANY unauthorized exchanges throughout the world." %}</p>
+			<p>{% trans "Therefore, Eternal Token (XET) is developed to be listed and tradable with various currencies on global exchanges." %}</p>
+			<p>{% trans "The issuance between two compatible virtual currencies is a new form of virtual currency to solve the disadvantage of XEC and other currencies with similar situation." %}</p>
 			<div class="wrapTbl01 ctsPc">
 				<table>
 					<tr>
 						<th> </th>
-						<th class="text-effect">XEC</th>
-						<th class="text-effect">XET</th>
+						<th class="text-effect">{% trans "XEC" %}</th>
+						<th class="text-effect">{% trans "XET" %}</th>
 					</tr>
 					<tr>
-						<td class="text-effect">Issuer</td>
-						<td class="text-effect">Atom Solutions</td>
-						<td class="text-effect">Atom Solutions</td>
+						<td class="text-effect">{% trans "Issuer" %}</td>
+						<td class="text-effect">{% trans "Atom Solutions" %}</td>
+						<td class="text-effect">{% trans "Atom Solutions" %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Conversion Exchange</td>
-						<td class="text-effect">Authorized Exchange : Hong Kong・Korea・Philippines</td>
-						<td class="text-effect">Global Exchanges in Countries</td>
+						<td class="text-effect">{% trans "Conversion Exchange" %}</td>
+						<td class="text-effect">{% trans "Authorized Exchange : Hong Kong Korea・Philippines" %}</td>
+						<td class="text-effect">{% trans "Global Exchanges in Countries"%} </td>
 					</tr>
 					<tr>
-						<td class="text-effect">Total Supply</td>
-						<td class="text-effect">2 Billion units</td>
-						<td class="text-effect">200 Million units</td>
+						<td class="text-effect">{% trans "Total Supply" %}</td>
+						<td class="text-effect">{% trans "2 Billion units" %}</td>
+						<td class="text-effect">{% trans "200 Million units" %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Advantages</td>
-						<td class="text-effect">・Fiat Currency Exchange・Transfer via Phone Number・Value Division
-							System・Weekly Dividends Distribution.<br>
-							・Guaranteed from Cyber Hacking and Unauthorized Wallet Access.</td>
-						<td class="text-effect">・Tradable with Various Currencies on Global Exchanges.</td>
+						<td class="text-effect">{% trans "Advantages" %}</td>
+						<td class="text-effect">{% trans "・Fiat Currency Exchange・Transfer via Phone Number・Value Division System・Weekly Dividends Distribution." %}<br> {% trans "・Guaranteed from Cyber Hacking and Unauthorized Wallet Access." %}</td>
+						<td class="text-effect">{% trans "・Tradable with Various Currencies on Global Exchanges." %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Disadvantages</td>
-						<td class="text-effect">・Tradable with Eternal Coin ONLY.</td>
-						<td class="text-effect">・Eternal Wallet functions cannot be used.<br>
-							・No guarantee from cyber security like hacking or stolen password.</td>
+						<td class="text-effect">{% trans "Disadvantages" %}</td>
+						<td class="text-effect">{% trans "・Tradable with Eternal Coin ONLY." %}</td>
+						<td class="text-effect">{% trans "・Eternal Wallet functions cannot be used." %}<br>
+							{% trans "・No guarantee from cyber security like hacking or stolen password." %}</td>
 					</tr>
 				</table>
 			</div>
 			<!-- /.wrapTbl -->
 
 			<div class="wrapTbl01 ctsSp">
-				<strong class="ttlXetTabl">XEC</strong>
+				<strong class="ttlXetTabl">{% trans "XEC" %}</strong>
 				<table>
 					<tr>
-						<td class="text-effect">Issuer</td>
-						<td class="text-effect">Atom Solutions</td>
+						<td class="text-effect">{% trans "Issuer" %}</td>
+						<td class="text-effect">{% trans "Atom Solutions" %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Conversion Exchange</td>
-						<td class="text-effect">Authorized Exchange : Hong Kong・Korea・Philippines</td>
+						<td class="text-effect">{% trans "Conversion Exchange" %}</td>
+						<td class="text-effect">{% trans "Authorized Exchange : Hong Kong・Korea・Philippines" %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Total Supply</td>
-						<td class="text-effect">2 Billion units</td>
+						<td class="text-effect">{% trans "Total Supply" %}</td>
+						<td class="text-effect">{% trans "2 Billion units" %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Advantages</td>
-						<td class="text-effect">・Fiat Currency Exchange・Transfer via Phone Number・Value Division
+						<td class="text-effect">{% trans "Advantages" %}</td>
+						<td class="text-effect">{% trans "・Fiat Currency Exchange・Transfer via Phone Number・Value Division" %}
 							System・Weekly Dividends Distribution.<br>
-							・Guaranteed from Cyber Hacking and Unauthorized Wallet Access.</td>
+							{% trans "・Guaranteed from Cyber Hacking and Unauthorized Wallet Access." %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Disadvantages</td>
-						<td class="text-effect">・Tradable with Eternal Coin ONLY.</td>
+						<td class="text-effect">{% trans "Disadvantages" %}</td>
+						<td class="text-effect">{% trans "・Tradable with Eternal Coin ONLY.</td>
 					</tr>
 				</table>
-				<strong class="ttlXetTabl">XET</strong>
+				<strong class="ttlXetTabl">{% trans "XET" %}</strong>
 				<table>
 					<tr>
-						<td class="text-effect">Issuer</td>
-						<td class="text-effect">Atom Solutions</td>
+						<td class="text-effect">{% trans "Issuer" %}</td>
+						<td class="text-effect">{% trans "Atom Solutions" %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Conversion Exchange</td>
-						<td class="text-effect">Global Exchanges in Countries</td>
+						<td class="text-effect">{% trans "Conversion Exchange" %}</td>
+						<td class="text-effect">{% trans "Global Exchanges in Countries" %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Total Supply</td>
-						<td class="text-effect">200 Million units</td>
+						<td class="text-effect">{% trans "Total Supply" %}</td>
+						<td class="text-effect">{% trans "200 Million units" %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Advantages</td>
-						<td class="text-effect">・Tradable with Various Currencies on Global Exchanges.</td>
+						<td class="text-effect">{% trans "Advantages" %}</td>
+						<td class="text-effect">{% trans "・Tradable with Various Currencies on Global Exchanges." %}</td>
 					</tr>
 					<tr>
-						<td class="text-effect">Disadvantages</td>
-						<td class="text-effect">・Eternal Wallet functions cannot be used.<br>
-							・No guarantee from cyber security like hacking or stolen password.</td>
+						<td class="text-effect">{% trans "Disadvantages" %}</td>
+						<td class="text-effect">{% trans "・Eternal Wallet functions cannot be used." %}<br>
+							{% trans "・No guarantee from cyber security like hacking or stolen password." %}</td>
 					</tr>
 				</table>
 			</div><!-- /.wrapTbl -->
@@ -136,9 +132,9 @@
 <div class="project-wrap grayBlk">
 	<div class="wrap spaceL">
 		<div class="col">
-			<h2 class="ttlM">Third-party Evaluation</h2>
-			<p class="txtC">Our XET Project and Smart Contract are evaluated as having a high credibility
-				<br>and proven secured by third-party organizations.</p>
+			<h2 class="ttlM">{% trans "Third-party Evaluation" %}</h2>
+			<p class="txtC">{% trans "Our XET Project and Smart Contract are evaluated as having a high credibility" %}
+				<br>{% trans "and proven secured by third-party organizations." %}</p>
 			<div class="listOutside">
 				<a href="https://tokeninsight.com/tokenDetail?cid=20701" target="_blank">
 					<img class="fade-effect" src="{% static "atomhome/img/en/rated_b.png" %}" alt="">
@@ -148,10 +144,9 @@
 					<img class="fade-effect" src="{% static "atomhome/img/en/sec_pass.png" %}" alt="">
 				</a>
 			</div>
-			<h2 class="ttlM">XET Tradable Exchange</h2>
-			<p class="txtC">XET is tradable via the exchanges below.<br>
-				Atom Solutions will continue to get XET listed on different exchanges to increase the value of XET and
-				keeping XET circulated on the market</p>
+			<h2 class="ttlM">{% trans "XET Tradable Exchange" %}</h2>
+			<p class="txtC">{% trans "XET is tradable via the exchanges below." %}<br>
+				{% trans "Atom Solutions will continue to get XET listed on different exchanges to increase the value of XET and keeping XET circulated on the market" %}</p>
 			<div class="listXetSite">
 				<div class="col"><a href="https://www.idax.mn/" target="_blank">
 						<img src="{% static "atomhome/img/en/bnr-xet-idax.png" %}" alt="IDAX">
@@ -161,7 +156,7 @@
 				</a></div>-->
 				<div class="col"><a href="https://www.hnb-ex.com/" target="_blank">
 						<img src="{% static "atomhome/img/en/bnr-xet-hnb.png" %}" alt="H&B">
-						<p>Opening Soon! <br>On June 17th, 2019</p>
+						<p>{% trans "Opening Soon!" %} <br>{% trans "On June 17th, 2019" %}</p>
 					</a></div><!-- /.col -->
 				<div class="col"><a href="https://instantbitex.com/" target="_blank">
 						<img src="{% static "atomhome/img/en/bnr-xet-instantbitex.png" %}" alt="instantbitex">
@@ -177,17 +172,13 @@
 <div class="project-wrap">
 	<div class="wrap spaceL">
 		<div class="col">
-			<h2 class="ttlM">XET ⇔ XEC Conversion</h2>
+			<h2 class="ttlM">{% trans "XET ⇔ XEC Conversion" %}</h2>
 			<div class="col-flex">
 				<img src="{% static "atomhome/img/en/one_to_ten.png" %}" alt="XECとの交換" class="img">
 				<div class="txt">
-					<p>For conversion between Eternal Coin (XEC) and Eternal Token (XET), please visit to the
-						URL
-						below.
+					<p>{% trans "For conversion between Eternal Coin (XEC) and Eternal Token (XET), please visit to the URL below." %}
 					</p>
-					<p>※In addition, for Japan users, trading or transacting XEC/JPY is not yet available until
-						further
-						notice.</p>
+					<p>{% trans "※In addition, for Japan users, trading or transacting XEC/JPY is not yet available until further notice." %}</p>
 					<a href="https://tokenhub.asia/" target="_blank"><img
 							src="{% static "atomhome/img/en/bnr-xet-tokenhub.png" %}" alt="TokenHub"></a>
 				</div><!-- /.txt -->
@@ -206,10 +197,7 @@
 				<div class="tmb">
 					<img src="{% static "atomhome/img/en/member/Fujino-Hiroyuki.jpg" %}">
 					<div class="hide">
-						<p>Fujino Hiroyuki has over 10 years experiences of leading industry expertise in
-							founding
-							and
-							co-founding numerous companies in domestic and international marketplaces.</p>
+						<p>{% trans "Fujino Hiroyuki has over 10 years experiences of leading industry expertise in founding and co-founding numerous companies in domestic and international marketplaces.</p>
 						<a href="https://www.linkedin.com/in/hiroyuki-fujino-10a9ab175/" target="_blank"><img
 								src="{% static "atomhome/img/en/ico_in mark.png" %}"></a>
 					</div>

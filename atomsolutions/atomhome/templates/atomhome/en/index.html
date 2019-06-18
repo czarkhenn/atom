@@ -61,11 +61,18 @@
                         <br>{% trans "and equivalent value through" %} <br class="forSp">{% trans "our unique" %} <br class="forPc">{% trans "features,functions," %}
                         <br class="forSp">{% trans "technologies, and ideas." %}</h2>
                     <p class="description desc-typeB">{% trans "* Patent Filed" %}</p>
-                    
-                    <div class="bnr_link"><a href="http://pool.atom-solutions.jp/" target="_blank"><img
-                        src="{% static "atomhome/img/en/bnr_demo_en.png" %}"
+                {% get_current_language as LANGUAGE_CODE %}
+                    {% if LANGUAGE_CODE == "en-us" %}
+                    <div class="bnr_link"><a href="http://pool.atom-solutions.jp/" target="_blank"><img src="{% static "atomhome/img/en/bnr_demo_en.png" %}"  
                         alt="Try and Experience the World's Lowest Overseas Remittances Fee Simulator!!"></a>
                     </div>
+                 {% else %}
+                 <div class="bnr_link"><a href="http://pool.atom-solutions.jp/" target="_blank"><img src="{% static "atomhome/img/ja/bnr_demo.png" %}"  
+                    alt="Try and Experience the World's Lowest Overseas Remittances Fee Simulator!!"></a>
+                </div>
+                 {% endif %} 
+                    
+
                   
                     <ul class="circles">
                         <li class="circle">{% trans "XEC" %}</li>
