@@ -1,17 +1,19 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
-
+{% load i18n %}
 
 <meta content="" name="keywords">
 <meta content="" name="description">
-<title>VR WANTED VR PARTNER|AtomSolutions</title>
+<title>{% trans "VR WANTED VR PARTNER|AtomSolutions" %}</title>
 
 
 
 <div class="vr-main">
     <div class="wrap spaceL">
         <div class="col">
+            {% get_current_language as lang %}
+            {% if lang == "en-us" %}
             <strong>VR<span>VR PARTNER WANTED</span></strong>
             <p>What would it be like to travel anywhere in the world in real time while still being at home? How would
                 it feel to become a professional singer in a virtual world?<br />
@@ -19,6 +21,14 @@
             <p>・Atom Solutions has filed a patent application of fee charging system for VR live broadcast
                 <!-- (patent no. 00000)-->. <br />
                 ・Atom Solutions has jointly filed this patent with Nihon Brain Ware Co.</p>
+            {% else %}
+            <strong>VR<span>VRパートナー募集</span></strong>
+				<p>家に居ながら、ライブで世界中に旅行ができたら？歌手の気分を味わえたら？<br />
+            そんな素晴らしい世界の実現に向けてアトムソリューションズでは、パートナー企業を募集しております。</p>
+
+                <p>・弊社ではライブ中継中の課金制度の特許を申請しています。<!--（特許番号00000）--><br />
+                ・今特許は弊社と株式会社日本ブレインウェアと共同出願となっております。</p>
+            {% endif %}    
         </div><!-- /.col -->
     </div><!-- /.wrap -->
     <img src="{% static "atomhome/img/en/vr-human.png" %}" alt="VR" class="ico-human">
@@ -30,8 +40,10 @@
 <div class="message">
     <div class="wrap spaceL">
         <div class="col">
-            <h2 class="ttlM">MESSAGE</h2>
+            <h2 class="ttlM">{% trans "MESSAGE" %}</h2>
             <div class="txt">
+                {% get_current_language as lang%}
+                {% if lang == "en-us" %}
                 <p>This patent is a system that would enable live broadcasting of events by content distributors and
                     interested people can view the broadcast in VR and will be charged accordingly.</p>
                 <p>The contents distributors will be able to generate revenue by streaming beautiful images of deserts,
@@ -48,6 +60,16 @@
                     virtual currency, but will also enable to settle payments made with electronic money and
                     company-specific reward points.</p>
                 <p>The interested companies can contact us by sending an inquiry.</p>
+                {% else %}
+                <p>今特許は配信者がコンテンツをライブ発信し、そのコンテンツに興味がある方がVRで閲覧する事によって課金される仕組みです。</p>
+					<p>配信者は砂漠の景色、綺麗な星空や海、そしてオーロラ等を配信する事によって収益を得る事ができます。<br />
+また、紛争地域や難民のリアルな現実を配信する事で、そのような地域にお住いの方々の収入の手助けにもなります。<br />
+ドローンでの撮影やイルカによる海中散歩等々アイデア次第で広がるVRとリアル課金の融合は近未来の疑似旅行手段になるかも知れません。</p>
+					<p>近い将来、VRを使って宇宙旅行や月面着陸が出来る日が来るのではないでしょうか？</p>
+					<p>このようなコンテンツにはマイクロペイメントと国境を越えた支払スキームが不可欠です。<br />
+現在申請中の特許は、仮想通貨による課金及び支払だけでなく、電子マネーでの決済や自社内ポイント決済にも対応した特許となっております。</p>
+                    <p>ご興味がある企業様はお問合せより御連絡下さい。</p>
+                    {% endif %}
             </div><!-- /.txt -->
             <a href="{% url 'atomhome:contact' %}" class="link-btn">CONTACT US HERE</a>
         </div><!-- /.col -->
@@ -59,7 +81,7 @@
 <script>
     jQuery(function ($) {
         $('.vr-main').bgSwitcher({
-            images: ['../static/atomhome/img/en/vr-main01.jpg', '../static/atomhome/img/en/vr-main02.jpg', '../static/atomhome/img/en/vr-main03.jpg'],
+            images: ['https://i.imgur.com/iNFDGgB.jpg', 'https://i.imgur.com/UUxDkBR.jpg', 'https://i.imgur.com/8LL1a1E.jpg'],
         });
     });
 </script>

@@ -1,22 +1,25 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
+{% load i18n %}
 
 
 <meta content="" name="keywords">
 <meta content="" name="description">
-<title>PRIVACY POLICY|AtomSolutions</title>
+<title>{% trans "PRIVACY POLICY|AtomSolutions" %}</title>
 
 
 <div class="page-bg"></div>
 <div class="page-ttl">
     <div class="wrap spaceL">
-        <h1 class="ttlPage">PRIVACY POLICY</h1>
+        <h1 class="ttlPage">{% trans "PRIVACY POLICY" %}</h1>
     </div><!-- /.wrap -->
 </div><!-- /.page-ttl -->
 <div class="privacyarea">
     <div class="wrap spaceL">
         <div class="col">
+            {% get_current_language as lang %}
+            {% if lang == "en-us" %}
             <p>As we operate trustworthy businesses, we regard the safety management of personal information is
                 important and part of our social responsibility. Our endeavor is proper handling, management and
                 maintenance of personal information for the responsibility fulfillment mentioned above.</p>
@@ -39,6 +42,20 @@
             <p>We respect the rights of individuals concerning personal information. In case we have confirmed your
                 identity, we will response to your requests for disclosure, correction, deletion etc. appropriately.
             </p>
+            {% else %}
+            <h3>個人情報保護方針</h3>
+					<p>当社は信頼のおける事業を運営していく上で個人情報の安全管理が社会的責任の重要な一環と捉えております。<br>
+					上記の責任遂行のため個人情報の適正な取り扱い・管理・維持に努めて参ります。</p>
+				<h3>1. 個人情報の取得について</h3>
+				<p>当社は、個人情報を収集するにあたり、その対象となるお客様に事前にその目的を明確に口頭又は書面にて説明し、対象となるお客様の明確なご理解とご承諾を得た上で、適法且つ公正な手段によって、個人情報の収集を行うものとします。</p>
+				<h3>2. 個人情報の利用・第三者提供について</h3>
+				<p>当社は収集したお客様の個人情報を弊社事業目的のために利用するものとします。また、法律に定める場合を除き、事前に本人の同意を得ることなく個人情報を第三者へ提供することはございません。</p>
+				<h3>3. 個人情報の管理について</h3>
+				<p>当社は、収集した個人情報の内容を常に更新する事によりその正確性を保ち、またこれを安全に管理致します。また、個人情報の紛失、破壊、改ざん及び漏えいなどを防止するため、不正アクセス・コンピュータウイルスの侵入などに対する適正な情報セキュリティ対策を講じます。 当社役員・社員全員への教育を徹底させ、従業員による個人情報の持ち出しや不正使用を防ぐことをお約束致します。</p>
+				<h3>4. 個人の権利の尊重について</h3>
+				<p>当社は、個人情報に関する個人の権利を尊重し、個人情報の開示、訂正、削除等の要請に対し、本人であることを当社にて確認させていただけた場合に限り、合理的な期間、妥当な範囲内でこれに応じてまいります。</p>
+			
+            {% endif %}
         </div><!-- /.col -->
     </div><!-- /.wrap -->
 </div><!-- /.faq -->

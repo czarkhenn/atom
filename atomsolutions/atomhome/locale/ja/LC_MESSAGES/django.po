@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-18 09:01+0000\n"
+"POT-Creation-Date: 2019-06-20 09:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,392 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: atomhome/templates/atomhome/en/company.html:8
+msgid "OUTLINE|AtomSolutions"
+msgstr "会社概要｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/company.html:22
+msgid ""
+"Atom Solutions Co., Ltd. was founded by Hiroyuki Fujino on May of 2010. The "
+"company was developed and founded because of the outburst technology of the "
+"Blockchain industry. The company provides system development programs for "
+"including but not limited to Virtual Currencies and Blockchain technology as "
+"well as consultant services in Virtual Currency Exchange Operation & "
+"Management."
+msgstr ""
+"株式会社アトムソリューションズは、2010年にITサービスやフィンテック企業として"
+"設立されました。その後、2015年より仮想通貨の発行・開発を行い、現在はエターナ"
+"ルコイン及びエターナルトークンの発行を行っております。また、仮想通貨のコンサ"
+"ルタント業務も本年度より開始しており、今後も仮想通貨とフィンテックにてグロー"
+"バルにサービスを展開します。"
+
+#: atomhome/templates/atomhome/en/company.html:23
+msgid "ROAD MAP"
+msgstr "沿革"
+
+#: atomhome/templates/atomhome/en/company.html:25
+msgid "2019"
+msgstr "2019年"
+
+#: atomhome/templates/atomhome/en/company.html:27
+msgid "April"
+msgstr "4月"
+
+#: atomhome/templates/atomhome/en/company.html:28
+msgid "XET has passed Smart Contract Security Audit by BEOSIN"
+msgstr "XETがスマートコントラクトセキュリティー監査に合格"
+
+#: atomhome/templates/atomhome/en/company.html:32
+msgid "Released introductory video of 'EVOR' our new exchange service"
+msgstr "両替ロジックの動画を公開"
+
+#: atomhome/templates/atomhome/en/company.html:35
+#: atomhome/templates/atomhome/en/company.html:116
+msgid "March"
+msgstr "3月"
+
+#: atomhome/templates/atomhome/en/company.html:36
+msgid "XET project has acquired B from TokenInsight assessment."
+msgstr "XETがTokenInsightにて評価Bを取得"
+
+#: atomhome/templates/atomhome/en/company.html:39
+msgid "February"
+msgstr "2月"
+
+#: atomhome/templates/atomhome/en/company.html:40
+msgid "ONE-TOUCH TRANSFER Patent, Approved Successfully"
+msgstr "ワンタッチ送信　特許取得"
+
+#: atomhome/templates/atomhome/en/company.html:44
+msgid "Formed Business Partnership with CIS Bayad Center"
+msgstr "バイヤードセンター社と提携"
+
+#: atomhome/templates/atomhome/en/company.html:47
+#: atomhome/templates/atomhome/en/company.html:131
+msgid "January"
+msgstr "1月"
+
+#: atomhome/templates/atomhome/en/company.html:48
+msgid "Listed and Started trading of XET on Instantbitex and OEX"
+msgstr "Instantbitex・OEX取引所にてXET取引開始"
+
+#: atomhome/templates/atomhome/en/company.html:52
+msgid "Trademark Registered"
+msgstr "商標登録取得"
+
+#: atomhome/templates/atomhome/en/company.html:56
+msgid "2018"
+msgstr "2018年"
+
+#: atomhome/templates/atomhome/en/company.html:58
+#: atomhome/templates/atomhome/en/company.html:123
+msgid "December"
+msgstr "12月"
+
+#: atomhome/templates/atomhome/en/company.html:59
+msgid "Value Division and DOT Patents Acquired"
+msgstr "分割機能とDOTの特許取得"
+
+#: atomhome/templates/atomhome/en/company.html:63
+msgid "Eternal Token (XET) is now 40th on the ranking site!"
+msgstr "仮想通貨ランキング「40位」にランクイン（XET）"
+
+#: atomhome/templates/atomhome/en/company.html:67
+msgid "World’s Lowest Overseas Remittance Service Simulator Is now AVAILABLE!"
+msgstr "【世界一安い海外送金サービス】デモの完成"
+
+#: atomhome/templates/atomhome/en/company.html:70
+msgid "November"
+msgstr "11月"
+
+#: atomhome/templates/atomhome/en/company.html:71
+msgid "PCT Patent filed."
+msgstr "PTC特許出願"
+
+#: atomhome/templates/atomhome/en/company.html:74
+msgid "October"
+msgstr "10月"
+
+#: atomhome/templates/atomhome/en/company.html:75
+msgid "Attended Blockchain & Digital Innovation Event, Delta Summit in Malta."
+msgstr "マルタデルタサミットに参加"
+
+#: atomhome/templates/atomhome/en/company.html:78
+#: atomhome/templates/atomhome/en/company.html:127
+msgid "September"
+msgstr "9月"
+
+#: atomhome/templates/atomhome/en/company.html:79
+msgid "Partnership with Eternal Wallet PH Holdings"
+msgstr "エターナルWallet PH Holdingsと提携しました。"
+
+#: atomhome/templates/atomhome/en/company.html:83
+msgid "Eternal Token (XET) is now 50th on the ranking site!"
+msgstr "仮想通貨ランキング「50位」にランクイン（XET）"
+
+#: atomhome/templates/atomhome/en/company.html:86
+msgid "August"
+msgstr "8月"
+
+#: atomhome/templates/atomhome/en/company.html:87
+msgid "Listed XET on CoinMarketCap and other major ranking websites."
+msgstr "CoinMarketCapおよび他の主要なランキングサイトでXETを掲載しました。"
+
+#: atomhome/templates/atomhome/en/company.html:91
+msgid "Eternal Token (XET) is now 110th on the ranking site!"
+msgstr "仮想通貨ランキング「110位」にランクイン(XET）"
+
+#: atomhome/templates/atomhome/en/company.html:94
+msgid "June"
+msgstr "6月"
+
+#: atomhome/templates/atomhome/en/company.html:95
+msgid "Partnership with H&B Exchange and started trading XET on Idax"
+msgstr "Idax取引所にてXET取引を開始・H&B取引所と業務提携"
+
+#: atomhome/templates/atomhome/en/company.html:98
+#: atomhome/templates/atomhome/en/company.html:112
+msgid "May"
+msgstr "5月"
+
+#: atomhome/templates/atomhome/en/company.html:99
+msgid "Developed and launched of Eternal Token (XET)"
+msgstr "エターナルトークン（XET）リリース"
+
+#: atomhome/templates/atomhome/en/company.html:103
+msgid "2017"
+msgstr "2017年"
+
+#: atomhome/templates/atomhome/en/company.html:106
+msgid "Developed and launched of ELook Application"
+msgstr "ELookアプリリリース"
+
+#: atomhome/templates/atomhome/en/company.html:110
+msgid "2016"
+msgstr "2016年"
+
+#: atomhome/templates/atomhome/en/company.html:113
+msgid "Partnership and started of Korea Authorized Exchange"
+msgstr "韓国の公認取引所にてエターナルコインの取引開始"
+
+#: atomhome/templates/atomhome/en/company.html:117
+msgid "Eternal Square has reached 100 merchants"
+msgstr "エターナルコインの利用可能店舗が100店舗を超えました"
+
+#: atomhome/templates/atomhome/en/company.html:121
+msgid "2015"
+msgstr "2015年"
+
+#: atomhome/templates/atomhome/en/company.html:124
+msgid "Partnership and started of Hong Kong Authorized Exchange"
+msgstr "香港の公認取引所にてエターナルコインの取引開始"
+
+#: atomhome/templates/atomhome/en/company.html:128
+msgid "Partnership and started of Philippine Authorized Exchange"
+msgstr "フィリピンの公認取引所にてエターナルコインの取引開始"
+
+#: atomhome/templates/atomhome/en/company.html:132
+msgid "Released Eternal Coin and started service of Eternal Wallet"
+msgstr "エターナルコインの発行と日本でのエターナルコインの取引開始"
+
+#: atomhome/templates/atomhome/en/company.html:136
+msgid "2014"
+msgstr "2014年"
+
+#: atomhome/templates/atomhome/en/company.html:139
+msgid ""
+"Drafting and consulting to first Eternal Coin authorized Exchange (Japan)"
+msgstr "エターナルコインとエターナルウォレットの開発開始"
+
+#: atomhome/templates/atomhome/en/company.html:143
+msgid "2013"
+msgstr "2013年"
+
+#: atomhome/templates/atomhome/en/company.html:146
+msgid "Developing Eternal Coin and Eternal Wallet"
+msgstr "仮想通貨の研究開始"
+
+#: atomhome/templates/atomhome/en/company.html:150
+msgid "2012"
+msgstr "2012年"
+
+#: atomhome/templates/atomhome/en/company.html:153
+msgid "Drafting ideas of Blockchain business"
+msgstr "フィンテック事業開始"
+
+#: atomhome/templates/atomhome/en/company.html:157
+msgid "2011"
+msgstr "2011年"
+
+#: atomhome/templates/atomhome/en/company.html:160
+msgid "Recruitment and marketing research"
+msgstr "ITソリューションズ事業開始"
+
+#: atomhome/templates/atomhome/en/company.html:164
+msgid "2010"
+msgstr "2010年"
+
+#: atomhome/templates/atomhome/en/company.html:167
+msgid "Established of Atom Solutions with Capital at 95 Million yen."
+msgstr "アトムソリューションズ設立"
+
+#: atomhome/templates/atomhome/en/company.html:175
+msgid "OUR VISION"
+msgstr "私たちのビジョン"
+
+#: atomhome/templates/atomhome/en/company.html:178
+msgid ""
+"To be the leading Virtual Currency Exchange & Blockchain company and to "
+"bring inspiration and innovation to the world."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:191
+msgid "Become the leading company in Financial Technology (Fin-Tech) Industry"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:196
+msgid ""
+"Being one of the expeditious software industry, we always demonstrate our "
+"potential ability by moving forward and always one step ahead of other "
+"company.. We aim to become a leading company using our own technical "
+"capabilities and innovative ideas in both software and virtual currency "
+"industries."
+msgstr ""
+"日進月歩で進化するフィンテック業界において、我々は常に先見性を持って前進し、"
+"独自の技術力と革新的なアイデアによって、日本だけでなく世界で通用するリーディ"
+"ングカンパニーを目指します。"
+
+#: atomhome/templates/atomhome/en/company.html:203
+msgid "Professional ITs"
+msgstr "最高のIT会社"
+
+#: atomhome/templates/atomhome/en/company.html:206
+msgid ""
+"We have professional IT team and solutions to meet the requirements of our "
+"clients and eventually to the society in general. We are a group of high "
+"valued engineers who never stop in acquiring the latest knowledge."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:216
+msgid "Healthy Company"
+msgstr "健全な会社"
+
+#: atomhome/templates/atomhome/en/company.html:219
+msgid ""
+"We believe that companies with healthy management structures and attitudes "
+"will produce high quality of human resources. We strive to bring a sense of "
+"relaxation and happiness to our customers, employees, and their families."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:230
+msgid "MISSION"
+msgstr "ミッション"
+
+#: atomhome/templates/atomhome/en/company.html:231
+msgid ""
+"We intend to improve the efficiency of financial services by reducing cost "
+"and creating a convenient transaction system."
+msgstr "世界中で一番安く海外送金を行える事を実現します。"
+
+#: atomhome/templates/atomhome/en/company.html:234
+msgid ""
+"We strive to achieve the highest technical expertise, while bringing unique "
+"Japanese sensitivity into the business of virtual currencies."
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:241
+msgid ""
+"Our goal is to create and provide future financial services to our customers "
+"not only in Asia but also in the world."
+msgstr ""
+"私たちの目標は、アジアだけでなく世界中のお客様に、将来の金融サービスを創造し"
+"提供することです。"
+
+#: atomhome/templates/atomhome/en/company.html:242
+msgid "You can find other ETERNAL COIN authorized exchanges in the world."
+msgstr "私たちは、世界各国のグループ会社と共に発展いたします。"
+
+#: atomhome/templates/atomhome/en/company.html:255
+msgid "JAPAN"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:261
+msgid "PHILIPPINES"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:267
+msgid "HONG KONG"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:273
+msgid "KOREA"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:279
+msgid "KENYA"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:285
+msgid "MONGOLIA"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/company.html:293
+msgid "OUTLINE"
+msgstr "会社概要"
+
+#: atomhome/templates/atomhome/en/company.html:296
+msgid "Company Name"
+msgstr "社名"
+
+#: atomhome/templates/atomhome/en/company.html:297
+msgid "ATOM SOLUTIONS CO., LTD."
+msgstr "株式会社アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/company.html:300
+msgid "Company Address"
+msgstr "所在地"
+
+#: atomhome/templates/atomhome/en/company.html:301
+msgid "5F Sei Bi Do Bldg, 2-31-16 Eitai Kouto-Ku, 135-0034, Tokyo"
+msgstr "〒135-0034 東京都江東区永代2-31-16 盛美堂ビル5F"
+
+#: atomhome/templates/atomhome/en/company.html:304
+msgid "Inquiry"
+msgstr "お問い合わせ"
+
+#: atomhome/templates/atomhome/en/company.html:308
+msgid "President"
+msgstr "代表"
+
+#: atomhome/templates/atomhome/en/company.html:309
+msgid "Hiroyuki Fujino"
+msgstr "藤野 博之"
+
+#: atomhome/templates/atomhome/en/company.html:312
+msgid "Capital Investment"
+msgstr "資本金"
+
+#: atomhome/templates/atomhome/en/company.html:313
+msgid "95,000,000 JPY"
+msgstr "9,500万円"
+
+#: atomhome/templates/atomhome/en/contact.html:9
+msgid "CONTACT|AtomSolutions"
+msgstr "お問い合わせ｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/contact.html:15
+msgid "CONTACT"
+msgstr "お問い合わせ"
+
+#: atomhome/templates/atomhome/en/faq.html:8
+msgid "FAQ|AtomSolutions"
+msgstr "よくある質問｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/faq.html:13
+#: atomhome/templates/atomhome/include/en/footer.html:30
+msgid "FAQ"
+msgstr "よくある質問"
 
 #: atomhome/templates/atomhome/en/index.html:6
 msgid "Overseas remittance｜ETERNAL LIVE"
@@ -162,6 +548,7 @@ msgstr "※特許出願中"
 #: atomhome/templates/atomhome/en/index.html:78
 #: atomhome/templates/atomhome/en/xet.html:44
 #: atomhome/templates/atomhome/en/xet.html:78
+#: atomhome/templates/atomhome/include/en/footer.html:46
 #: atomhome/templates/atomhome/include/en/nav.html:17
 #: atomhome/templates/atomhome/include/en/nav.html:33
 msgid "XEC"
@@ -201,6 +588,7 @@ msgid "XEC Lending Feature"
 msgstr "XEC貸し出し"
 
 #: atomhome/templates/atomhome/en/index.html:86
+#: atomhome/templates/atomhome/en/whitelabel.html:139
 msgid "Arbitrage"
 msgstr "アービトラージ"
 
@@ -276,6 +664,512 @@ msgstr "モンゴル語・タガログ語に対応しております。"
 #: atomhome/templates/atomhome/en/index.html:115
 msgid "Please feel free to contact us"
 msgstr "お気軽にお問い合わせくださいませ。"
+
+#: atomhome/templates/atomhome/en/media.html:7
+#: atomhome/templates/atomhome/jp/media.html:8
+msgid "Media Gallery|AtomSolutions"
+msgstr "メディアギャラリー｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/media.html:13
+#: atomhome/templates/atomhome/jp/media.html:15
+msgid "MEDIA GALLERY"
+msgstr "メディアギャラリー"
+
+#: atomhome/templates/atomhome/en/media.html:17
+#: atomhome/templates/atomhome/jp/media.html:19
+msgid "Overseas"
+msgstr "海外"
+
+#: atomhome/templates/atomhome/en/media.html:18
+#: atomhome/templates/atomhome/en/news.html:23
+#: atomhome/templates/atomhome/jp/media.html:20
+#: atomhome/templates/atomhome/jp/news.html:23
+msgid "in Japan"
+msgstr "日本では"
+
+#: atomhome/templates/atomhome/en/news.html:8
+#: atomhome/templates/atomhome/jp/news.html:8
+
+msgid "NEWS LIST|AtomSolutions"
+msgstr "ニュース一覧｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/news.html:15
+#: atomhome/templates/atomhome/jp/news.html:15
+
+msgid "NEWS LIST"
+msgstr "ニュース一覧"
+
+#: atomhome/templates/atomhome/en/news.html:22
+#: atomhome/templates/atomhome/jp/news.html:22
+
+msgid "in English"
+msgstr "英語"
+
+#: atomhome/templates/atomhome/en/news.html:45
+#: atomhome/templates/atomhome/jp/news.html:45
+msgid "First"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/news.html:46
+#: atomhome/templates/atomhome/jp/news.html:46
+msgid "Prev"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/news.html:58
+#: atomhome/templates/atomhome/jp/news.html:58
+msgid "Next"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/news.html:59
+#: atomhome/templates/atomhome/jp/news.html:59
+msgid "Last"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/official-exchange.html:8
+msgid "APPLY FOR OFFICIAL EXCHANGE|AtomSolutions"
+msgstr "公認取引所申請｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/official-exchange.html:15
+msgid "APPLY FOR OFFICIAL EXCHANGE"
+msgstr "公認取引所申請"
+
+#: atomhome/templates/atomhome/en/official-exchange.html:50
+msgid "E-mail address"
+msgstr "受付メールアドレス   海外エリア担当宛"
+
+#: atomhome/templates/atomhome/en/privacy.html:9
+msgid "PRIVACY POLICY|AtomSolutions"
+msgstr "プライバシーポリシー｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/privacy.html:15
+msgid "PRIVACY POLICY"
+msgstr "プライバシーポリシー"
+
+#: atomhome/templates/atomhome/en/recruitment.html:9
+#, fuzzy
+#| msgid "Official Page|AtomSolutions"
+msgid "Recruit Page|AtomSolutions"
+msgstr "リクルート｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/recruitment.html:14
+msgid "Growth is never by mere chance,"
+msgstr "企業の成長とは、決して偶然の賜物ではありません。"
+
+#: atomhome/templates/atomhome/en/recruitment.html:14
+msgid "it is the result of forces working together."
+msgstr "私たちと「あなた」の、出逢いと挑戦の産物なのです。"
+
+#: atomhome/templates/atomhome/en/recruitment.html:20
+msgid "Watch the film"
+msgstr "ビデオを見る"
+
+#: atomhome/templates/atomhome/en/recruitment.html:35
+msgid "System Engineer and Programer"
+msgstr "SE/PG（日本在住の方）"
+
+#: atomhome/templates/atomhome/en/recruitment.html:39
+msgid "Back Office"
+msgstr "バックオフィス"
+
+#: atomhome/templates/atomhome/en/recruitment.html:43
+msgid "Work in Costa Rica"
+msgstr "コスタリカで働きたい方"
+
+#: atomhome/templates/atomhome/en/recruitment.html:47
+msgid "Work in Kenya"
+msgstr "ケニアで働きたい方"
+
+#: atomhome/templates/atomhome/en/recruitment.html:51
+msgid "Web Designer"
+msgstr "WEBデザイナー"
+
+#: atomhome/templates/atomhome/en/recruitment.html:55
+msgid "Overseas Cooperate Department"
+msgstr "海外事業部門"
+
+#: atomhome/templates/atomhome/en/video.html:7
+msgid "Video Gallery|AtomSolutions"
+msgstr "動画ギャラリー｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/video.html:15
+msgid "VIDEO GALLERY"
+msgstr "動画一覧"
+
+#: atomhome/templates/atomhome/en/video.html:28
+msgid "【EVOR】 Introducing our new service!"
+msgstr "新サービスの紹介 【EVOR】"
+
+#: atomhome/templates/atomhome/en/video.html:31
+#: atomhome/templates/atomhome/en/video.html:44
+#: atomhome/templates/atomhome/en/video.html:54
+#: atomhome/templates/atomhome/en/video.html:64
+#: atomhome/templates/atomhome/en/video.html:74
+#: atomhome/templates/atomhome/en/video.html:291
+#: atomhome/templates/atomhome/en/video.html:387
+#: atomhome/templates/atomhome/en/video.html:397
+#: atomhome/templates/atomhome/en/video.html:408
+#: atomhome/templates/atomhome/en/video.html:418
+msgid "Eternal Wallet"
+msgstr "エターナルウォレット"
+
+#: atomhome/templates/atomhome/en/video.html:32
+msgid "2018/04/15"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:41
+msgid "【Business Tie-up】Atom Solutions & Eternal Wallet PH"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:45
+#: atomhome/templates/atomhome/en/video.html:55
+#: atomhome/templates/atomhome/en/video.html:398
+msgid "2017/12/14"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:51
+#: atomhome/templates/atomhome/en/video.html:394
+msgid "Eternal Wallet CM3"
+msgstr "永遠の財布が提供する"
+
+#: atomhome/templates/atomhome/en/video.html:61
+#, fuzzy
+#| msgid "Eternal Wallet provides"
+msgid "Eternal Wallet CM2"
+msgstr "永遠の財布が提供する"
+
+#: atomhome/templates/atomhome/en/video.html:65
+#: atomhome/templates/atomhome/en/video.html:409
+msgid "2017/12/12"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:71
+#, fuzzy
+#| msgid "Eternal Wallet provides"
+msgid "Eternal Wallet CM1"
+msgstr "永遠の財布が提供する"
+
+#: atomhome/templates/atomhome/en/video.html:75
+#: atomhome/templates/atomhome/en/video.html:419
+msgid "2017/12/4"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:81
+#: atomhome/templates/atomhome/en/video.html:426
+msgid "【E-Look Application】"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:84
+#: atomhome/templates/atomhome/en/video.html:134
+#: atomhome/templates/atomhome/en/video.html:144
+#: atomhome/templates/atomhome/en/video.html:154
+#: atomhome/templates/atomhome/en/video.html:164
+#: atomhome/templates/atomhome/en/video.html:174
+#: atomhome/templates/atomhome/en/video.html:429
+#: atomhome/templates/atomhome/en/video.html:481
+#: atomhome/templates/atomhome/en/video.html:492
+#: atomhome/templates/atomhome/en/video.html:512
+#: atomhome/templates/atomhome/en/video.html:522
+msgid "TokenHub"
+msgstr "トークンハブ"
+
+#: atomhome/templates/atomhome/en/video.html:85
+#: atomhome/templates/atomhome/en/video.html:430
+msgid "2017/02/01"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:91
+#: atomhome/templates/atomhome/en/video.html:436
+msgid "Token Hub Anniversary"
+msgstr "Token Hub 記念日"
+
+#: atomhome/templates/atomhome/en/video.html:94
+#: atomhome/templates/atomhome/en/video.html:439
+msgid "Imagepro"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:95
+#: atomhome/templates/atomhome/en/video.html:440
+msgid "2016/11/17"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:101
+#: atomhome/templates/atomhome/en/video.html:446
+msgid "Eternal Coin Introduction (English)"
+msgstr "永遠のコイン総合案内"
+
+#: atomhome/templates/atomhome/en/video.html:104
+#: atomhome/templates/atomhome/en/video.html:114
+#: atomhome/templates/atomhome/en/video.html:124
+#: atomhome/templates/atomhome/en/video.html:184
+#: atomhome/templates/atomhome/en/video.html:194
+#: atomhome/templates/atomhome/en/video.html:449
+#: atomhome/templates/atomhome/en/video.html:460
+#: atomhome/templates/atomhome/en/video.html:470
+#: atomhome/templates/atomhome/en/video.html:533
+#: atomhome/templates/atomhome/en/video.html:543
+msgid "Eternal Entertainment"
+msgstr "永遠の娯楽"
+
+#: atomhome/templates/atomhome/en/video.html:105
+#: atomhome/templates/atomhome/en/video.html:450
+msgid "2016/09/30"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:111
+msgid "Eternal Coin Introduction 3"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:115
+#: atomhome/templates/atomhome/en/video.html:461
+msgid "2016/08/08"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:121
+msgid "Eternal Coin Introduction 2"
+msgstr "ロゴの利用について (PDF)"
+
+#: atomhome/templates/atomhome/en/video.html:125
+msgid "2016/05/25"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:131
+#: atomhome/templates/atomhome/en/video.html:478
+msgid "Token Hub CM 1.00"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:135
+#: atomhome/templates/atomhome/en/video.html:145
+#: atomhome/templates/atomhome/en/video.html:155
+#: atomhome/templates/atomhome/en/video.html:165
+#: atomhome/templates/atomhome/en/video.html:175
+#: atomhome/templates/atomhome/en/video.html:482
+#: atomhome/templates/atomhome/en/video.html:493
+#: atomhome/templates/atomhome/en/video.html:503
+#: atomhome/templates/atomhome/en/video.html:513
+#: atomhome/templates/atomhome/en/video.html:523
+msgid "2016/05/11"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:141
+#: atomhome/templates/atomhome/en/video.html:489
+msgid "Token Hub CM 2.00"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:151
+#: atomhome/templates/atomhome/en/video.html:499
+msgid "Token Hub CM 3.00"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:161
+msgid "Token Hub CM 4.00"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:171
+#: atomhome/templates/atomhome/en/video.html:519
+msgid "Token Hub CM 5.00"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:181
+#: atomhome/templates/atomhome/en/video.html:530
+msgid "Eternal Coin Introduction 1"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:185
+#: atomhome/templates/atomhome/en/video.html:534
+msgid "2016/02/16"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:191
+#: atomhome/templates/atomhome/en/video.html:540
+msgid "Japan/Hong Kong"
+msgstr "日本または香港"
+
+#: atomhome/templates/atomhome/en/video.html:191
+#: atomhome/templates/atomhome/en/video.html:540
+msgid "Remittance Experiment"
+msgstr "送金実験"
+
+#: atomhome/templates/atomhome/en/video.html:195
+#: atomhome/templates/atomhome/en/video.html:544
+msgid "2015/12/10"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:205
+msgid "The feature of Eternal Coin"
+msgstr "永遠のコインの特徴"
+
+#: atomhome/templates/atomhome/en/video.html:212
+#: atomhome/templates/atomhome/en/video.html:222
+#: atomhome/templates/atomhome/en/video.html:232
+#: atomhome/templates/atomhome/en/video.html:242
+#: atomhome/templates/atomhome/en/video.html:252
+#: atomhome/templates/atomhome/en/video.html:262
+#: atomhome/templates/atomhome/en/video.html:272
+#: atomhome/templates/atomhome/en/video.html:304
+#: atomhome/templates/atomhome/en/video.html:315
+#: atomhome/templates/atomhome/en/video.html:325
+#: atomhome/templates/atomhome/en/video.html:335
+#: atomhome/templates/atomhome/en/video.html:345
+#: atomhome/templates/atomhome/en/video.html:355
+#: atomhome/templates/atomhome/en/video.html:365
+msgid "ATOM SOLUTIONS"
+msgstr "アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/video.html:213
+#: atomhome/templates/atomhome/en/video.html:223
+#: atomhome/templates/atomhome/en/video.html:233
+#: atomhome/templates/atomhome/en/video.html:305
+#: atomhome/templates/atomhome/en/video.html:316
+#: atomhome/templates/atomhome/en/video.html:326
+msgid "2018/04/04"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:219
+#: atomhome/templates/atomhome/en/video.html:312
+msgid "【Currency Exchange】"
+msgstr "為替"
+
+#: atomhome/templates/atomhome/en/video.html:229
+#: atomhome/templates/atomhome/en/video.html:322
+msgid "【Point】"
+msgstr "点"
+
+#: atomhome/templates/atomhome/en/video.html:239
+#: atomhome/templates/atomhome/en/video.html:332
+msgid "【One touch transfer】"
+msgstr "ワンタッチ転送"
+
+#: atomhome/templates/atomhome/en/video.html:243
+#: atomhome/templates/atomhome/en/video.html:336
+msgid "2018/04/02"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:249
+#: atomhome/templates/atomhome/en/video.html:342
+msgid "【Transfer via Phone Number】"
+msgstr "電話番号で転送"
+
+#: atomhome/templates/atomhome/en/video.html:253
+#: atomhome/templates/atomhome/en/video.html:346
+msgid "2018/03/29"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:259
+#: atomhome/templates/atomhome/en/video.html:352
+msgid "【Dividends Distribution】"
+msgstr "配当金の分配"
+
+#: atomhome/templates/atomhome/en/video.html:263
+#: atomhome/templates/atomhome/en/video.html:356
+msgid "2018/03/27"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:269
+#: atomhome/templates/atomhome/en/video.html:362
+msgid "【Value Division】"
+msgstr "バリュー部門"
+
+#: atomhome/templates/atomhome/en/video.html:273
+#: atomhome/templates/atomhome/en/video.html:366
+msgid "2018/03/26"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:288
+msgid "【EVOR】Introducing our new service!"
+msgstr "【EVOR】私たちの新しいサービスをご紹介します。"
+
+#: atomhome/templates/atomhome/en/video.html:292
+msgid "2019/04/15"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:388
+msgid "2018/09/24"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:405
+msgid "CM2"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:415
+msgid "CM1"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:457
+msgid "Introduction 3"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/video.html:467
+msgid "Introduction 2"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/vr.html:8
+msgid "VR WANTED VR PARTNER|AtomSolutions"
+msgstr "VRパートナー募集｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/vr.html:43
+msgid "MESSAGE"
+msgstr "メッセージ"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:12
+msgid "Crypto System Development|AtomSolutions"
+msgstr "仮想通貨システム開発サービス｜アトムソリューションズ"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:40
+msgid "SERVICE"
+msgstr "サービス"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:43
+msgid "DEVELOPMENT"
+msgstr "開発業務"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:62
+msgid "Smart Contract Audit"
+msgstr "スマートコントラクト監査"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:68
+msgid "Listing Application Agency"
+msgstr "上場申請代理"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:103
+msgid "Private Blockchain"
+msgstr "プライベート"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:103
+msgid "Development"
+msgstr "ブロックチェーン開発"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:111
+msgid "Original Wallet"
+msgstr "エターナルウォレット"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:111
+#: atomhome/templates/atomhome/en/whitelabel.html:122
+msgid "Manufacturing"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/whitelabel.html:122
+msgid "Exchange White Label"
+msgstr ""
+
+#: atomhome/templates/atomhome/en/whitelabel.html:131
+msgid "Client Management"
+msgstr "顧客管理"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:131
+msgid "Back-office Systems"
+msgstr "バックオフィスシステム"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:139
+msgid "Cryptocurrency"
+msgstr "仮想通貨"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:139
+msgid "Investment"
+msgstr "資本金"
+
+#: atomhome/templates/atomhome/en/whitelabel.html:159
+msgid "Contact Form"
+msgstr "お問い合わせ"
 
 #: atomhome/templates/atomhome/en/xec.html:9
 msgid "Official Page|AtomSolutions"
@@ -521,20 +1415,26 @@ msgid ""
 "Eternal Coin (XEC) can be traded and acquired via authorized exchanges ONLY "
 "which leads to the disadvantage that XEC can’t be acquired via ANY "
 "unauthorized exchanges throughout the world."
-msgstr "エターナルコイン（XEC）は公認取引所でのみ売買・保管ができる仮想通貨の為、公認取引所の無い国においてはXECの売買ができないデメリットがあります。"
+msgstr ""
+"エターナルコイン（XEC）は公認取引所でのみ売買・保管ができる仮想通貨の為、公認"
+"取引所の無い国においてはXECの売買ができないデメリットがあります。"
 
 #: atomhome/templates/atomhome/en/xet.html:38
 msgid ""
 "Therefore, Eternal Token (XET) is developed to be listed and tradable with "
 "various currencies on global exchanges."
-msgstr "そしてXET は世界中の取引所で取引されることによって、さまざまな仮想通貨と交換することができます。"
+msgstr ""
+"そしてXET は世界中の取引所で取引されることによって、さまざまな仮想通貨と交換"
+"することができます。"
 
 #: atomhome/templates/atomhome/en/xet.html:39
 msgid ""
 "The issuance between two compatible virtual currencies is a new form of "
 "virtual currency to solve the disadvantage of XEC and other currencies with "
 "similar situation."
-msgstr "アトムソリューションズでは、XECとXETという互換性のある仮想通貨を発行する事によって、XEC のデメリットと一般的な仮想通貨のデメリットを解決しました。"
+msgstr ""
+"アトムソリューションズでは、XECとXETという互換性のある仮想通貨を発行する事に"
+"よって、XEC のデメリットと一般的な仮想通貨のデメリットを解決しました。"
 
 #: atomhome/templates/atomhome/en/xet.html:48
 #: atomhome/templates/atomhome/en/xet.html:81
@@ -546,7 +1446,6 @@ msgstr "発行者"
 #: atomhome/templates/atomhome/en/xet.html:50
 #: atomhome/templates/atomhome/en/xet.html:82
 #: atomhome/templates/atomhome/en/xet.html:107
-
 msgid "Atom Solutions"
 msgstr "アトムソリューションズ"
 
@@ -574,12 +1473,12 @@ msgstr "発行枚数"
 #: atomhome/templates/atomhome/en/xet.html:59
 #: atomhome/templates/atomhome/en/xet.html:90
 msgid "2 Billion units"
-msgstr "2億枚"
+msgstr "20億枚"
 
 #: atomhome/templates/atomhome/en/xet.html:60
 #: atomhome/templates/atomhome/en/xet.html:115
 msgid "200 Million units"
-msgstr "20億枚"
+msgstr "2億枚"
 
 #: atomhome/templates/atomhome/en/xet.html:63
 #: atomhome/templates/atomhome/en/xet.html:93
@@ -592,36 +1491,38 @@ msgid ""
 "・Fiat Currency Exchange・Transfer via Phone Number・Value Division System・"
 "Weekly Dividends Distribution."
 msgstr ""
+"・エターナルウォレットを利用したフィアット通貨の両替、電話番号送信、コインの"
+"分割、毎週1回の配当"
 
 #: atomhome/templates/atomhome/en/xet.html:64
 #: atomhome/templates/atomhome/en/xet.html:96
 msgid "・Guaranteed from Cyber Hacking and Unauthorized Wallet Access."
-msgstr ""
+msgstr "・盗難やハッキングに遭った際に保証が可能"
 
 #: atomhome/templates/atomhome/en/xet.html:65
 #: atomhome/templates/atomhome/en/xet.html:119
 msgid "・Tradable with Various Currencies on Global Exchanges."
-msgstr ""
+msgstr "・各国の仮想通貨取引所にて様々な仮想通貨との交換が可能"
 
 #: atomhome/templates/atomhome/en/xet.html:68
 #: atomhome/templates/atomhome/en/xet.html:99
 #: atomhome/templates/atomhome/en/xet.html:122
 msgid "Disadvantages"
-msgstr ""
+msgstr "デメリット"
 
 #: atomhome/templates/atomhome/en/xet.html:69
 msgid "・Tradable with Eternal Coin ONLY."
-msgstr ""
+msgstr "・エターナルコイン以外の仮想通貨との交換が出来ない"
 
 #: atomhome/templates/atomhome/en/xet.html:70
 #: atomhome/templates/atomhome/en/xet.html:123
 msgid "・Eternal Wallet functions cannot be used."
-msgstr ""
+msgstr "・エターナルコイン以外の仮想通貨との交換が出来ない"
 
 #: atomhome/templates/atomhome/en/xet.html:71
 #: atomhome/templates/atomhome/en/xet.html:124
 msgid "・No guarantee from cyber security like hacking or stolen password."
-msgstr ""
+msgstr "・盗難やハッキング時の補償がない"
 
 #: atomhome/templates/atomhome/en/xet.html:86
 msgid "Authorized Exchange : Hong Kong・Korea・Philippines"
@@ -633,54 +1534,61 @@ msgstr ""
 
 #: atomhome/templates/atomhome/en/xet.html:135
 msgid "Third-party Evaluation"
-msgstr ""
+msgstr "外部機関による認定"
 
 #: atomhome/templates/atomhome/en/xet.html:136
 msgid ""
 "Our XET Project and Smart Contract are evaluated as having a high credibility"
-msgstr ""
+msgstr "XETは外部機関によるスマートコントラクト監査、格付けを受け、"
 
 #: atomhome/templates/atomhome/en/xet.html:137
 msgid "and proven secured by third-party organizations."
-msgstr ""
+msgstr "信頼性の高い仮想通貨であるという認定を受けました。"
 
 #: atomhome/templates/atomhome/en/xet.html:147
 msgid "XET Tradable Exchange"
-msgstr ""
+msgstr "XET取引所"
 
 #: atomhome/templates/atomhome/en/xet.html:148
 msgid "XET is tradable via the exchanges below."
-msgstr ""
+msgstr "XETの取引は以下の取引所にて行う事ができます。"
 
 #: atomhome/templates/atomhome/en/xet.html:149
 msgid ""
 "Atom Solutions will continue to get XET listed on different exchanges to "
 "increase the value of XET and keeping XET circulated on the market"
 msgstr ""
+"アトムソリューションズでは今後も順次XETが取り扱える取引所を増やしていき、XET"
+"の流動性と取引高を増やす活動を行ってまいります。"
 
-#: atomhome/templates/atomhome/en/xet.html:159
+#: atomhome/templates/atomhome/en/xet.html:162
+#: atomhome/templates/atomhome/en/xet.html:164
 msgid "Opening Soon!"
-msgstr ""
+msgstr "2019年6月24日オープン予定"
 
-#: atomhome/templates/atomhome/en/xet.html:159
+#: atomhome/templates/atomhome/en/xet.html:162
 msgid "On June 17th, 2019"
 msgstr ""
 
-#: atomhome/templates/atomhome/en/xet.html:175
+#: atomhome/templates/atomhome/en/xet.html:181
 msgid "XET ⇔ XEC Conversion"
-msgstr ""
+msgstr "XET⇔XEC交換所"
 
-#: atomhome/templates/atomhome/en/xet.html:179
+#: atomhome/templates/atomhome/en/xet.html:185
 msgid ""
 "For conversion between Eternal Coin (XEC) and Eternal Token (XET), please "
 "visit to the URL below."
 msgstr ""
+"エターナルコイン（XEC）をエターナルトークン（XET）に交換する場合は、以下のサ"
+"イトより行って下さい。"
 
-#: atomhome/templates/atomhome/en/xet.html:181
+#: atomhome/templates/atomhome/en/xet.html:187
 msgid ""
 "※In addition, for Japan users, trading or transacting XEC/JPY is not yet "
 "available until further notice."
 msgstr ""
+"※尚、日本のユーザー様においては、XEC/JPYでの取引だけでなく現時点ではXECの売買"
+"や送受信も行えません。"
 
 #: atomhome/templates/atomhome/include/en/footer.html:8
 msgid "ABOUT ATOM"
@@ -719,10 +1627,6 @@ msgstr "お問い合わせ"
 #: atomhome/templates/atomhome/include/en/footer.html:28
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
-
-#: atomhome/templates/atomhome/include/en/footer.html:30
-msgid "FAQ"
-msgstr "よくある質問"
 
 #: atomhome/templates/atomhome/include/en/footer.html:32
 msgid "CONTENTS"
@@ -848,3 +1752,14 @@ msgstr "日本人"
 #: atomhome/templates/atomhome/include/en/nav.html:44
 msgid "EN"
 msgstr "英語"
+
+#, fuzzy
+#~| msgid "Please feel free to contact us"
+#~ msgid "Please feel free to contact us."
+#~ msgstr "お気軽にお問い合わせくださいませ。"
+
+#~ msgid "Market Cap"
+#~ msgstr "ランキングサイト申請代理"
+
+#~ msgid "Project Rating"
+#~ msgstr "格付け申請代理"

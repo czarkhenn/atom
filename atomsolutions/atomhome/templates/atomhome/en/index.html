@@ -11,12 +11,22 @@
             <div class="section" id="section01">
                 <video src="{% static "atomhome/img/en/bg_main_animation.mov" %}" muted autoplay loop webkit-playsinline
                     playsinline preload="metadata"></video>
+                    {% get_current_language as lang %}
+                    {% if lang == "en-us" %}
                 <div class="inner" style="padding: 100px 0px 0px 0px">
-                    <h2>{% trans "SEND MONEY WORLDWIDE AT THE" %}<br class="sp-none">{% trans "LOWEST COST AND FASTEST SPEED!" %}</h2>
-                    <p class="description desc-typeA">{% trans "With Eternal Wallet, you can send money" %} <br
-                            class="pc-none">{% trans "without using a bank at Anytime, Anywhere." %}</p>
+                    <h2>SEND MONEY WORLDWIDE AT THE<br class="sp-none">LOWEST COST AND FASTEST SPEED!</h2>
+                    <p class="description desc-typeA">With Eternal Wallet, you can send money <br
+                            class="pc-none">without using a bank at Anytime, Anywhere.</p>
                 </div>
+                {% else %}
+                <div class="inner">
+
+                        <h2>世界最速・世界最安で海外送金をしよう！</h2>
+                        <p class="description desc-typeA">エターナルウォレットなら、銀行に行かなくても<br class="pc-none">好きな時好きな場所から海外送金ができます。</p>
+                    </div>
+                    {% endif %}
                 <div class="txtRelease">
+                    
                     <div>
                         <p><span>TOPICS</span>{% trans "We are currently upgrading our new wallet system." %}<br>
                             {% trans "Please see news updates for more details!" %}</p>
@@ -28,10 +38,17 @@
         <section>
             <div class="section" id="section02">
                 <div id="section02-inner">
+                        {% get_current_language as lang %}
+                        {% if lang == "en-us" %}
                     <h2>{% trans "Eternal Wallet provides" %} <br class="forSp">{% trans "the Fastest" %} <br class="forPc">{% trans "Remittance" %} <br
                             class="forSp">{% trans "Services and Highest" %} <br>{% trans "Receivable Amount Ever!" %}</h2>
                     <p class="description desc-typeB"><span class="beta">{% trans "Our remittance rate is +0.5% from" %} <br
                                 class="forSp">{% trans "interbank Transfer Middle Rate (TTM)." %}</span></p>
+                                {% else %}
+                                <h2>どんなサービスよりも早く。</h2>
+				<p>エターナルウォレットを使えば、<br class="forSp">今までのどんなサービスよりも早く、<br class="forPc">そして<br class="forSp">受取額が多い海外送金を行う事ができます。</p>
+                <p class="sup">送金レートはインターバンクレートの仲値レート<br class="forSp">+0.5％のレートとなります。</p>
+                {% endif %}
                     <div class="aboutBox">
                         <div class="col">
                             <strong>{% trans "Available Countries" %}</strong>
@@ -56,11 +73,18 @@
         <section>
             <div class="section" id="section03">
                 <div class="inner">
+                        {% get_current_language as lang %}
+                        {% if lang == "en-us" %}
                     <h2>{% trans "We have achieved our goals in" %} <br class="forSp">{% trans "providing" %} <br class="forPc"> {% trans "the world’s fastest" %}
                         <br class="forSp">{% trans "overseas" %} <br class="forPc">{% trans "remittance services" %} <br class="forSp">{% trans "at the lowestcost" %} 
                         <br>{% trans "and equivalent value through" %} <br class="forSp">{% trans "our unique" %} <br class="forPc">{% trans "features,functions," %}
                         <br class="forSp">{% trans "technologies, and ideas." %}</h2>
                     <p class="description desc-typeB">{% trans "* Patent Filed" %}</p>
+                    {% else %}
+                    <h2>世界最安値＆最速での<br class="forSp">海外送金は<br class="forPc">様々な独自の<br class="forSp">技術＆アイデアにて<br class="forSp">実現しました。</h2>
+                    <p>※特許出願中</p>
+                    {% endif %}
+
                 {% get_current_language as LANGUAGE_CODE %}
                     {% if LANGUAGE_CODE == "en-us" %}
                     <div class="bnr_link"><a href="http://pool.atom-solutions.jp/" target="_blank"><img src="{% static "atomhome/img/en/bnr_demo_en.png" %}"  

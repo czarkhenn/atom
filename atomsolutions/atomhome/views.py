@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from requests_html import HTMLSession
 from django.views.generic.list import ListView
-from .models import Post
+from .models import Post, Postjp
 from django.views.generic import DetailView
 from django.views import generic
 from django.shortcuts import render_to_response
@@ -107,3 +107,12 @@ class NewsDetailView(generic.DetailView):
     model = Post
 
 
+class NewsjpView(ListView):
+    model = Postjp
+    template_name = 'atomhome/jp/news.html'
+    paginate_by = 5
+    ordering = ['-created']
+
+class NewsjpDetailView(generic.DetailView):
+    template_name = 'atomhome/jp/details.html'
+    model = Postjp

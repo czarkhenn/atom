@@ -1,22 +1,24 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
-
+{% load i18n %}
 
 <meta content="" name="keywords">
 <meta content="" name="description">
-<title>APPLY FOR OFFICIAL EXCHANGE|AtomSolutions</title>
+<title>{% trans "APPLY FOR OFFICIAL EXCHANGE|AtomSolutions" %}</title>
 
 
 
 <div class="page-bg"></div>
 <div class="page-ttl">
     <div class="wrap spaceL">
-        <h1 class="ttlPage">APPLY FOR OFFICIAL EXCHANGE</h1>
+        <h1 class="ttlPage">{% trans "APPLY FOR OFFICIAL EXCHANGE" %}</h1>
     </div><!-- /.wrap -->
 </div><!-- /.page-ttl -->
 <div class="page-wrap">
     <div class="wrap spaceL">
+        {% get_current_language as lang%}
+        {% if lang == "en-us" %}
         <p class="txt-center2">Interested in becoming one of our authorized exchanges? Please send the following
             contents to the address below.<br />
             ※Application is accepted in English and Japanese only.</p>
@@ -30,9 +32,22 @@
                     （Please describe your marketing plan, manpower figure in operating the exchange, annual commercial
                     budget, and other appeal points in your business plan.）</p>
             </div><!-- /.col -->
+            {% else %}
+            <p class="txt-center2">取引所運営を希望する企業様は以下の内容を下記アドレスにお送りください。<br />
+                ※申し込みは、英語及び日本語のみの受付となります。</p>
+                            <div class="blk-gray">
+                                <div class="col">
+                                    <p>・取引所運営希望エリア（国）<br />
+                ・運営会社名<br />
+                ・ホームページアドレス<br />
+                ・運営希望国での仮想通貨を取り扱うライセンスや、法律的な見解<br />
+                ・事業計画<br />
+                （事業計画には、マーケティングプラン・取引所を運営スタッフ数・年間の広告費・PRポイントなどをご記入ください。）</p>
+                                </div>
+                                {% endif %}
         </div><!-- /.blk-gray -->
         <div class="blk-mail">
-            <span>E-mail address</span>
+            <span>{% trans "E-mail address" %}</span>
             <a href="mailto:info@atom-solutions.jp" target="_blank">info@atom-solutions.jp</a>
         </div><!-- /.blk-mail -->
     </div><!-- /.wrap -->

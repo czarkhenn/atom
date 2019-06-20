@@ -1,6 +1,7 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
+{% load i18n %}
 
 
 
@@ -8,7 +9,7 @@
     content="AtomSolutions,White label,Cryptocurrency,Virtual currency,Customer management system,Virtual currency system development"
     name="keywords">
 <meta content="" name="description">
-<title>Crypto System Development|AtomSolutions</title>
+<title>{% trans "Crypto System Development|AtomSolutions" %}</title>
 
 
 
@@ -19,9 +20,14 @@
 
 
 <section class="pg_cover whitelabel">
+    {% get_current_language as lang %}
+    {% if lang == "en-us" %}
     <p>Atom Solutions is conducting <br class="forSp">various <br class="forPc">developments within <br
             class="forSp">the cryptocurrency world,<br>at the industry’s lowest <br class="forSp">possible price.
     </p>
+    {% else %}
+    <p>アトムソリューションズ<br class="forSp">では<br class="forPc">仮想通貨に関する<br class="forSp">様々な開発を<br class="forPc">業界最安値で<br class="forSp">行っております</p>
+    {% endif %}
 </section><!-- /.pg_cover -->
 
 
@@ -31,10 +37,10 @@
     <div class="inner01">
         <ul class="blk_tab">
             <li class="select">
-                <div><strong>SERVICE</strong></div>
+                <div><strong>{% trans "SERVICE" %}</strong></div>
             </li>
             <li>
-                <div><strong>DEVELOPMENT</strong></div>
+                <div><strong>{% trans "DEVELOPMENT" %}</strong></div>
             </li>
         </ul>
         <div class="blk_cts">
@@ -42,26 +48,37 @@
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_service01.png" %}">
+                        {% get_current_language as lang %}
+                        {% if lang == "en-us" %}
                         <p>Market Cap <br>Application Agency</p>
+                        {% else %}
+                        <p>ランキングサイト申請代理</p>
+                        {% endif %}
                     </div>
                 </div>
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_service02.png" %}">
-                        <p>Smart Contract Audit</p>
+                        <p>{% trans "Smart Contract Audit" %}</p>
                     </div>
                 </div>
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_service03.png" %}">
-                        <p>Listing Application Agency</p>
+                        <p>{% trans "Listing Application Agency" %}</p>
                     </div>
                 </div>
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_service04.png" %}">
                         <!-- <p>Project Rating <br class="forSp">Application</p> -->
+                        {% get_current_language as lang %}
+                        {% if lang == "en-us" %}
                         <p>Project Rating <br>Application Agency</p>
+                        {% else %}
+                        <p>格付け申請代理</p>
+                        {% endif %}
+
                     </div>
                 </div>
             </div>
@@ -71,49 +88,75 @@
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_development01.png" %}">
-                        <p>ERC20-based <br>Cryptocurrency <br class="forSp">Development</p>
+                        {% get_current_language as lang %}
+                        {% if lang == "en-us" %}
+                        <p>ERC20-based <br>Cryptocurrency <br class="forSp"></p>
+                        {% else %}
+                        <p>ERC20ベースでの<br>仮想通貨開発</p>
+                        {% endif %}
+
                     </div>
                 </div>
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_development02.png" %}">
-                        <p>Private Blockchain <br>Development</p>
+                        <p>{% trans "Private Blockchain" %} <br>{% trans "Development" %}</p>
                     </div>
                 </div>
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_development03.png" %}">
-                        <p>Original Wallet <br>Manufacturing</p>
+                        {% get_current_language as lang %}
+                        {% if lang == "en-us" %}
+                        <p>{% trans "Original Wallet" %} <br>{% trans "Manufacturing" %}</p>
+                        {% else %}
+                        <p>独自ウォレット制作</p>
+                        {% endif %}
                     </div>
                 </div>
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_development04.png" %}">
-                        <p>Exchange White Label <br>Manufacturing</p>
+                        {% get_current_language as lang %}
+                        {% if lang == "en-us" %}
+                        <p>{% trans "Exchange White Label" %} <br>{% trans "Manufacturing" %}</p>
+                        {% else %}
+                        <p>取引所ホワイトラベル制作</p>
+                        {% endif %}
                     </div>
                 </div>
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_development05.png" %}">
-                        <p>Client Management <br>Back-office Systems</p>
+                        <p>{% trans "Client Management" %} <br>{% trans "Back-office Systems" %}</p>
                     </div>
                 </div>
                 <div class="col">
                     <div>
                         <img src="{% static "atomhome/img/en/whitelabel_ico_development06.png" %}">
-                        <p>Cryptocurrency <br class="forSp">Arbitrage <br class="forPc">Investment <br
+                        {% get_current_language as lang %}
+                        {% if lang == "en-us" %}
+                        <p>{% trans "Cryptocurrency" %} <br class="forSp">{% trans "Arbitrage" %} <br class="forPc">{% trans "Investment" %} <br
                                 class="forSp">System</p>
+                        {% else %}
+                        <p>仮想通貨アービ<br class="forSp">トラージ<br class="forPc">運用システム</p>
+                        {% endif %}   
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="inner02">
+            {% get_current_language as lang %}
+            {% if lang == "en-us" %}
         <p>We are also accepting App developments.<br>
             Please feel free to contact us.</p>
+            {% else %}
+            <p>アプリ等の開発も承っております。お気軽にご相談下さい。</p>
+            {% endif %}
         <div class="button-4">
             <div class="eff-4"></div>
-            <a href="{% url 'atomhome:contact' %}">Contact Form</a>
+            <a href="{% url 'atomhome:contact' %}">{% trans "Contact Form" %}</a>
         </div>
     </div>
 </section><!-- /.cts_whitelabel -->

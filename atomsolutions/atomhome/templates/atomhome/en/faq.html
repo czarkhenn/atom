@@ -1,18 +1,20 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
-
+{% load i18n %}
 
 <meta content="" name="keywords">
 <meta content="" name="description">
-<title>FAQ|AtomSolutions</title>
+<title>{% trans "FAQ|AtomSolutions" %}</title>
 
 <div class="page-bg"></div>
 <div class="page-ttl">
     <div class="wrap spaceL">
-        <h1 class="ttlPage">FAQ</h1>
+        <h1 class="ttlPage">{% trans "FAQ" %}</h1>
     </div><!-- /.wrap -->
 </div><!-- /.page-ttl -->
+{% get_current_language as lang %}
+{% if lang == "en-us" %}
 <div class="faq">
     <div class="wrap spaceL">
         <div class="col">
@@ -122,6 +124,106 @@
         </div><!-- /.col -->
     </div><!-- /.wrap -->
 </div><!-- /.faq -->
+{% else %}
+<div class="faq">
+        <div class="wrap spaceL">
+          <div class="col">
+            <div class="col-faq">
+            <h2>XEC（エターナルコイン）とXET（エターナルトークン）は何が違うの？</h2>
+              <table>
+                <tr>
+                  <th></th>
+                  <th>XEC（エターナルコイン）</th>
+                  <th>XET（エターナルトークン）</th>
+                </tr>
+                <tr>
+                  <td>発行者</td>
+                  <td>アトムソリューションズ</td>
+                  <td>アトムソリューションズ</td>
+                </tr>
+                <tr>
+                  <td>交換所</td>
+                  <td>香港・韓国・フィリピンのエターナルコイン公認取引所</td>
+                  <td>各国の仮想通貨取引所</td>
+                </tr>
+                <tr>
+                  <td>発行枚数</td>
+                  <td>20億枚</td>
+                  <td>2億枚</td>
+                </tr>
+                <tr>
+                  <td>メリット</td>
+                  <td>・エターナルウォレットを利用したフィアット通貨の両替、電話番号送信、コインの分割、毎週1回の配当<br>
+                  ・盗難やハッキングにあった際に保証が可能</td>
+                  <td>・各国の仮想通貨取引所にて様々な仮想通貨との交換が可能</td>
+                </tr>
+                <tr>
+                  <td>デメリット</td>
+                  <td>・エターナルコイン以外の仮想通貨との交換が出来ない</td>
+                  <td>・エターナルウォレットを利用した様々な機能が使えない<br>・盗難やハッキング時の補償がない</td>
+                </tr>
+              </table>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>エターナルウォレットの特徴は？</h2>
+              <p>エターナルウォレットの最大の特徴は、世界一安く各国のフィアット通貨を両替できる事です。<br>
+              そして、両替を行ったフィアット通貨はエターナルコインの公認取引所がある国に対しては約5セントで送信する事ができるために、
+              エターナルウォレットでは世界最安値で海外送金を行う事ができます。</p>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>エターナルウォレットで送金できる国は？</h2>
+              <p>現在は韓国、香港、フィリピン間で送金が可能となっておりますが、今後はアジアとアフリカに送金可能国を広げていきます。</p>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>公認取引所って何？</h2>
+              <p>・エターナルコインの特徴は、公認取引所制度です。<br>
+              ・エターナルコインを取引できる取引所は各国に1社となっており、エターナルコインの公認取引所では、他の仮想通貨を取り扱う事ができません。<br>
+              ・公認取引所はエターナルコインしか取り扱えないので、エターナルコインやエターナルウォレットが利用できるインフラを構築する必要があるために、
+              エターナルコインやエターナルウォレットの世界は日々広がっています。</p>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>XECの特徴は？</h2>
+              <p>・エターナルウォレットを利用した海外送金や、エターナルコインの売買を行う時には、約5セントの取引手数料が発生します。<br>
+              ・その手数料の５０％は毎週1回エターナルコインの保有者に分配されます。<br>
+              ・エターナルコインの最大の特徴はエターナルコインの保有者に対して手数料の分配が行われる事ですので、利用者がいる限りは、
+              エターナルコインが無価値になる事はありません。</p>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>XECの配当はどのくらい？</h2>
+              <p>現在のエターナルコインを保有した際の配当は1年間で約８％となっております。</p>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>XECはどこで買えるの？</h2>
+              <p>エターナルコインは公認取引所がある以下の国の方であれば、取引所にて購入する事ができます。<br>
+              ・<a href="http://www.eternalkorea.com/?ckattempt=2" target="_blank">エターナルコリア</a><br>
+              ・<a href="https://tokenhub.asia/" target="_blank">エターナルPH</a><br>
+              ・<a href="https://eternalhongkong.com/" target="_blank">エターナル香港</a><br>
+              公認取引所がない国にお住いの方であれば、エターナルコインと交換が可能であるXETを以下の取引所でご購入頂きトークンハブ社にて
+              エターナルコインとの交換が可能となっております。</p>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>XETの特徴は？</h2>
+              <p>XETは世界中の仮想通貨取引所にて購入や売買を行う事ができますので、取引所を介して様々仮想通貨に交換する事も可能となっていますので、
+              XETをビットコインに交換したり、イーサリアムからXETを購入する事が可能です。</p>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>XETはどこで買えるの？</h2>
+              <p>現在は以下の取引所にて購入が可能となっております。<br>
+              ・<a href="https://www.idax.pro/#/" target="_blank">IDAX</a><br>
+              ・<a href="https://instantbitex.com" target="_blank">InstantBitex</a><br>
+              ・<a href="https://www.oex.com/index" target="_blank">OEX</a><br>
+              現在XETを売買できる取引所は3か所となっておりますが、今後もXETを取引できる取引所を増やしてまいりますので、利便性と流動性は今後増えていきます。</p>
+            </div><!-- col-faq -->
+            <div class="col-faq">
+              <h2>アトムソリューションズってどんな会社？</h2>
+              <p>株式会社アトムソリューションズは、2010年にITサービスやフィンテック企業として設立されました。<br>
+              その後、2015年より仮想通貨の発行・開発を行い、現在はエターナルコイン及びエターナルトークンの発行を行っております。<br>
+              また、仮想通貨のコンサルタント業務も本年度より開始しており、今後も仮想通貨とフィンテックにてグローバルにサービスを展開します。</p>
+            </div><!-- col-faq -->
+          </div><!-- /.col -->
+        </div><!-- /.wrap -->
+          </div>
+          {% endif %}
 {% include 'atomhome/include/en/footer.html' %}
 
 <script src="{% static "atomhome/js/common.js" %}"></script>

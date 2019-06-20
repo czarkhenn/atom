@@ -28,5 +28,7 @@ urlpatterns = [
     path('faq/', views.faq, name='faq'),
     path('vr-partner/', views.vr, name='vr'),
     path('news/', views.NewsView.as_view(), name='news'),
-    path('news/<int:pk>/', views.NewsDetailView.as_view(), name='details'),    
+    path('news/<int:pk>/', views.NewsDetailView.as_view(), name='details'),
+    path('newsjp/', views.NewsjpView.as_view(), name='newsjp'),
+    path('newsjp/<int:pk>/', views.NewsjpDetailView.as_view(), name='detailsjp'),
 ]

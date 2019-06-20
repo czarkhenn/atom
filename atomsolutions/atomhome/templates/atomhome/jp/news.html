@@ -19,8 +19,8 @@
 <div class="newsarea">
 	<div>
 		<ul class="blk_btn_media" style="padding-bottom: 5px; padding-top: 5px;">
-				<li>{% trans "in English" %}</li>
-				<li><a href="{% url 'atomhome:newsjp' %}">{% trans "in Japan" %}</a></li>
+				<li><a href="{% url 'atomhome:news' %}">{% trans "in English" %}</a></li>
+				<li>{% trans "in Japan" %}</li>
 			</ul>
 		</div>
 	<div class="top3">
@@ -30,7 +30,7 @@
 					{% for post in object_list %}
 					<dl class="js-load">
 						<dt>{{post.created|date:'Y.m.d'}}</dt>
-						<dd><a href="{% url 'atomhome:details' post.id %}" target="_blank">{{post.title|truncatechars:50}}
+						<dd><a href="{% url 'atomhome:detailsjp' post.id %}" target="_blank">{{post.title|truncatechars:50}}
 								
 								<span class="newtx"> {{ post.get_label|safe }}</span></a></dd>
 

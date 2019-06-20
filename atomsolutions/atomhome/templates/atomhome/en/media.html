@@ -1,21 +1,21 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
-
+{% load i18n %}
 <meta content="AtomSolutions,Eternalcoin,Eternaltoken" name="keywords">
 <meta content="" name="description">
-<title>Media Gallery|AtomSolutions</title>
+<title>{% trans "Media Gallery|AtomSolutions" %}</title>
 
 
 <!--<div class="page-bg"></div>-->
 <div class="page-ttl">
 	<div class="wrap spaceL">
-		<h1 class="ttlPage">MEDIA GALLERY</h1>
+		<h1 class="ttlPage">{% trans "MEDIA GALLERY" %}</h1>
 	</div><!-- /.wrap -->
 </div><!-- /.page-ttl -->
 <ul class="blk_btn_media">
-	<li>Overseas</li>
-	<li><a href="{% url 'atomhome:mediajp' %}">in Japan</a></li>
+	<li>{% trans "Overseas" %}</li>
+	<li><a href="{% url 'atomhome:mediajp' %}">{% trans "in Japan" %}</a></li>
 </ul>
 <div class="blk_media">
 	<div class="blk">

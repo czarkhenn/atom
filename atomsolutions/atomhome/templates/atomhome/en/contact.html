@@ -1,60 +1,40 @@
 {% load staticfiles %}
 {% include 'atomhome/include/en/head.html' %}
 {% include 'atomhome/include/en/nav.html' %}
-
+{% load i18n %}
 
 
 <meta content="" name="keywords">
 <meta content="" name="description">
-<title>CONTACT|AtomSolutions</title>
+<title>{% trans "CONTACT|AtomSolutions" %}</title>
 
 
 <div class="page-bg"></div>
 <div class="page-ttl">
     <div class="wrap spaceL">
-        <h1 class="ttlPage">CONTACT</h1>
+        <h1 class="ttlPage">{% trans "CONTACT" %}</h1>
     </div><!-- /.wrap -->
 </div><!-- /.page-ttl -->
 <div class="contact">
     <div class="wrap spaceL">
         <div class="col">
-            <p class="txt-center">Should you have any questions, please feel free to contact us<br>from the following
+			{% get_current_language as lang %}
+			{% if lang == "en-us" %}
+            <p class="txt-center">{% trans "Should you have any questions, please feel free to contact us<br>from the following
                 email address.<br>We will be in touch as soon as possible. Thank you!</p>
             <p class="txt-center"><a href="mailto:info@atom-solutions.jp"
                     style="font-size:  2.0rem;color: #cd002c;font-weight: 700;">info@atom-solutions.jp</a></p>
             <p class="txt-center">*If you did not receive any email from us, please check <br>your spam mail folder or
                 mailbox setting
                 to allow <br>mail reception from our domain, "@atom-solutions.jp".
-            </p>
-            <!-- <p class="txt-center">Please complete the form below so we can provide you quick feedback.<br>
-We will try our best to get back to you as soon as possible.</p>
-				<form method="post" action="mail-contact.php">
-					<dl>
-						<dt>Title<span>∗</span></dt>
-						<dd>
-							<select name="Title">
-								<option value="About Eternal Coin">About Eternal Coin</option>
-								<option value="Apply for Project">Apply for Project</option>
-								<option value="About Join Us">About Join Us</option>
-								<option value="About VR Partner">About VR Partner</option>
-								<option value="Other">Other</option>
-							</select>
-						</dd>
-					</dl>
-					<dl>
-						<dt>Name<span>∗</span></dt>
-						<dd><input type="text" name="name"></dd>
-					</dl>
-					<dl>
-						<dt>E-mail Address<span>∗</span></dt>
-						<dd><input type="email" name="mailaddress"></dd>
-					</dl>
-					<dl>
-						<dt>Inquiry Content<span>∗</span></dt>
-						<dd><textarea name="inquirycontent"></textarea></dd>
-					</dl>
-					<input type="submit" value="Send Your Inquiry / Feedback">
-				</form> -->
+			</p>
+			{% else %}
+			<p class="txt-center">アトムソリューションズへのお問い合わせは下記メールアドレスよりご連絡お願いいたします。<br>尚、できるだけ早く回答をさせて頂きますが、内容等により多少お時間を要する場合がございます。</p>
+				<p class="txt-center"><a href="mailto:info@atom-solutions.jp" style="font-size:  2.0rem;color: #cd002c;font-weight: 700;">info@atom-solutions.jp</a></p>
+				<p class="txt-center">※尚、しばらく経っても弊社からのメールが届かない場合、迷惑メールフォルダに入っていないか、<br>
+					また、弊社のドメイン、「@atom-solutions.jp」からのメール受信を許可する設定になっているかどうか、今一度ご確認頂くようお願い申し上げます。
+				</p>
+			{% endif %}	
         </div><!-- /.col -->
     </div><!-- /.wrap -->
 </div><!-- /.contact -->

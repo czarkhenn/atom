@@ -156,7 +156,13 @@
 				</a></div>-->
 				<div class="col"><a href="https://www.hnb-ex.com/" target="_blank">
 						<img src="{% static "atomhome/img/en/bnr-xet-hnb.png" %}" alt="H&B">
+
+				{% get_current_language as LANGUAGE_CODE %}
+                    {% if LANGUAGE_CODE == "en-us" %}
 						<p>{% trans "Opening Soon!" %} <br>{% trans "On June 17th, 2019" %}</p>
+					{% else %}
+					<p>{% trans "Opening Soon!" %}</p>
+					{% endif %}	
 					</a></div><!-- /.col -->
 				<div class="col"><a href="https://instantbitex.com/" target="_blank">
 						<img src="{% static "atomhome/img/en/bnr-xet-instantbitex.png" %}" alt="instantbitex">

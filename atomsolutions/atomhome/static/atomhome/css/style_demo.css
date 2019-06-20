@@ -1550,7 +1550,7 @@ border-top: none;
   padding: 20px 60px 20px 72px;
   cursor: pointer;
   display: block;
-  background: url(../images/ico-faq-q.png) 20px center no-repeat;
+  background: url(../img/en/ico-faq-q.png) 20px center no-repeat;
   position: relative;
   }
   .col-faq h2:after {
@@ -3599,7 +3599,7 @@ padding: 40px 20px;
 .col-faq h2 {
 font-size: 1.2rem;
 padding: 16px 38px 16px 48px;
-background: url(../images/ico-faq-q.png) 16px center /16px no-repeat;
+background: url(../img/en/ico-faq-q.png) 16px center /16px no-repeat;
 }
 .col-faq h2:after {
 width: 6px;
