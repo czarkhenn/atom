@@ -14,9 +14,9 @@ Hi Guys,
 
 Atomsolution website conversion from PHP to Django is now complete. 
 
-Language available at the moment is English. (Still working on internationalization for JP translation) 
+Fully translated with languages JA (Japanese) and EN-US (English-US) included
 
-Superuser credentials  
+#### Superuser credentials  
 
 Username: tkadmin  
 
@@ -28,7 +28,7 @@ set up virtualenv
 
 pip install -r requirements.txt
 
-look for the folder that has the manage.py
+*look for the folder that has the manage.py*
 
 run command python manage.py makemigrations
 
