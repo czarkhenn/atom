@@ -1,4 +1,4 @@
-### Atom-Solutions Guide
+### Atom-Solutions Guide For Posting News
 
 Log in first to /atom-admin/
 
@@ -16,20 +16,22 @@ Atomsolution website conversion from PHP to Django is now complete.
 
 Language available at the moment is English. (Still working on internationalization for JP translation) 
 
-Superuser credentials
-Username: tkadmin
-password: admin
+Superuser credentials  
+
+Username: tkadmin  
+
+password: admin  
 
 #### Instructions
 
-`set up virtualenv
+set up virtualenv
 
-`pip install -r requirements.txt
+pip install -r requirements.txt
 
-`look for the folder that has the manage.py
+look for the folder that has the manage.py
 
-`run command python manage.py makemigrations
+run command python manage.py makemigrations
 
-`run command python manage.py migrate
+run command python manage.py migrate
 
-`run command python manage.py runserver
+run command python manage.py runserver
