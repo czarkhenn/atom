@@ -25,7 +25,7 @@ SECRET_KEY = 'hl0mp7wn6-&5ej+(_#ql6e6hhbn+@#y=&!5t1m=vwka=%!)kgs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.110', 'localhost', 'asd']
+ALLOWED_HOSTS = ['192.168.1.108', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'atomsolutions.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'data/db.sqlite3'),
     }
 }
 

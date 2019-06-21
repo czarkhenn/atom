@@ -16,11 +16,20 @@ Atomsolution website conversion from PHP to Django is now complete.
 
 Language available at the moment is English. (Still working on internationalization for JP translation) 
 
-Please help me check if there are typos or bugs. 
-You can access the website here http://192.168.1.110:8000 
-You can create News posts under the admin page and it will show up under /news/
-Admin page is under /atom-admin/ to login refer to credentials. 
-
 Superuser credentials
 Username: tkadmin
 password: admin
+
+#### Instructions
+
+`set up virtualenv
+
+`pip install -r requirements.txt
+
+`look for the folder that has the manage.py
+
+`run command python manage.py makemigrations
+
+`run command python manage.py migrate
+
+`run command python manage.py runserver
