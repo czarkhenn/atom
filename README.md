@@ -16,12 +16,6 @@ Atomsolution website conversion from PHP to Django is now complete.
 
 Fully translated with languages JA (Japanese) and EN-US (English-US) included
 
-#### Superuser credentials  
-
-Username: tkadmin  
-
-password: admin  
-
 #### Instructions
 
 set up virtualenv
